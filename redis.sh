@@ -6,6 +6,7 @@
  yum -y install gcc gcc-c++ libstdc++-devel
  make PREFIX=/usr/local/redis install
  mkdir /usr/local/redis/data
+ cd utils
  ./install_server.sh
  #configurate server config
  #/usr/local/redis/bin/redis-server

@@ -4,6 +4,7 @@ LIMIT 0, 1000
 
 -- Date: 2015-10-23 14:58
 */
+USE BahamutDB;
 INSERT INTO `App` (`Id`,`Appkey`,`Name`,`Document`,`Description`,`CreateTime`) VALUES (7,'0abb007ad297bc4f5ce75089dc186490c2211f07','MySQL',NULL,NULL,'2015-10-23 14:55:04');
 INSERT INTO `App` (`Id`,`Appkey`,`Name`,`Document`,`Description`,`CreateTime`) VALUES (8,'0c4618e43e8e05a742036e070e4ab3d3c501b73d','Redis',NULL,NULL,'2015-10-23 14:55:04');
 INSERT INTO `App` (`Id`,`Appkey`,`Name`,`Document`,`Description`,`CreateTime`) VALUES (10,'5e6c827f2fcb04e8fca80cf72db5ba004508246b','Toronto',NULL,NULL,'2015-10-23 14:55:04');

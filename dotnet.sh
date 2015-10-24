@@ -1,3 +1,4 @@
+#install dnvm
 sudo yum -y install unzip
 curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
 
@@ -10,9 +11,25 @@ cd libgdiplus-3.12
 make
 make install
 
-wget http://download.mono-project.com/sources/mono/mono-4.2.1.60.tar.bz2
-tar -jxvf mono-4.2.1.60.tar.bz2
-cd mono-4.2.1
+wget http://download.mono-project.com/sources/mono/mono-4.0.4.1.tar.bz2
+tar -jxvf mono-4.0.4.1.tar.bz2
+cd mono-4.0.4
 ./configure --prefix=/usr
 make
 make install
+
+#fix dnu restore fail issue
+export MONO_THREADS_PER_CPU=2000
+
+#lib64/libuv for kestral
+sudo yum install automake libtool wget
+wget http://dist.libuv.org/dist/v1.4.2/libuv-v1.4.2.tar.gz
+tar -zxf libuv-v1.4.2.tar.gz
+cd libuv-v1.4.2
+sudo sh autogen.sh
+sudo ./configure
+sudo make
+sudo make check
+sudo make install
+ln -s /usr/lib64/libdl.so.2 /usr/lib64/libdl
+ln -s /usr/local/lib/libuv.so /usr/lib64/libuv.so.1
