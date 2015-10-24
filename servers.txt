@@ -1,0 +1,14 @@
+#only host
+mongodb://filedb.sharelink.online:27017
+redis://token.sharelink.online:6379
+redis://app.sharelink.online:6379
+redis://pubsub.sharelink.online:6379
+redis://msg.sharelink.online:6379
+mysql://bahamutdb.sharelink.online
+mongodb://db.sharelink.online:27017
+
+#on dns
+http://file.sharelink.online:8089
+http://auth.sharelink.online:8086
+http://api.sharelink.online:8088
+chicago://chicago.sharelink.online:6789
