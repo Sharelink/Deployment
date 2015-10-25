@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.8.6">
+    <id>System.Diagnostics.Tracing.Telemetry</id>
+    <version>4.0.0-beta-23409</version>
+    <title>System.Diagnostics.Tracing.Telemetry</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides Classes that allow you to decouple code logging rich (unserializable) telemetry (e.g. framework) from code that consumes it (e.g. tools)
+
+Commonly Used Types:
+System.Diagnostics.Tracing.TelemetryListener
+System.Diagnostics.Tracing.TelemetrySource</description>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <dependencies>
+      <group targetFramework=".NETPlatform5.0">
+        <dependency id="System.Runtime" version="4.0.0" />
+        <dependency id="System.Threading" version="4.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

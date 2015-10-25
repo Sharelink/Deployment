@@ -1,0 +1,104 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "BahamutCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DBTek.Crypto": "2.1.0",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        }
+      },
+      "DBTek.Crypto/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BahamutCommon/1.0.0": {
+      "type": "package",
+      "sha512": "0zwxDQWB0eRehhxp0f5YQ8yyWHCcGo4L+KmNYygtrgxYS7wf/0TzhLFyhuoUgfaLcQrZWoiReJLAGpcWG2M+yQ==",
+      "files": [
+        "BahamutCommon.1.0.0.nupkg",
+        "BahamutCommon.1.0.0.nupkg.sha512",
+        "BahamutCommon.nuspec",
+        "lib/dnx451/BahamutCommon.dll",
+        "lib/dnx451/BahamutCommon.xml",
+        "root/BahamutCommon.xproj.user",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "DBTek.Crypto/2.1.0": {
+      "type": "package",
+      "sha512": "qQtFWccOxSub47lxJc8N65TnWe+8rpFhb4iCjoqpTOqxyZuQQUWUD/lCnQyC6vYDHxKeWedog5B0RR37GIr9Tg==",
+      "files": [
+        "DBTek.Crypto.2.1.0.nupkg",
+        "DBTek.Crypto.2.1.0.nupkg.sha512",
+        "DBTek.Crypto.nuspec",
+        "lib/net35/DBTek.Crypto.dll",
+        "lib/net35/DBTek.Crypto.XML",
+        "lib/net40/DBTek.Crypto.dll",
+        "lib/net40/DBTek.Crypto.XML",
+        "lib/net45/DBTek.Crypto.dll",
+        "lib/net45/DBTek.Crypto.XML"
+      ]
+    },
+    "Newtonsoft.Json/7.0.1": {
+      "type": "package",
+      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.7.0.1.nupkg",
+        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "BahamutCommon >= 1.0.0"
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}

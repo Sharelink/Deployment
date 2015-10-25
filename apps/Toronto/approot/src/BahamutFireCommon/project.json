@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0-*",
+    "description": "BahamutFireCommon Class Library",
+    "authors": [ "广杰" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+  "dependencies": {
+    "BahamutCommon": "1.0.0-*",
+    "DataLevelDefines": "1.0.0-*"
+  },
+
+    "frameworks": {
+        "dnx451": { }
+    }
+}

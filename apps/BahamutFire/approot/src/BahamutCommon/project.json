@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0-*",
+    "description": "BahamutCommon Class Library",
+    "authors": [ "广杰" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+  "dependencies": {
+    "Newtonsoft.Json": "7.0.1",
+    "DBTek.Crypto": "2.1.0"
+      },
+  "frameworks": {
+    "dnx451": {
+    }
+  }
+}
