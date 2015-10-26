@@ -1,0 +1,12 @@
+192.168.1.23 filedb.sharelink.online
+192.168.1.23 token.sharelink.online
+192.168.1.23 app.sharelink.online
+192.168.1.23 pubsub.sharelink.online
+192.168.1.23 msg.sharelink.online
+192.168.1.23 bahamutdb.sharelink.online
+192.168.1.23 db.sharelink.online
+
+192.168.1.168 auth.sharelink.online
+192.168.1.168 api.sharelink.online
+192.168.1.168 chicago.sharelink.online
+192.168.1.168 file.sharelink.online
