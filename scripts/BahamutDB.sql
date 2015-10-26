@@ -14,6 +14,7 @@ CREATE TABLE `Account` (
   UNIQUE KEY `Email` (`Email`),
   KEY `Mobile` (`Mobile`)
 ) ENGINE=InnoDB AUTO_INCREMENT=147276 DEFAULT CHARSET=utf8 COMMENT='Account';
+ALTER TABLE Account AUTO_INCREMENT=147258;
 CREATE TABLE `App` (
   `Id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Appkey` varchar(128) NOT NULL,
