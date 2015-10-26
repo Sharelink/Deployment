@@ -1,0 +1,447 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "BahamutCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DBTek.Crypto": "2.1.0",
+          "Newtonsoft.Json": "7.0.1",
+          "PasswordHash": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        }
+      },
+      "BahamutService/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BahamutCommon": "1.0.0",
+          "DataLevelDefines": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutService.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutService.dll": {}
+        }
+      },
+      "DataLevelDefines/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.1.3",
+          "MongoDB.Driver": "2.1.0",
+          "MySql.Data": "6.9.7",
+          "MySql.Data.Entity": "6.9.7",
+          "ServiceStack.Redis": "4.0.46"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/DataLevelDefines.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/DataLevelDefines.dll": {}
+        }
+      },
+      "DBTek.Crypto/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        }
+      },
+      "EntityFramework/6.1.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.dll": {},
+          "lib/net45/EntityFramework.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {},
+          "lib/net45/EntityFramework.SqlServer.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.1.0",
+          "MongoDB.Driver.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.1.0"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "MySql.Data/6.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.dll": {}
+        }
+      },
+      "MySql.Data.Entity/6.9.7": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.0.0",
+          "MySql.Data": "6.9.7"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.EF6.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.EF6.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PasswordHash/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/PasswordHash.dll": {}
+        },
+        "runtime": {
+          "lib/net40/PasswordHash.dll": {}
+        }
+      },
+      "ServiceStack.Common/4.0.46": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "4.0.46",
+          "ServiceStack.Text": "4.0.46"
+        },
+        "compile": {
+          "lib/net40/ServiceStack.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ServiceStack.Common.dll": {}
+        }
+      },
+      "ServiceStack.Interfaces/4.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Redis/4.0.46": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "4.0.46"
+        },
+        "compile": {
+          "lib/net40/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Text/4.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/net40/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ServiceStack.Text.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BahamutCommon/1.0.0": {
+      "type": "package",
+      "sha512": "y/aScWflp1ItXOB9iAQ6pQCvnyoDMHBeOcgntzdFZly94KuXJkEvEI5YpG7aCLUM63CdevEcGx1zIWdUxtZLww==",
+      "files": [
+        "BahamutCommon.1.0.0.nupkg",
+        "BahamutCommon.1.0.0.nupkg.sha512",
+        "BahamutCommon.nuspec",
+        "lib/dnx451/BahamutCommon.dll",
+        "lib/dnx451/BahamutCommon.xml",
+        "root/BahamutCommon.xproj.user",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "BahamutService/1.0.0": {
+      "type": "package",
+      "sha512": "lWYOe95dk9dy7JLDd3SBvwx5qA5mBTb7UqpWJ0Acfk54/aQLIDeafr7lBqos9hFQPJ7vZZUZNOW5+c8jv6ihmg==",
+      "files": [
+        "BahamutService.1.0.0.nupkg",
+        "BahamutService.1.0.0.nupkg.sha512",
+        "BahamutService.nuspec",
+        "lib/dnx451/BahamutService.dll",
+        "lib/dnx451/BahamutService.xml",
+        "root/BahamutService.xproj.user",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "DataLevelDefines/1.0.0": {
+      "type": "package",
+      "sha512": "e4bRdwoZkUmBwyekzuCL9pnweEh3ILnyMCRlhE1gzdah5bvVx5/YWTnQ+GRiDsXXa+U9dmBo+4y2+STJDtMhWg==",
+      "files": [
+        "DataLevelDefines.1.0.0.nupkg",
+        "DataLevelDefines.1.0.0.nupkg.sha512",
+        "DataLevelDefines.nuspec",
+        "lib/dnx451/DataLevelDefines.dll",
+        "lib/dnx451/DataLevelDefines.xml",
+        "root/DataLevelDefines.xproj.user",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "DBTek.Crypto/2.1.0": {
+      "type": "package",
+      "sha512": "qQtFWccOxSub47lxJc8N65TnWe+8rpFhb4iCjoqpTOqxyZuQQUWUD/lCnQyC6vYDHxKeWedog5B0RR37GIr9Tg==",
+      "files": [
+        "DBTek.Crypto.2.1.0.nupkg",
+        "DBTek.Crypto.2.1.0.nupkg.sha512",
+        "DBTek.Crypto.nuspec",
+        "lib/net35/DBTek.Crypto.dll",
+        "lib/net35/DBTek.Crypto.XML",
+        "lib/net40/DBTek.Crypto.dll",
+        "lib/net40/DBTek.Crypto.XML",
+        "lib/net45/DBTek.Crypto.dll",
+        "lib/net45/DBTek.Crypto.XML"
+      ]
+    },
+    "EntityFramework/6.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "2xzFHAF3VVdmTR3//MygtQpwfbDjeaq+nQwCcokLzen7MKHOojPaxNPQPa4diHY1QtcR7zlHAJHNRqPB7W2Syw==",
+      "files": [
+        "content/App.config.transform",
+        "content/Web.config.transform",
+        "EntityFramework.6.1.3.nupkg",
+        "EntityFramework.6.1.3.nupkg.sha512",
+        "EntityFramework.nuspec",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.xml",
+        "tools/about_EntityFramework.help.txt",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "MongoDB.Bson/2.1.0": {
+      "type": "package",
+      "sha512": "SU3ADn6QNRy4xOqMDRrhQWpNHhZxBOSDaKtvUknTji2HuSuqYmq4HQUjU/9asFXjRqIVSs/s0fLwOpNhfs61fA==",
+      "files": [
+        "lib/net45/MongoDB.Bson.dll",
+        "lib/net45/MongoDB.Bson.XML",
+        "License.rtf",
+        "MongoDB.Bson.2.1.0.nupkg",
+        "MongoDB.Bson.2.1.0.nupkg.sha512",
+        "MongoDB.Bson.nuspec"
+      ]
+    },
+    "MongoDB.Driver/2.1.0": {
+      "type": "package",
+      "sha512": "tcJBzkHJvrnAqjFfMNdDdQmR1sn/tQx22eH0a59tBfdDS9Bu0hcPTfU7zI1Xglq+8BJtiGwBbzZvZcLBgkOT+A==",
+      "files": [
+        "lib/net45/MongoDB.Driver.dll",
+        "lib/net45/MongoDB.Driver.XML",
+        "License.rtf",
+        "MongoDB.Driver.2.1.0.nupkg",
+        "MongoDB.Driver.2.1.0.nupkg.sha512",
+        "MongoDB.Driver.nuspec"
+      ]
+    },
+    "MongoDB.Driver.Core/2.1.0": {
+      "type": "package",
+      "sha512": "0Qu3jWifZ6r/7qWYtnxRaSN1MgFSXNTJNK7jfMn2QpG85ez8K3DNu847TZn3Qu1ZKdv2YFZBNGFMnPuYQomgjg==",
+      "files": [
+        "lib/net45/MongoDB.Driver.Core.dll",
+        "License.rtf",
+        "MongoDB.Driver.Core.2.1.0.nupkg",
+        "MongoDB.Driver.Core.2.1.0.nupkg.sha512",
+        "MongoDB.Driver.Core.nuspec"
+      ]
+    },
+    "MySql.Data/6.9.7": {
+      "type": "package",
+      "sha512": "ugpH3iQUH8HltnG62oUaN/3aeGG56BFeTAh381DjEzz9CSx/99y4rUvWFmt84WhecGi7p0Lh6yWg+QGQ4rgjGQ==",
+      "files": [
+        "CHANGES",
+        "content/app.config.transform",
+        "content/web.config.transform",
+        "lib/net20/MySql.Data.dll",
+        "lib/net20-cf/MySql.Data.CF.dll",
+        "lib/net40/MySql.Data.dll",
+        "lib/net45/MySql.Data.dll",
+        "MySql.Data.6.9.7.nupkg",
+        "MySql.Data.6.9.7.nupkg.sha512",
+        "MySql.Data.nuspec",
+        "Readme.txt"
+      ]
+    },
+    "MySql.Data.Entity/6.9.7": {
+      "type": "package",
+      "sha512": "hYx+WoyysYQ7lt0Ty8ybh1A4zWUON0+7Sj6UxQ3vSWsEww4x1F0ruaGqEOTV8b8T/5ui3NyqXD8x+PN4jzvQFw==",
+      "files": [
+        "CHANGES",
+        "content/app.config.transform",
+        "content/web.config.transform",
+        "lib/net40/MySql.Data.Entity.EF6.dll",
+        "lib/net45/MySql.Data.Entity.EF6.dll",
+        "MySql.Data.Entity.6.9.7.nupkg",
+        "MySql.Data.Entity.6.9.7.nupkg.sha512",
+        "MySql.Data.Entity.nuspec",
+        "Readme.txt"
+      ]
+    },
+    "Newtonsoft.Json/7.0.1": {
+      "type": "package",
+      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.7.0.1.nupkg",
+        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "PasswordHash/1.1.0": {
+      "type": "package",
+      "sha512": "BQBNiHTSpWa7wHoy6BH+UPk1SYefqSSng9I4uxlPXjrtVG7Nwum/2DrtZ+AVKjmuD/HuLmo9h9+WprPo8nowBQ==",
+      "files": [
+        "lib/net40/PasswordHash.dll",
+        "PasswordHash.1.1.0.nupkg",
+        "PasswordHash.1.1.0.nupkg.sha512",
+        "PasswordHash.nuspec"
+      ]
+    },
+    "ServiceStack.Common/4.0.46": {
+      "type": "package",
+      "sha512": "2I881PIoIrvgWTWVW0DFlLG8nLsp5/tzoYr3dyisBzRMH5ZS2hTQVtelWEZg35YWRy8Jb2rZ2IT01ki3QWug9Q==",
+      "files": [
+        "lib/net40/ServiceStack.Common.dll",
+        "lib/net40/ServiceStack.Common.xml",
+        "ServiceStack.Common.4.0.46.nupkg",
+        "ServiceStack.Common.4.0.46.nupkg.sha512",
+        "ServiceStack.Common.nuspec"
+      ]
+    },
+    "ServiceStack.Interfaces/4.0.46": {
+      "type": "package",
+      "sha512": "y8uD8vVyHxfSjy+fwFWTpZpxWqDDSJYggbRVK14rVNxuandEoiDY7H2k4eI8ugEWqe0yAFj+QYiG3IV3aFjszQ==",
+      "files": [
+        "lib/portable-wp80+sl5+net40+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Interfaces.dll",
+        "ServiceStack.Interfaces.4.0.46.nupkg",
+        "ServiceStack.Interfaces.4.0.46.nupkg.sha512",
+        "ServiceStack.Interfaces.nuspec"
+      ]
+    },
+    "ServiceStack.Redis/4.0.46": {
+      "type": "package",
+      "sha512": "BnLDbwJLM+2t/XizHc0gJAiGlq/e2bWTLnJ0ZYK9hPPPYeNPMwYHD5AoQDKGcN2KOs+wcGa4Xjv8gWxPjMhCfw==",
+      "files": [
+        "lib/net40/ServiceStack.Redis.dll",
+        "lib/net40/ServiceStack.Redis.XML",
+        "ServiceStack.Redis.4.0.46.nupkg",
+        "ServiceStack.Redis.4.0.46.nupkg.sha512",
+        "ServiceStack.Redis.nuspec"
+      ]
+    },
+    "ServiceStack.Text/4.0.46": {
+      "type": "package",
+      "sha512": "Zx2aq74+ppqBN32bOn1va2r1uGjBNTcdoAnx/lzHdo5qaeO0/tpNLHCZhO+D7HgAIt2kVlzYeZ9zDTh0eItpnA==",
+      "files": [
+        "lib/net40/ServiceStack.Text.dll",
+        "lib/net40/ServiceStack.Text.xml",
+        "lib/portable-net45+win8+monotouch+monoandroid+xamarin.ios10/ServiceStack.Text.dll",
+        "lib/sl5/ServiceStack.Text.dll",
+        "lib/sl5/ServiceStack.Text.xml",
+        "ServiceStack.Text.4.0.46.nupkg",
+        "ServiceStack.Text.4.0.46.nupkg.sha512",
+        "ServiceStack.Text.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "BahamutService >= 1.0.0"
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}

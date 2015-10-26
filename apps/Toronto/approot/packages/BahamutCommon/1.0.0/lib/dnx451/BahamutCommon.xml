@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BahamutCommon</name>
+    </assembly>
+    <members>
+        <member name="M:BahamutCommon.AppkeyUtil.GenerateAppkey(System.String)">
+            <summary>
+            Generate a string length less than 128
+            </summary>
+            <param name="appName"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

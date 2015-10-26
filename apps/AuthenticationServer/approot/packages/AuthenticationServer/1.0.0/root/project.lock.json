@@ -36,7 +36,8 @@
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
-          "Newtonsoft.Json": "7.0.1"
+          "Newtonsoft.Json": "7.0.1",
+          "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1540,6 +1541,15 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "PasswordHash/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/PasswordHash.dll": {}
+        },
+        "runtime": {
+          "lib/net40/PasswordHash.dll": {}
+        }
+      },
       "ServerControlService/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -1795,7 +1805,7 @@
   "libraries": {
     "AuthenticationServer/1.0.0": {
       "type": "package",
-      "sha512": "BYN2XEQOtmpjP1qOl94yt0YkqpyLW6EEFoKEvNX8xP37GClX6zfB5lSzrURHUUPHtZ2RbzFRD5RCxUZs9cS60g==",
+      "sha512": "Oj5HBLT0oKfcJxnneo6Iu0CjvJXldn+oT6x6hnu6rE+Io98zwAE4bWLFwgBjmx28vtWKGGoykDhxxM92aCjHTg==",
       "files": [
         "app/project.json",
         "AuthenticationServer.1.0.0.nupkg",
@@ -1810,23 +1820,19 @@
         "root/package.json",
         "root/project.json",
         "root/project.lock.json",
+        "root/Properties/launchSettings.json",
         "root/Properties/PublishProfiles/AuthServer.pubxml",
         "root/Properties/PublishProfiles/AuthServer-publish.ps1",
-        "root/run.bat",
         "root/Views/_ViewImports.cshtml",
         "root/Views/_ViewStart.cshtml",
-        "root/Views/Account/Login.cshtml",
         "root/Views/Account/RegistReturns.cshtml",
-        "root/Views/Home/About.cshtml",
-        "root/Views/Home/Contact.cshtml",
-        "root/Views/Home/Index.cshtml",
         "root/Views/Shared/_Layout.cshtml",
         "root/Views/Shared/Error.cshtml"
       ]
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "cWzlfRheGsh1aPkRFoNaQoKcSsoQsvu3rdZkCk4HYZKj5hYKS0wsIzQ4G2/inKaYq2qA4TeqvgXLJi9EA+jCyw==",
+      "sha512": "AS4/pU50eMdZkM1690ziO9Ol3xyTmxjKJNtHlZ5vHzSaNh4ffDABresu0zr3n6i300XeLspTo+wi12pHTdHBEA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -1840,7 +1846,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "C4dngtNEm2ZkGHfDsR5E3R89S5ioFq8VP5ZsfasWWdny9mrdxJYIhVUiaBkIvVCIlGzch2bE2NANp7KkY5q/gg==",
+      "sha512": "ZwAbVLDOhYIi1bgtXkHjRVdYda63AblkrFluYRWDu7z6cVbG2t6GdT0hhXAVt/a+AVjSYxLfrl4ADdSJnenycQ==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -1854,7 +1860,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "DVltrmiwu2MqszSn0T7tHOm7TDOd8vnvaPH+q9K5H1UTSgorg/azgplD2zT/9z1nxh4GKr6JreoS3MI5FeMkyA==",
+      "sha512": "c+zrcqYDcc5+9jSmVOlVYPez77RFkO6zgGH+LLMdSo0jNiCoL2gWUBWXIg5LhprpqKfzZmNqryGYm8hNdJa/zw==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -3098,9 +3104,19 @@
         "tools/install.ps1"
       ]
     },
+    "PasswordHash/1.1.0": {
+      "type": "package",
+      "sha512": "BQBNiHTSpWa7wHoy6BH+UPk1SYefqSSng9I4uxlPXjrtVG7Nwum/2DrtZ+AVKjmuD/HuLmo9h9+WprPo8nowBQ==",
+      "files": [
+        "lib/net40/PasswordHash.dll",
+        "PasswordHash.1.1.0.nupkg",
+        "PasswordHash.1.1.0.nupkg.sha512",
+        "PasswordHash.nuspec"
+      ]
+    },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "YY8Eh6rw2/mwsSIGI5USlj+Y74eB9lPefTt+Fs3N9fy1GNoTzW+5LaoMbodY8R4QYBC+cXM8VPvbTHSak1tIxw==",
+      "sha512": "wLN2wjtujSD+z+9Kcb8faR37DjtOau2a2xj9ifE7IAU/F1mppPzy536khHso62pZaHwRj7enTm/5+sn+kUghmg==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

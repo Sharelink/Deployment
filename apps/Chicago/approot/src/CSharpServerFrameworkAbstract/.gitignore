@@ -34,6 +34,9 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
+# DNX
+project.lock.json
+artifacts/
 
 *_i.c
 *_p.c

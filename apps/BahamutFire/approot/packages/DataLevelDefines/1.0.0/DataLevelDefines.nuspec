@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DataLevelDefines</id>
+    <version>1.0.0</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>广杰</authors>
+    <owners>广杰</owners>
+    <description>MySqlDefines Class Library</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="EntityFramework" version="6.1.3" />
+        <dependency id="MongoDB.Driver" version="2.1.0" />
+        <dependency id="MySql.Data" version="6.9.7" />
+        <dependency id="MySql.Data.Entity" version="6.9.7" />
+        <dependency id="ServiceStack.Redis" version="4.0.46" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

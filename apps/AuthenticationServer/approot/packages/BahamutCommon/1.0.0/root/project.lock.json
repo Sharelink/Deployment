@@ -7,7 +7,8 @@
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
-          "Newtonsoft.Json": "7.0.1"
+          "Newtonsoft.Json": "7.0.1",
+          "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -39,13 +40,22 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "PasswordHash/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/PasswordHash.dll": {}
+        },
+        "runtime": {
+          "lib/net40/PasswordHash.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "cWzlfRheGsh1aPkRFoNaQoKcSsoQsvu3rdZkCk4HYZKj5hYKS0wsIzQ4G2/inKaYq2qA4TeqvgXLJi9EA+jCyw==",
+      "sha512": "AS4/pU50eMdZkM1690ziO9Ol3xyTmxjKJNtHlZ5vHzSaNh4ffDABresu0zr3n6i300XeLspTo+wi12pHTdHBEA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -92,6 +102,16 @@
         "Newtonsoft.Json.7.0.1.nupkg.sha512",
         "Newtonsoft.Json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "PasswordHash/1.1.0": {
+      "type": "package",
+      "sha512": "BQBNiHTSpWa7wHoy6BH+UPk1SYefqSSng9I4uxlPXjrtVG7Nwum/2DrtZ+AVKjmuD/HuLmo9h9+WprPo8nowBQ==",
+      "files": [
+        "lib/net40/PasswordHash.dll",
+        "PasswordHash.1.1.0.nupkg",
+        "PasswordHash.1.1.0.nupkg.sha512",
+        "PasswordHash.nuspec"
       ]
     }
   },

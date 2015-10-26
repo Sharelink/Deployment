@@ -1,0 +1,27 @@
+{
+  "webroot": "../../../../../wwwroot",
+  "version": "1.0.0-*",
+  "dependencies": {
+    "TorontoAPIServer": "1.0.0"
+  },
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+  "frameworks": {
+    "dnx451": {}
+  },
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "entryPoint": "TorontoAPIServer",
+  "loadable": false
+}

@@ -1,0 +1,27 @@
+{
+  "webroot": "../../../../../wwwroot",
+  "version": "1.0.0-*",
+  "dependencies": {
+    "APIServer": "1.0.0"
+  },
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+  "frameworks": {
+    "dnx451": {}
+  },
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "entryPoint": "APIServer",
+  "loadable": false
+}
