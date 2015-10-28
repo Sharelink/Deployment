@@ -14,5 +14,16 @@
             <param name="pageCount">result num of one page</param>
             <returns></returns>
         </member>
+        <member name="M:TorontoAPIServer.Controllers.ShareThingsController.Post(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="pShareId"></param>
+            <param name="title"></param>
+            <param name="shareType"></param>
+            <param name="tags">sample: base64("{type:"tagType",data:"tagData"}")#base64("{type:"tagType",data:"tagData"}")... </param>
+            <param name="shareContent"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
