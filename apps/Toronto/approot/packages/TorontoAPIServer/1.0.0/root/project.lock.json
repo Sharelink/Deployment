@@ -1738,7 +1738,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "B/emTHbrZgXCYoReNUXREyMDeAlKO9djOIIwmkiOXdN777EJ447opuHJI1AdrIveKLGCSneZxUClmV8FKtEULQ==",
+      "sha512": "8ur6zn3eEzzpiaZ2f0rjhoPeP2+egrmJWBpEJ2rfxWOjUgIgUkswB8X3+JQqsLOTwQFZVNDEwAy6p0axL4icNA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -1752,7 +1752,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "1I5hqDsSBAHrfmuuVeHRUJ1GSRAb/Mo0e0nHEwz682/7jx4qugzOZIeyrQaFZv4WC2cREDGcTMfVr9jYzwPTPQ==",
+      "sha512": "ECF/QNbCHS6Oo3aXPrNEEH+shTDQwB4KdWxBXzcJjRa8eQ9RvqGbHUjY7I7b50Tcgm7gFRuE++DBzdFb7B9ZPw==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -1766,7 +1766,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "fS6OeVfgqvap0Z0zoghCa8dhk/SCgAx1FOeQIF/0B66PInpJvse7tX7cqivrHPX0ievDH/eGX/vft5idzzwi2Q==",
+      "sha512": "PK3w6xfE7puOKieIZ4Fxz658D0AlxNgGhHUqbsJPPrXBrpJpGQsHQlKfjw4tPobHZKyxgmptdiXPwdeEuDzocQ==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -1780,7 +1780,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "LEPOeTcDXVpa0cRs88antO/jQ+yQjo4X9G89Ai0zyvb3PjR0VxeeE5VazWfaOJm08iJeB47ROWJ22I3GfV7Lzw==",
+      "sha512": "QrE2v6wBeGSGXmccVgUzhs0EK8bilT45guolF3BXmU1VitjUw5YMbsu3Ar7NQbqefvHaIpvkOImyZuHoMBzLsA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -2965,7 +2965,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "ngnErly2I7Nh5whSa5haX9LWT9NQlZ4UvvsKACqaZdWhletzz4z/ZHQNlmZXH7EJEj5ouahmQEM2UhmV4myduw==",
+      "sha512": "PCgcDa5FeIy21CfXjWY0RN26tCie07NxhXXO/gvtZVdW7BAnndDCJ6HLXahMPRgu28tHhZyyBawGUG66wBHSXA==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
@@ -3717,7 +3717,7 @@
     },
     "TorontoAPIServer/1.0.0": {
       "type": "package",
-      "sha512": "zMxmkAEbdaGGBmVzugmA61u3hSN/0aDkB5OPlDwzebf7Pfk5I1lTfwC82QoHb9bPHRoXfJm0cwmTKa4Omx9dEg==",
+      "sha512": "9hn6H+J/FF+AOKwDdArSDesv9qQKWnWJk8YmW2+O5M54xd+EUeUI3CCJmwb+fQG4XvEXygZ5Sh/9na7Iy6rH8Q==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoAPIServer.dll",
@@ -3736,7 +3736,7 @@
     },
     "TorontoService/1.0.0": {
       "type": "package",
-      "sha512": "00zhc79aEhN0h4v++GkUwfzT1qrnfpkp+CGASMe4lQdIw6isjySD70iml6SDv41ADDI9VziYD1w0o6u0WPXRzA==",
+      "sha512": "wkTBBx8V45U21LJWJdT1c3LW76h99j0vaa+reZURAM0N2Qpw05pE6nItrPZzmhlZkLullT+xr5fffCuWsS48/Q==",
       "files": [
         "lib/dnx451/TorontoService.dll",
         "lib/dnx451/TorontoService.xml",
