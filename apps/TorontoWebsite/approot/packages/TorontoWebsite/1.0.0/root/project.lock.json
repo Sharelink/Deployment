@@ -3194,7 +3194,7 @@
     },
     "TorontoWebsite/1.0.0": {
       "type": "package",
-      "sha512": "ZqozgnwRIj8R0R+Zy64dCQcPR0hDGk0lkjACsSXQ6tHaY1Sv0/7iaA3P1iyqNjOxuO0N3iZsVqahjJaM6L2dag==",
+      "sha512": "nRM5T+6aSeDhtGFDFmHVibQwW0FALWfP1+XDB/JH5Xd3lboRX2JUEfsI7Aj/WRfFJhDrptuRAAVJMhgwVgvZqQ==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoWebsite.dll",
@@ -3202,6 +3202,7 @@
         "root/project.json",
         "root/project.lock.json",
         "root/Project_Readme.html",
+        "root/Properties/launchSettings.json",
         "root/Properties/PublishProfiles/TorontoWebsite.pubxml",
         "root/Properties/PublishProfiles/TorontoWebsite-publish.ps1",
         "root/Views/Home/Index.cshtml",
