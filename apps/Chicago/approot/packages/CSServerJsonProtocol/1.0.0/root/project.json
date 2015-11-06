@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "description": "CSServerJsonProtocol Class Library",
+  "authors": [
+    "cplov"
+  ],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": {}
+  },
+  "dependencies": {
+    "CSServerJsonProtocol": "1.0.0"
+  },
+  "entryPoint": "CSServerJsonProtocol",
+  "loadable": false
+}

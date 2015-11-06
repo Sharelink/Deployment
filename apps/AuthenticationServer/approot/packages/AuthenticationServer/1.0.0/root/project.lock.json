@@ -1805,7 +1805,7 @@
   "libraries": {
     "AuthenticationServer/1.0.0": {
       "type": "package",
-      "sha512": "5HRK/tU9ZiSxO52QdwhtR7sKZj+FeneZP6gJ7APok5L5w7K2DgMN7RzcCMzJsnRUzNoGkDZ17AV/djubvutsWA==",
+      "sha512": "VjqgM6ls/Ka4F96SZu2LgFvBjTn6WFP9SsZ6il7UeF0q+rVW/Xvk2ZJ6xMWNqK3OdKzvXJ+dHkvmGJU32ltjsQ==",
       "files": [
         "app/project.json",
         "AuthenticationServer.1.0.0.nupkg",
@@ -1816,6 +1816,7 @@
         "root/.bowerrc",
         "root/bower.json",
         "root/config.json",
+        "root/config_debug.json",
         "root/gulpfile.js",
         "root/package.json",
         "root/project.json",
@@ -1832,7 +1833,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "78AoEM9kbEFNc6Y7dK8feTfks80nYxL4wev6IGbe7Jinfb5CHnBfNNgxYg6sDtASqtpdzTAyoS3OfEBsYGNjcw==",
+      "sha512": "ZiD3Ts4hZiRxxcC6bXxHGZPtyvyEkJ1e1CowtpRAoYOf/3CEcQ7eVMa61TXTV56exsNCAIaca0wr1lGboQ3Jvw==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -1846,7 +1847,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "O84Gwg+/o9Kwju0Z+tbBN2Wl9um2SjkIVkC8cu4xYB3fg5kZycL/CqOK8jaMZx3+CuBNNe4nCt4rMrjg6s32LQ==",
+      "sha512": "O5DQ53KQJkOx2MNwwtruYarii9I9oy4MjzA63F3IAuK2keZos5UOuLeZdvmebgEnVYOHrCnSzoXbpONBatQy/w==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -1860,7 +1861,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "d+WxMGE5vFiis2NRwriSkg5JqAU6FM6Z3vmo3E6todywSeWh85h3K1LZeVIGVDU7iAdguFr0IuAtOOYWX+nCWw==",
+      "sha512": "iiC31A1F+mDIFUA/gb2tn0Jt7SXZA51XB5Vg8GBKO+rCzrN+q0C7tjhQ3eb7Xzj7CCTe8Py9HW1BGcLBkqRPwg==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -3116,7 +3117,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "9K4zDvMN9XtyaH37m+dYKAp0Ubw2BlXqEWoM80Rlsjj32kZTavVgjrrxQ2koEei9wslHVYRKYuLHXHmsB1v3NQ==",
+      "sha512": "j3iWwu7AjcHMh+bkxZJKPfkZEMDcNOn03l11xyEyL8sO2UIAeBnaorq3Ua48XEywtjy02okl7Biy92PMHboW2g==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

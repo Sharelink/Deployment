@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Chicago</id>
+    <version>1.0.0</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Chicago</authors>
+    <owners>Chicago</owners>
+    <description>Chicago</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="Microsoft.Dnx.Runtime.Abstractions" version="1.0.0-beta8" />
+        <dependency id="Microsoft.Framework.Configuration" version="1.0.0-beta8" />
+        <dependency id="Microsoft.Framework.Configuration.EnvironmentVariables" version="1.0.0-beta8" />
+        <dependency id="Microsoft.Framework.Configuration.Json" version="1.0.0-beta8" />
+        <dependency id="ServerControlService" version="1.0.0" />
+        <dependency id="BahamutService" version="1.0.0" />
+        <dependency id="CSharpServerFramework" version="1.0.0" />
+        <dependency id="CSServerJsonProtocol" version="1.0.0" />
+        <dependency id="Microsoft.AspNet.Hosting.Abstractions" version="1.0.0-beta8" />
+        <dependency id="Microsoft.AspNet.Server.Kestrel" version="1.0.0-beta8" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

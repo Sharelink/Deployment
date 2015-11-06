@@ -14,7 +14,7 @@
             <param name="pageCount">result num of one page</param>
             <returns></returns>
         </member>
-        <member name="M:TorontoAPIServer.Controllers.ShareThingsController.Post(System.String,System.String,System.String,System.String,System.String)">
+        <member name="M:TorontoAPIServer.Controllers.ShareThingsController.Post(System.String,System.String,System.String,System.String,System.String,System.String)">
             <summary>
             
             </summary>

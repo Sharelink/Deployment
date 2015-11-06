@@ -1,0 +1,17 @@
+{
+  "commands": {
+    "Chicago": "Chicago"
+  },
+  "dependencies": {
+    "Chicago": "1.0.0"
+  },
+  "frameworks": {
+    "dnx451": {}
+  },
+  "licenseUrl": "",
+  "projectUrl": "",
+  "tags": "",
+  "version": "1.0.0-*",
+  "entryPoint": "Chicago",
+  "loadable": false
+}

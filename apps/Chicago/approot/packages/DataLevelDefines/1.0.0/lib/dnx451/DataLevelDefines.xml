@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataLevelDefines</name>
+    </assembly>
+    <members>
+        <member name="T:MySqlDefines.MySqlDbConfigurationTypeAttribute">
+            <summary>
+            ef6 in asp.net 5 not use the app.config file to config the ef
+            </summary>
+        </member>
+    </members>
+</doc>

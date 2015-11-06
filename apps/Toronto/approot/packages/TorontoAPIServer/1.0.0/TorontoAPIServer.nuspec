@@ -9,7 +9,6 @@
     <description>TorontoAPIServer</description>
     <dependencies>
       <group targetFramework="DNX4.5.1">
-        <dependency id="BahamutFireCommon" version="1.0.0" />
         <dependency id="Microsoft.AspNet.Mvc" version="6.0.0-beta8" />
         <dependency id="Microsoft.AspNet.Server.Kestrel" version="1.0.0-beta8" />
         <dependency id="Microsoft.AspNet.StaticFiles" version="1.0.0-beta8" />

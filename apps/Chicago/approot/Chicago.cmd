@@ -24,4 +24,4 @@ IF "%DNX_PATH%" == "" (
   SET "DNX_PATH=dnx.exe"
 )
 
-@"%DNX_PATH%" --project "%~dp0src\Chicago" --configuration Release Chicago %*
+@"%DNX_PATH%" --project "%~dp0packages\Chicago\1.0.0\root" --configuration Release Chicago %*

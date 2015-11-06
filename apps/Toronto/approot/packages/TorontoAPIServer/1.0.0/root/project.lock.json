@@ -23,25 +23,6 @@
           "lib/dnx451/BahamutCommon.dll": {}
         }
       },
-      "BahamutFireCommon/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/BahamutFireCommon.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/BahamutFireCommon.dll": {}
-        }
-      },
       "BahamutService/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -1693,7 +1674,6 @@
       "TorontoAPIServer/1.0.0": {
         "type": "package",
         "dependencies": {
-          "BahamutFireCommon": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-beta8",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta8",
           "Microsoft.AspNet.StaticFiles": "1.0.0-beta8",
@@ -1738,7 +1718,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "SqASS0UQYtW6MBWTPsSi08z6fCC1eOnrAuFiCsgvGp0A5Rm4ecR3vU0SXH1sa41UMZGBTsCn2MmLEbpYnRtEKQ==",
+      "sha512": "oayXuxGnxWVa34malujOm8O9TSwPFn6XQfYAI/4JmpMQOG+bJP8z6WAt+2YHXE8lMQWz2unVS8vB50vPr5A5vg==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -1750,23 +1730,9 @@
         "root/project.lock.json"
       ]
     },
-    "BahamutFireCommon/1.0.0": {
-      "type": "package",
-      "sha512": "YWw1TLGDvLgF4HTYPI8DjooRYxQe6t8JIUJphjeypXMulDlErSFMm2fgsFtP//SCbSUZjxMRWUkc4mJ3kOQXXA==",
-      "files": [
-        "BahamutFireCommon.1.0.0.nupkg",
-        "BahamutFireCommon.1.0.0.nupkg.sha512",
-        "BahamutFireCommon.nuspec",
-        "lib/dnx451/BahamutFireCommon.dll",
-        "lib/dnx451/BahamutFireCommon.xml",
-        "root/BahamutFireCommon.xproj.user",
-        "root/project.json",
-        "root/project.lock.json"
-      ]
-    },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "/iDIMiSl38cw22AnIga88YiW1bC+QCKAHvCR+hwLodMDlCaiNRBhIAqpgfwV9uJwGAwi9CSU77ACrwejsPKkKg==",
+      "sha512": "vGPNtZRIDT8F/Mm4z6gGdgqp9QqR1DeoQ3fsQRZp9fuHELS4aBcKZhDJUhWiMp4DaLSTqbGQnrcmFFStsc1TFg==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -1780,7 +1746,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "T/zYfG48aaUyk7ctLCv97LKoeYs4Eg8WI4yEURsQzKBPKbDpKfKiwxlqEUGxbfZJjTpyT/Jk1nOIHDTJG6uqxQ==",
+      "sha512": "jVPPGv0kqxPsRMOyVkJWVDoZR/lOdj9ffIUCifgzbQrCFR9aKnmvXSQWY1eTDthrmuC33blXgnROhd9ooi1Qmw==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -2965,7 +2931,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "3bFmbfVBF1nYwmXA2tLOVOrzfb8QFucRD3Ow0YkfjHY5DyQ1BPN7ZJ9QwE9+1mSS7vHlXpWJruzD+eGqFGa+eQ==",
+      "sha512": "f5BscbposiZ0HNyRAHPXPtefNHO/MxzqZT3ujUDhCw19EPFlZ8mzL4A3kQB62voAFOYB859aUlJq4+tVrd153w==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
@@ -3717,12 +3683,13 @@
     },
     "TorontoAPIServer/1.0.0": {
       "type": "package",
-      "sha512": "X5jGcEg+gdof0bnGyljWjy+v+EdTgh5enVVPc/jnMFSKoVsphBVCy/O5WrDPHiNJ2bYzzdRugjbAkg2AqMGOFA==",
+      "sha512": "qSr7FDdFtA1LSKmA9+3ivRM72leL+NB/6oJvsEk54gaLaDFCi7j5zZuo0elWk5MYPEbmfCgh6rf3hNFsv6YvBA==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoAPIServer.dll",
         "lib/dnx451/TorontoAPIServer.xml",
         "root/config.json",
+        "root/config_debug.json",
         "root/project.json",
         "root/project.lock.json",
         "root/Project_Readme.html",
@@ -3736,7 +3703,7 @@
     },
     "TorontoService/1.0.0": {
       "type": "package",
-      "sha512": "Q9w6SHwm6Zj8y0ntKl5oYCIpIrbknfkmKAHhUYwVEyHRpL4t9FmIu2lFax+sHHypO0yUFkg4pYDlpA722BcdHw==",
+      "sha512": "lkXpK6yAtQOZUiE/KO76eQgcnBAGtIXy/sjE2FHpDIyniKKJms5MP59kGp+sCmn5gXxy2uRV0rx98OeBxCMSwg==",
       "files": [
         "lib/dnx451/TorontoService.dll",
         "lib/dnx451/TorontoService.xml",

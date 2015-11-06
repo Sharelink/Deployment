@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSServerJsonProtocol</name>
+    </assembly>
+    <members>
+        <member name="M:CSServerJsonProtocol.JsonProtocolExension.SendJsonResponseToUsers(CSharpServerFramework.ICSharpServerExtension,System.Collections.Generic.IEnumerable{CSharpServerFramework.ICSharpServerUser},System.Object,System.String,System.Int32)">
+            <summary>
+            发送Json格式数据
+            </summary>
+            <param name="Users">群发的用户</param>
+            <param name="Object">发送的数据，发送数据时会将Object转换成Json格式的字符串发送</param>
+            <param name="CommandId">发送的命令Id，命令名必须在本Extension里有对应调用该函数的Command的CommandId属性</param>
+        </member>
+        <member name="M:CSServerJsonProtocol.JsonProtocolExension.SendJsonResponseToUsers(CSharpServerFramework.ICSharpServerExtension,System.Collections.Generic.IEnumerable{CSharpServerFramework.ICSharpServerUser},System.Object,System.String,System.String)">
+            <summary>
+            发送Json格式数据
+            </summary>
+            <param name="Users">群发的用户</param>
+            <param name="Object">发送的数据，发送数据时会将Object转换成Json格式的字符串发送</param>
+            <param name="Command">发送的命令名，命令名必须在本Extension里有对应调用该函数的Command的Name属性</param>
+        </member>
+        <member name="M:CSServerJsonProtocol.JsonProtocolExension.SendJsonResponse(CSharpServerFramework.ICSharpServerExtension,CSharpServerFramework.ICSharpServerSession,System.Object,System.String,System.Int32)">
+            <summary>
+            发送Json格式数据
+            </summary>
+            <param name="Session">当前会话</param>
+            <param name="Object">发送的数据，发送数据时会将Object转换成Json格式的字符串发送</param>
+            <param name="CommandId">发送的命令Id，命令名必须在本Extension里有对应调用该函数的Command的CommandId属性</param>
+        </member>
+        <member name="M:CSServerJsonProtocol.JsonProtocolExension.SendJsonResponse(CSharpServerFramework.ICSharpServerExtension,CSharpServerFramework.ICSharpServerSession,System.Object,System.String,System.String)">
+            <summary>
+            发送Json格式数据
+            </summary>
+            <param name="Session">当前会话</param>
+            <param name="Object">发送的数据，发送数据时会将Object转换成Json格式的字符串发送</param>
+            <param name="Command">发送的命令名，命令名必须在本Extension里有对应调用该函数的Command的Name属性</param>
+        </member>
+    </members>
+</doc>

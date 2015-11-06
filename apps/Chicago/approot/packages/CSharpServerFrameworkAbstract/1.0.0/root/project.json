@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "description": "CSharpServerFramework Class Library",
+  "authors": [
+    "cplov"
+  ],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnx451": {}
+  },
+  "entryPoint": "CSharpServerFrameworkAbstract",
+  "loadable": false,
+  "dependencies": {
+    "CSharpServerFrameworkAbstract": "1.0.0"
+  }
+}
