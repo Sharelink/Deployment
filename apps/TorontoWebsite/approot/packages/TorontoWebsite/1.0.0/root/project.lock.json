@@ -3194,7 +3194,7 @@
     },
     "TorontoWebsite/1.0.0": {
       "type": "package",
-      "sha512": "HATo/UIAil8L2eKlE/ArsNGne3Gx1xSHYOxVYtyyB7u709WsxasM+c3RsyR1LxHpP6h2Qst2MRhD5pHHHengaA==",
+      "sha512": "GNEfkTWhUfk+TUy0FyrLtGVrBZvqLlSA41RMXWQfM0KyZDuCkVRAmSuloIVfjwiy4Pyu2bgEx8qrOA6iKR0keA==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoWebsite.dll",
