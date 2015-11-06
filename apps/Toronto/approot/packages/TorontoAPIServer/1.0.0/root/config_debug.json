@@ -3,7 +3,7 @@
     "App": {
       "appname": "TorontoAPIServer",
       "appkey": "5e6c827f2fcb04e8fca80cf72db5ba004508246b",
-      "url": "http://192.168.1.67:8088",
+      "url": "http://192.168.1.168:8088",
       "region": "default"
     },
     "SharelinkDBServer": {
