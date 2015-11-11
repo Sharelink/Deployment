@@ -30,7 +30,7 @@
 
     "ChicagoServer": {
       "host": "192.168.1.67",
-      "port": 6789
+      "port": 9657
     },
 
     "FileServer": {
