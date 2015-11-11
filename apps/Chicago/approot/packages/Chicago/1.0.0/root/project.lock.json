@@ -903,7 +903,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "fWv8WJDeOmy7TLm4Y+KJJxhKHmpWLXq+ZzPyFEdZD/3v0h7VUTq40MhBD3cdlc8++BnhQEtyDFJbzScy2KuskA==",
+      "sha512": "GogKmvB3V8jOjBD8Leh6oAN33P9WqIjxlZZr1y/VgSU4PEL8GOcH8yAFMOAK/b/8xX8NAgZr9N3EeAK5CY7PVQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -917,7 +917,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "HwsGCsq5icsWV0DybonA4MDpjyxWqXbZCarcUXSzefT8OAfvmgouy7UhCNb4/I+UIeeVjQgG7cdvStYdR3RdbQ==",
+      "sha512": "D/EZ5Y/1DZC8jnlSTl21C9ZinXMtQdDFPNVqE+7KM0qScRY8BzyQv8zYwxitSSnZIZB6F1gMn2tgKfYGtnmQsQ==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -931,7 +931,7 @@
     },
     "Chicago/1.0.0": {
       "type": "package",
-      "sha512": "xsK8id8in7L2Hh5NCSQPy5ak9CY4PynE+7ra/wSZFrSm7cyoavuehEojA7b0QejCIngDLuueGak0px+11VUhcg==",
+      "sha512": "viRxyIfr9Zco1rGrqY6GrzS0ug6907o8nDYqft+SF3CiHfp5QGNVd771a2NHeakg6i6n+PWijjZPV4mdduU/8w==",
       "files": [
         "app/Chicago",
         "app/Chicago.cmd",
@@ -954,7 +954,7 @@
     },
     "CSharpServerFramework/1.0.0": {
       "type": "package",
-      "sha512": "RNyIp1+dBhjrWyj0kq8iFtoXjgCo5naY2HMGNVq5vqQ6QncmusbFeyO3jhQNsHiyOTimb39AVowOHT7nj6cfeA==",
+      "sha512": "lXjurPI5dqNqA6wz5C/PVnnh14H/ckqXf02pLwK6yePMcKSf7KgX4t41QQH8WfLoDSusYuDhuLMohNhFX+aLpQ==",
       "files": [
         "CSharpServerFramework.1.0.0.nupkg",
         "CSharpServerFramework.1.0.0.nupkg.sha512",
@@ -971,7 +971,7 @@
     },
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "41WtXurKtFpdzzBwP1Y22MMnrnYNRzGdThDKg8b+Xmd4dz5NQsZPSqsin/CtVBqTU5dkzHOGry5sgxzNT99/cQ==",
+      "sha512": "EPA8dNYEd+N4H1Cj9j0uDBRuD/1DLRG+b3ty9hrm1RJf6Dr6oJdZFiIqzzDqMVY+up9RP06U22FpGzdQIq9gKQ==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
@@ -987,7 +987,7 @@
     },
     "CSServerJsonProtocol/1.0.0": {
       "type": "package",
-      "sha512": "7jgCMLdBuD3LWn/sVpkNmQhIYR50ALyptxuC9n11dOiUMLB4ygT9VcWRZ5fhg8fUWW1dqkb+5EdlJ1ux3koAKA==",
+      "sha512": "WSH8U83vrxmta8lQ8MaI14kMw7og7mTVukK9nacZ0arRiGkfSOadsstti/wT8CEmF48c1orA7vGRJceNZ0+Elg==",
       "files": [
         "CSServerJsonProtocol.1.0.0.nupkg",
         "CSServerJsonProtocol.1.0.0.nupkg.sha512",
@@ -1003,7 +1003,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "3Xj9rGmHq5wY1j2EWSkZdpGyLjfSYNn01HZpN6G3HM7m3ggK8BrQhixTdb6wOiqJY9M/ZXj7tTzk3SeYRRWRFw==",
+      "sha512": "E4Tq4V63p+WSvyUWZOzVDTrXeg1dFb3UjIuxIx6Bxdi9q9A85MOy4y26cPjex5KPCDD+RcYCg55mtXUyyDE2yg==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1618,7 +1618,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "yLPDXyrokRobX+rCGEWrqDr3UGb6xBUaPiCeBP2JSRU9exOOv5W1nsDjln1iLhULjcV9lYl6YtoKm3vVurJrBg==",
+      "sha512": "V8q4Dhm+fpbQ+3rd2qUohjK6R/ANX291OFAH1+r0ZL4rrC5ehpH368Odf9tTR3826vipkdgbcOtebHd7pGABog==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
