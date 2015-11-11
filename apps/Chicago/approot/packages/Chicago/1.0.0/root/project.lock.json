@@ -73,8 +73,7 @@
       "CSharpServerFramework/1.0.0": {
         "type": "package",
         "dependencies": {
-          "CSharpServerFrameworkAbstract": "1.0.0",
-          "log4net": "2.0.3"
+          "CSharpServerFrameworkAbstract": "1.0.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -169,15 +168,6 @@
         "runtime": {
           "lib/net45/EntityFramework.dll": {},
           "lib/net45/EntityFramework.SqlServer.dll": {}
-        }
-      },
-      "log4net/2.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net40-full/log4net.dll": {}
-        },
-        "runtime": {
-          "lib/net40-full/log4net.dll": {}
         }
       },
       "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-beta8": {
@@ -903,7 +893,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "R+Z4ln+um+HxmAy9x49b3YaLToWAfOkJkmo/RZxotFstBjmhkLtNgYwydjhY8piHIF9+Sau346fyocLpLP3uAA==",
+      "sha512": "P8bURrQa4y9vVNcjtVLh2V+FI9rUiomO1IsrA3ZkRsRhdQnaUo+FQEson54qDq5Ev9ADWRkqqFKE/rYeLhMPrQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -917,7 +907,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "pyXzNgl0PRaWI/OuOL/Xft0+JYzo33yMy6Mn4Xs6ZbTU3G9EGyoXXzH0RYX+4bt2rzqrfxS3UFTGnvuqvMQx9Q==",
+      "sha512": "p1YRjTzaRDE4ZjDKPmvbPU99tfrulGDw5Mjt2SIUHexDp1LHnOKQtx6qphOHbXXlF+Y6gtBwSkvhDx1DWiBrZA==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -931,7 +921,7 @@
     },
     "Chicago/1.0.0": {
       "type": "package",
-      "sha512": "7cPhD9vgaoe+5dEjVVPwQHRi1DOrIPClALsj0Vt1xk/7GAPYqxUHYHxlM1dwO3Vhf7S8vVfvzRWGdcgDypeZXw==",
+      "sha512": "8krS8u1qtkFllr/eWt0m1IobPFXlkaHEiCpBDX3SREidtuidA44EBJNeWn4/j1PfcLETTq4cKD/94toy208vtg==",
       "files": [
         "app/Chicago",
         "app/Chicago.cmd",
@@ -954,7 +944,7 @@
     },
     "CSharpServerFramework/1.0.0": {
       "type": "package",
-      "sha512": "+qWqzEKx1sD0hIHxztY5WWh8CjUnsWZyBakTyQ5opvuQS5xwtwwAMbPWBSgEwB1lON8sWJgCf+YNGF/yyAuvdg==",
+      "sha512": "s3ozH84g2lA+Y1aWnuTPPH/LKYyrRHtDGGydyA429vDzqo7tlGIC9biGxiRRONt3RnBSLTmUaxdwHnAgEHj3/Q==",
       "files": [
         "CSharpServerFramework.1.0.0.nupkg",
         "CSharpServerFramework.1.0.0.nupkg.sha512",
@@ -971,7 +961,7 @@
     },
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "THB09x13XdEAeVNsnaBsbcO/2VqHgLQGBR1TH0aeE0tZ1qibl8Cu8tUAQGdFAAOL8lyBRAKC48S3fdipr0IPrQ==",
+      "sha512": "VD+FIdNC5rUZrJq5uZkqc9prP91yu2rcUlk/T78uCpCBFpmtMuM/r9DLXAU5cITYm07stLCQjfHHtwOIp973fA==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
@@ -987,7 +977,7 @@
     },
     "CSServerJsonProtocol/1.0.0": {
       "type": "package",
-      "sha512": "cO7lu36WaD8G9W8f4VG5tBbTNID4cGimwsbf9V+Q7hCtPUFlM7S8vu78qQVofHSoHkZiaJBFktjt7yGFUCOwDQ==",
+      "sha512": "kEsyTnEs/k3nIhnRyfvkfau7kysRfxhkoL9wE5uyspNIeN+t6qkGfqGtzm4Ls0Ajf0RUvbrH7581YMYv5F2rUQ==",
       "files": [
         "CSServerJsonProtocol.1.0.0.nupkg",
         "CSServerJsonProtocol.1.0.0.nupkg.sha512",
@@ -1003,7 +993,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "ywzH+5P4MrHS706Aqp/4JEPB0bTq6DWw+/7Vvrd4sv3vwBZedk9yRkMFNrK3TQFfNfm17s8jzO+Lm+VnP/LV+w==",
+      "sha512": "ZY5wldGjnRsgG7j+H9EX7BstViJtOHrCJKhjNNJLPAL2pCPFUgZtQjvcBQtMeOrvr0uJ2FUvo4vMMB78tvo9vA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1056,29 +1046,6 @@
         "tools/init.ps1",
         "tools/install.ps1",
         "tools/migrate.exe"
-      ]
-    },
-    "log4net/2.0.3": {
-      "type": "package",
-      "sha512": "rxMHzK5efGPo5XtRnuUGO4tfW5l74Aji6kVmtMAt2SgcB5PHBNtNY7yj2LCI2VtKrLPO7kCKR6kH6lIZggq3Gg==",
-      "files": [
-        "lib/net10-full/log4net.dll",
-        "lib/net10-full/log4net.xml",
-        "lib/net11-full/log4net.dll",
-        "lib/net11-full/log4net.xml",
-        "lib/net20-full/log4net.dll",
-        "lib/net20-full/log4net.xml",
-        "lib/net35-client/log4net.dll",
-        "lib/net35-client/log4net.xml",
-        "lib/net35-full/log4net.dll",
-        "lib/net35-full/log4net.xml",
-        "lib/net40-client/log4net.dll",
-        "lib/net40-client/log4net.xml",
-        "lib/net40-full/log4net.dll",
-        "lib/net40-full/log4net.xml",
-        "log4net.2.0.3.nupkg",
-        "log4net.2.0.3.nupkg.sha512",
-        "log4net.nuspec"
       ]
     },
     "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-beta8": {
@@ -1618,7 +1585,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "mymwBMVZcSAopcCAjOGXJzAVe72AyL5G7xFmBeI9DtIV3eTWCnS2sCusZdBj9eqb4c8iPSG3lLw9ItD5tzjpCw==",
+      "sha512": "4dTZiAwNzCxSSMwSkXcE7FCJAS4eUrGp1n1WZD1i5RhBokkEFRc6ZY0EbveO5G/qgVjpzE+OuJ4WBvukrd8E3A==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

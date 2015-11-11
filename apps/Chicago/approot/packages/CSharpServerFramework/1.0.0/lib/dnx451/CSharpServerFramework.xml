@@ -120,11 +120,10 @@
             连接客户端管理器
             </summary>
         </member>
-        <member name="M:CSharpServerFramework.Client.ClientManager.#ctor(CSharpServerFramework.CSServer)">
+        <member name="M:CSharpServerFramework.Client.ClientManager.#ctor">
             <summary>
             用户连接的客户端Socket管理
             </summary>
-            <param name="Server">CSServer实例</param>
             <param name="UserFactory">默认自定义用户实例的工厂</param>
         </member>
         <member name="M:CSharpServerFramework.Client.ClientManager.Init">
@@ -291,11 +290,10 @@
             主要负责处理接收的信息和发送信息到客户端
             </summary>
         </member>
-        <member name="M:CSharpServerFramework.Message.MessageManager.#ctor(CSharpServerFramework.CSServer)">
+        <member name="M:CSharpServerFramework.Message.MessageManager.#ctor">
             <summary>
             构造消息管理器
             </summary>
-            <param name="Server">服务端实例</param>
             <param name="ReceiveMessageCreator">处理接收到的数据包的消息构造器</param>
         </member>
         <member name="M:CSharpServerFramework.Message.MessageManager.PushSendMessage(CSharpServerFramework.Message.ICSharpServerMessageData)">
