@@ -8,6 +8,7 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Newtonsoft.Json": "7.0.1",
+          "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -155,6 +156,15 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
       "PasswordHash/1.1.0": {
         "type": "package",
         "compile": {
@@ -235,7 +245,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "UeDQ++FO5xMb+XlNEogWVElAkSAY56hHVYNodo053V7dQ7ZkJFgp5uP6bY8Urzn5O6bdV5mi5iuvj6RA9sDbgA==",
+      "sha512": "rLSGNCJJZ76q3AJyH9a2QT75v7cF/XsxMwex2nsCYBgZAMFZ9hMXQ3iHPhKn4H4XSHi8UpCfhZEtw9h0AAlyJQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -249,7 +259,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "Dmn5AAkZLUiXlJdSLUK3lD69v6ZwZlMtg5URpGpW5lLNziLBbdBEasp4z4k14PYMbGGR3N1Oyxi2QZXCYFQVFQ==",
+      "sha512": "BWPndGcO/zGBt05FYSil6KxYKLldaB13QGQguZmUlGTjvDBmbEO7duGM2VPMcqDXrnNXtzNW3AIgFNG5SVSfyw==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -263,7 +273,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "VT+3zI/uLeaWSMDhCGY8YnOHnQVwgwBKARsOkqsXJGawGBSyJDwVl3NFKLrI6Pvr6CqBFb4eBEH2M/BoOZNjBg==",
+      "sha512": "mpFp94KMOlVI7DaPWbK9ANRvepqSYj31ob05EqjF8GQ5naaNKUqLPh0+UzXGg9EEnyzA/5aEVwIGqra5F2LuIQ==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -405,6 +415,25 @@
         "Newtonsoft.Json.7.0.1.nupkg.sha512",
         "Newtonsoft.Json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "NLog/4.2.0": {
+      "type": "package",
+      "sha512": "XlbVY/dAJkcyiqdIznqb5Pd7COhP04o3KVGnTBAEhpEqZbRo4EoAkHTiygWgXY0DZjzloREctn5lyHFzFn7L5A==",
+      "files": [
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40/NLog.dll",
+        "lib/net40/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "NLog.4.2.0.nupkg",
+        "NLog.4.2.0.nupkg.sha512",
+        "NLog.nuspec"
       ]
     },
     "PasswordHash/1.1.0": {

@@ -19,7 +19,6 @@
         <dependency id="Microsoft.Framework.Configuration.EnvironmentVariables" version="1.0.0-beta8" />
         <dependency id="ServerControlService" version="1.0.0" />
         <dependency id="BahamutService" version="1.0.0" />
-        <dependency id="Microsoft.Framework.Logging.Console" version="1.0.0-beta8" />
         <dependency id="Microsoft.VisualStudio.Web.BrowserLink.Loader" version="14.0.0-beta8" />
       </group>
     </dependencies>

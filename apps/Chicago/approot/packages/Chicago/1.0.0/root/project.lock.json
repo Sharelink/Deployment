@@ -8,6 +8,7 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Newtonsoft.Json": "7.0.1",
+          "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -721,6 +722,15 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
       "PasswordHash/1.1.0": {
         "type": "package",
         "compile": {
@@ -893,7 +903,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "f1aJ3FWdTYBa9qWYsEIq0OQgVwOZpfVHXdFVAo/SpTzziZJxvpYkHdnV30PKYHq8E74SBH1hHVy46p7EtjAd6Q==",
+      "sha512": "fWv8WJDeOmy7TLm4Y+KJJxhKHmpWLXq+ZzPyFEdZD/3v0h7VUTq40MhBD3cdlc8++BnhQEtyDFJbzScy2KuskA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -907,7 +917,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "dA4adzCQFqtU3vRjWYObHoUj2XN7S6tnkOUZVIy96d4ihYDwwzlfTnfGXeEV7IQRHSg0gMVgKY+/aiMPTXoPMQ==",
+      "sha512": "HwsGCsq5icsWV0DybonA4MDpjyxWqXbZCarcUXSzefT8OAfvmgouy7UhCNb4/I+UIeeVjQgG7cdvStYdR3RdbQ==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -921,7 +931,7 @@
     },
     "Chicago/1.0.0": {
       "type": "package",
-      "sha512": "V6yvPzIhue8LsT5o6Dl9hdSpCFP5cH4bjnrQBixsdC2+35t8M40yN7WYqS9/nvoUgLRMUVKCHdBXYQdolh2R3g==",
+      "sha512": "xsK8id8in7L2Hh5NCSQPy5ak9CY4PynE+7ra/wSZFrSm7cyoavuehEojA7b0QejCIngDLuueGak0px+11VUhcg==",
       "files": [
         "app/Chicago",
         "app/Chicago.cmd",
@@ -944,7 +954,7 @@
     },
     "CSharpServerFramework/1.0.0": {
       "type": "package",
-      "sha512": "2pywJAEC7qLoXpell6jcDYvn4yqBje2DInGOLuLUZOtgV9EtPjslrc/mswSJBOvGw/9mNz+AZ47YdoK3aTdtwg==",
+      "sha512": "RNyIp1+dBhjrWyj0kq8iFtoXjgCo5naY2HMGNVq5vqQ6QncmusbFeyO3jhQNsHiyOTimb39AVowOHT7nj6cfeA==",
       "files": [
         "CSharpServerFramework.1.0.0.nupkg",
         "CSharpServerFramework.1.0.0.nupkg.sha512",
@@ -961,7 +971,7 @@
     },
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "twl30tfrkgSOdh89FPCrIytgiie0dRJpRDlG8DkEzQWuDDrE/sjcCxaDepfsE4OvqY1Vzibu6oDnfnGxvAqeNg==",
+      "sha512": "41WtXurKtFpdzzBwP1Y22MMnrnYNRzGdThDKg8b+Xmd4dz5NQsZPSqsin/CtVBqTU5dkzHOGry5sgxzNT99/cQ==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
@@ -977,7 +987,7 @@
     },
     "CSServerJsonProtocol/1.0.0": {
       "type": "package",
-      "sha512": "8fqyYs/VFsR0RGEJ5dmIsz+aYRoZl8fGijAgwWfL+I8avKAqKzvYsUlXPLyG1uWbZTFSSyr/lD1Lbveb/JpaFw==",
+      "sha512": "7jgCMLdBuD3LWn/sVpkNmQhIYR50ALyptxuC9n11dOiUMLB4ygT9VcWRZ5fhg8fUWW1dqkb+5EdlJ1ux3koAKA==",
       "files": [
         "CSServerJsonProtocol.1.0.0.nupkg",
         "CSServerJsonProtocol.1.0.0.nupkg.sha512",
@@ -993,7 +1003,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "Ka2s76ily4Z+73zUa1Lp5eGqYjCJ4ylDTCwvC5zcU9+YflHC2Qlmns3kE4PkoWOrydN26hOfOz+S4wELSoHUFg==",
+      "sha512": "3Xj9rGmHq5wY1j2EWSkZdpGyLjfSYNn01HZpN6G3HM7m3ggK8BrQhixTdb6wOiqJY9M/ZXj7tTzk3SeYRRWRFw==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1577,6 +1587,25 @@
         "tools/install.ps1"
       ]
     },
+    "NLog/4.2.0": {
+      "type": "package",
+      "sha512": "XlbVY/dAJkcyiqdIznqb5Pd7COhP04o3KVGnTBAEhpEqZbRo4EoAkHTiygWgXY0DZjzloREctn5lyHFzFn7L5A==",
+      "files": [
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40/NLog.dll",
+        "lib/net40/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "NLog.4.2.0.nupkg",
+        "NLog.4.2.0.nupkg.sha512",
+        "NLog.nuspec"
+      ]
+    },
     "PasswordHash/1.1.0": {
       "type": "package",
       "sha512": "BQBNiHTSpWa7wHoy6BH+UPk1SYefqSSng9I4uxlPXjrtVG7Nwum/2DrtZ+AVKjmuD/HuLmo9h9+WprPo8nowBQ==",
@@ -1589,7 +1618,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "7Unkrfuzy1SOWvfPVY9x2xo7O77eyy0Am5aK4QUFOCRGgAqEgZqvSWl4EHRSm5qnspVO1qw71WXpE2Op7hJpjg==",
+      "sha512": "yLPDXyrokRobX+rCGEWrqDr3UGb6xBUaPiCeBP2JSRU9exOOv5W1nsDjln1iLhULjcV9lYl6YtoKm3vVurJrBg==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

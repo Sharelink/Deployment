@@ -13,7 +13,6 @@
         <dependency id="Microsoft.AspNet.Server.Kestrel" version="1.0.0-beta8" />
         <dependency id="Microsoft.AspNet.StaticFiles" version="1.0.0-beta8" />
         <dependency id="Microsoft.Framework.Configuration.Json" version="1.0.0-beta8" />
-        <dependency id="Microsoft.Framework.Logging.Console" version="1.0.0-beta8" />
         <dependency id="ServerControlService" version="1.0.0" />
         <dependency id="TorontoService" version="1.0.0" />
       </group>

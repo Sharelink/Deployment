@@ -8,6 +8,7 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Newtonsoft.Json": "7.0.1",
+          "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -1247,24 +1248,6 @@
           "lib/dnx451/Microsoft.Framework.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Logging.Console/1.0.0-beta8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Framework.Logging.Abstractions": "1.0.0-beta8"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.Framework.Logging.Console.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.Framework.Logging.Console.dll": {}
-        }
-      },
       "Microsoft.Framework.OptionsModel/1.0.0-beta8": {
         "type": "package",
         "dependencies": {
@@ -1413,6 +1396,15 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
         }
       },
       "PasswordHash/1.1.0": {
@@ -1704,7 +1696,6 @@
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta8",
           "Microsoft.AspNet.StaticFiles": "1.0.0-beta8",
           "Microsoft.Framework.Configuration.Json": "1.0.0-beta8",
-          "Microsoft.Framework.Logging.Console": "1.0.0-beta8",
           "ServerControlService": "1.0.0",
           "TorontoService": "1.0.0"
         },
@@ -1744,7 +1735,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "08cLvJCJ9Cx0tmJc96+9i7o7q3UkXsUffPHV47kycs3OJHanucOBoWsiVFYnFh05novezzh/SCU8/1uh1sT1Eg==",
+      "sha512": "LYePk1VhQpMvJQgbqFtfucsCcYIAPE8oU0vWKNk+T9jyYsmu/1YfMeTdx8/Na952xbac6j87UKM9Ezwh/5dc7A==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -1758,7 +1749,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "rcrCE/mstuSpC3dzdBaJs7qmqAkDl4JTyqDA5iIQGl6Gc7oQjJdysY3rRrBnDOtd87M2orG8tnZyZ28z0DgdOw==",
+      "sha512": "7ap8BDCg3HIxaMyuoNgPbA15Oj0yDxRS3q6mq+XvkTfS/mtj3phqHdtjBZLx3kU0KH7KFdpTqDCxlQ0gCrPd5Q==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -1772,7 +1763,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "dBWA3IFU7rwEyorqbR4Rttu+VuLD1N9NDamHcGMl+42tGpwtlth4tWn+T71vx0GmNWgM8qfvd+NY1UgPwjWkWw==",
+      "sha512": "12L6mBShYt6clkHjvsXr+rsqKBn4+5IKNzUBr2jEq1pQvemLzLp42jxTfFjt3FxLJtwuwtLQVp7UmcmFHMtyfA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -2754,24 +2745,6 @@
         "Microsoft.Framework.Logging.Abstractions.nuspec"
       ]
     },
-    "Microsoft.Framework.Logging.Console/1.0.0-beta8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "Ut68lma54EQo9YEv1rGwjcUYsEfWFkvPUlEz5JMwWN9Thn0CtTIrrl7/1zNq2KUpF2GFMluOE8BI8cmhdmYM+A==",
-      "files": [
-        "lib/dnx451/Microsoft.Framework.Logging.Console.dll",
-        "lib/dnx451/Microsoft.Framework.Logging.Console.xml",
-        "lib/dnxcore50/Microsoft.Framework.Logging.Console.dll",
-        "lib/dnxcore50/Microsoft.Framework.Logging.Console.xml",
-        "lib/dotnet/Microsoft.Framework.Logging.Console.dll",
-        "lib/dotnet/Microsoft.Framework.Logging.Console.xml",
-        "lib/net45/Microsoft.Framework.Logging.Console.dll",
-        "lib/net45/Microsoft.Framework.Logging.Console.xml",
-        "Microsoft.Framework.Logging.Console.1.0.0-beta8.nupkg",
-        "Microsoft.Framework.Logging.Console.1.0.0-beta8.nupkg.sha512",
-        "Microsoft.Framework.Logging.Console.nuspec"
-      ]
-    },
     "Microsoft.Framework.OptionsModel/1.0.0-beta8": {
       "type": "package",
       "serviceable": true,
@@ -2945,6 +2918,25 @@
         "tools/install.ps1"
       ]
     },
+    "NLog/4.2.0": {
+      "type": "package",
+      "sha512": "XlbVY/dAJkcyiqdIznqb5Pd7COhP04o3KVGnTBAEhpEqZbRo4EoAkHTiygWgXY0DZjzloREctn5lyHFzFn7L5A==",
+      "files": [
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40/NLog.dll",
+        "lib/net40/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "NLog.4.2.0.nupkg",
+        "NLog.4.2.0.nupkg.sha512",
+        "NLog.nuspec"
+      ]
+    },
     "PasswordHash/1.1.0": {
       "type": "package",
       "sha512": "BQBNiHTSpWa7wHoy6BH+UPk1SYefqSSng9I4uxlPXjrtVG7Nwum/2DrtZ+AVKjmuD/HuLmo9h9+WprPo8nowBQ==",
@@ -2957,7 +2949,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "t1q+InxANxCEpDTxM0q/G8kSCX6HwzQoen4ocX7pUOALu+Kh3jq3aYVhIRJX7feh0mZYkYao+9/5QhbQK1bV1w==",
+      "sha512": "CHc87BCQCITGvc19F0se5+ikSOm5/tQco/2CVe4pk+B7GDIIjIpRcC+znfdWcsvVVH/mdXbErI/Bz839a2Qt6g==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
@@ -3739,7 +3731,7 @@
     },
     "TorontoAPIServer/1.0.0": {
       "type": "package",
-      "sha512": "pA5/bGbyNGMLnNFJHJl3+qd0scVh9EQ1yhFdyDE0DgpsUcHOykc7vICf3LNVC3G/iA8HQPb6mtQ3KwuwCY5ekg==",
+      "sha512": "Q2htTIe4dUdlt+qO9S60xRAM7FTa2Nbm4Dn9EkmRUeryKZosvJuUFxCf2xOtgwotH8KTdMGQ49K+M9OOReeOag==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoAPIServer.dll",
@@ -3760,7 +3752,7 @@
     },
     "TorontoService/1.0.0": {
       "type": "package",
-      "sha512": "8JyH/YOYT6gf1YZYVCcFyqUtWTIE8kBP/h3zorsTj5ueVPqsIN9sHZXjWkSarzSJCkumn49z7E2WW0IcQMQe8Q==",
+      "sha512": "wisoUzl2ZNQcZr4uTsZKPDsZjHVXIy5UmOoj9HyprUQouny9iJcmHx8SK2ozRszNvlQwhfy6enm4vyTEOoo4kw==",
       "files": [
         "lib/dnx451/TorontoService.dll",
         "lib/dnx451/TorontoService.xml",

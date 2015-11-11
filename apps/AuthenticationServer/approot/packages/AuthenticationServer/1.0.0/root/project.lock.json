@@ -15,7 +15,6 @@
           "Microsoft.AspNet.Tooling.Razor": "1.0.0-beta8",
           "Microsoft.Framework.Configuration.EnvironmentVariables": "1.0.0-beta8",
           "Microsoft.Framework.Configuration.Json": "1.0.0-beta8",
-          "Microsoft.Framework.Logging.Console": "1.0.0-beta8",
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-beta8",
           "ServerControlService": "1.0.0"
         },
@@ -37,6 +36,7 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Newtonsoft.Json": "7.0.1",
+          "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -1355,24 +1355,6 @@
           "lib/dnx451/Microsoft.Framework.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Logging.Console/1.0.0-beta8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Framework.Logging.Abstractions": "1.0.0-beta8"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.Framework.Logging.Console.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.Framework.Logging.Console.dll": {}
-        }
-      },
       "Microsoft.Framework.OptionsModel/1.0.0-beta8": {
         "type": "package",
         "dependencies": {
@@ -1542,6 +1524,15 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
         }
       },
       "PasswordHash/1.1.0": {
@@ -1831,7 +1822,7 @@
   "libraries": {
     "AuthenticationServer/1.0.0": {
       "type": "package",
-      "sha512": "vd3bPiu5zeiaozLud4mNVon5nClvHye6583eclQRMd5rXQa3og+DtHMrLrLnTHdbqu6EgGUG5xM5pYYZCZOdDw==",
+      "sha512": "WxQr9mYnf631UDjNg9bpxdETB+J12f1//PSbfiZCzIj3bnojhPktYlaeWsrVTS0lYReUjgh8mR7411sm5VVZZQ==",
       "files": [
         "app/project.json",
         "AuthenticationServer.1.0.0.nupkg",
@@ -1859,7 +1850,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "A0oi2HzGqun4dni3H6i/bZ7AEkT6rjSI2lvyWGC2DSoXV5Vbs5LMzOVMBN9YxjzXr+mIw9Ypzx4m0sJIqHAKEw==",
+      "sha512": "V0zXq6TOy2A/dO9ychPDaivtGAm7gFaNAUENctqMdnWY3iASPr4is0sdEPMn2pjXVrDzwK+iybFTgYvpMZDDHg==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -1873,7 +1864,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "4Is6oAeuRQDidPvNNXieXY0wVEJ3CSkuInaj/LbzMMPB7TS3wv5ls8+LcGrTYYppH3+7l51Rht9bMwyO7LS4nA==",
+      "sha512": "hY1qgvWA/CWpI9QnZ/t7dsZxvHr18qS9gg4TIRAteOvA9Gl5ZEAVUB0Sznw8XPai10/V3tVKzg9VGkw6I6gZvA==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -1887,7 +1878,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "pxnnPLybmgD44JSmcs0RD6Puaog5q+XKmRPJnwTcqdl6zKTxqmkjkI0D82nYiV3AepSRS1QP8HwyUXKeRtgvRQ==",
+      "sha512": "Zs7y0W+4HMFhMSidLes+y3isv3EusieUvTUbK6j050JlvbJZnbRpG0ThqbRE9SLA6GITAtzEpJRMsJpjibo0rA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -2927,24 +2918,6 @@
         "Microsoft.Framework.Logging.Abstractions.nuspec"
       ]
     },
-    "Microsoft.Framework.Logging.Console/1.0.0-beta8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "Ut68lma54EQo9YEv1rGwjcUYsEfWFkvPUlEz5JMwWN9Thn0CtTIrrl7/1zNq2KUpF2GFMluOE8BI8cmhdmYM+A==",
-      "files": [
-        "lib/dnx451/Microsoft.Framework.Logging.Console.dll",
-        "lib/dnx451/Microsoft.Framework.Logging.Console.xml",
-        "lib/dnxcore50/Microsoft.Framework.Logging.Console.dll",
-        "lib/dnxcore50/Microsoft.Framework.Logging.Console.xml",
-        "lib/dotnet/Microsoft.Framework.Logging.Console.dll",
-        "lib/dotnet/Microsoft.Framework.Logging.Console.xml",
-        "lib/net45/Microsoft.Framework.Logging.Console.dll",
-        "lib/net45/Microsoft.Framework.Logging.Console.xml",
-        "Microsoft.Framework.Logging.Console.1.0.0-beta8.nupkg",
-        "Microsoft.Framework.Logging.Console.1.0.0-beta8.nupkg.sha512",
-        "Microsoft.Framework.Logging.Console.nuspec"
-      ]
-    },
     "Microsoft.Framework.OptionsModel/1.0.0-beta8": {
       "type": "package",
       "serviceable": true,
@@ -3131,6 +3104,25 @@
         "tools/install.ps1"
       ]
     },
+    "NLog/4.2.0": {
+      "type": "package",
+      "sha512": "XlbVY/dAJkcyiqdIznqb5Pd7COhP04o3KVGnTBAEhpEqZbRo4EoAkHTiygWgXY0DZjzloREctn5lyHFzFn7L5A==",
+      "files": [
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40/NLog.dll",
+        "lib/net40/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "NLog.4.2.0.nupkg",
+        "NLog.4.2.0.nupkg.sha512",
+        "NLog.nuspec"
+      ]
+    },
     "PasswordHash/1.1.0": {
       "type": "package",
       "sha512": "BQBNiHTSpWa7wHoy6BH+UPk1SYefqSSng9I4uxlPXjrtVG7Nwum/2DrtZ+AVKjmuD/HuLmo9h9+WprPo8nowBQ==",
@@ -3143,7 +3135,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "WbB/gpGRFAkRLO0UpllUk9FDdIRKOjdzN1G27jVZt1efPplrwAy8qMnf50JMuIzt3JrCpVTJ4YNxChMeFyNe6A==",
+      "sha512": "0SrbE0fAZccKlWvLLBbYolzSYHVD0Eisfkv0BL6DYO25BpPo4dluIo4a7OAX1z0GmZOc80IJUQl/pf2RdOrBlA==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
