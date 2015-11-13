@@ -38,7 +38,7 @@
     },
 
     "Log": {
-      "logFile": "c:/deployment/logs/TorontoAPIServer/8088.log"
+      "logFile": "c:/logs/TorontoAPIServer/8088.log"
     }
   }
   

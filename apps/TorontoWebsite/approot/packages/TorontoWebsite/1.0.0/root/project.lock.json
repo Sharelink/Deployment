@@ -1254,6 +1254,15 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
       "System.Collections/4.0.0": {
         "type": "package",
         "compile": {
@@ -1447,7 +1456,8 @@
         "dependencies": {
           "Microsoft.AspNet.Mvc": "6.0.0-beta8",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta8",
-          "Microsoft.AspNet.StaticFiles": "1.0.0-beta8"
+          "Microsoft.AspNet.StaticFiles": "1.0.0-beta8",
+          "NLog": "4.2.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -2500,6 +2510,25 @@
         "tools/install.ps1"
       ]
     },
+    "NLog/4.2.0": {
+      "type": "package",
+      "sha512": "XlbVY/dAJkcyiqdIznqb5Pd7COhP04o3KVGnTBAEhpEqZbRo4EoAkHTiygWgXY0DZjzloREctn5lyHFzFn7L5A==",
+      "files": [
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40/NLog.dll",
+        "lib/net40/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "NLog.4.2.0.nupkg",
+        "NLog.4.2.0.nupkg.sha512",
+        "NLog.nuspec"
+      ]
+    },
     "System.Collections/4.0.0": {
       "type": "package",
       "sha512": "i2vsGDIEbWdHcUSNDPKZP/ZWod6o740el7mGTCy0dqbCxQh74W4QoC+klUwPEtGEFuvzJ7bJgvwJqscosVNyZQ==",
@@ -3194,11 +3223,13 @@
     },
     "TorontoWebsite/1.0.0": {
       "type": "package",
-      "sha512": "GNEfkTWhUfk+TUy0FyrLtGVrBZvqLlSA41RMXWQfM0KyZDuCkVRAmSuloIVfjwiy4Pyu2bgEx8qrOA6iKR0keA==",
+      "sha512": "wQtFdnUJksloK7LOHL+3E9xTE5gbWc+/WhlZLUlNrQmOUdQ7rnSkdRToFrtgY0JRUfYQVVCUA93dZenv7+rd0A==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoWebsite.dll",
         "lib/dnx451/TorontoWebsite.xml",
+        "root/config.json",
+        "root/config_debug.json",
         "root/project.json",
         "root/project.lock.json",
         "root/Project_Readme.html",
