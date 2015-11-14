@@ -1822,7 +1822,7 @@
   "libraries": {
     "AuthenticationServer/1.0.0": {
       "type": "package",
-      "sha512": "SavTxoNRq4dVeL72k+7uNaM25WK7nF7D4dvsIrvj32MKPR7bLWyqAPom4Eaf3Ztn4yS9hSL79nbbziNZqNHZBA==",
+      "sha512": "9pRxeL+eHQJGToNfOKfICx9JgXtlwBA16UTgyc7aARMsJpLIHtN+j225GMRBC2Gn1XaemQa0OwItDagh7I/fww==",
       "files": [
         "app/project.json",
         "AuthenticationServer.1.0.0.nupkg",
@@ -1850,7 +1850,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "hHiHdqOpuwEwwHpeHJXPihgBQfkCTpxW5rKRicGyipoOCdCtUpZln5GmFbKU9rPgB3fCbaTH8srpD5u0qcOTSA==",
+      "sha512": "k9SRO9YvJW8Q6ja+/172t722VLqsbjG/ejP8RHMsV0zSgBQGJg/w9wRWvXrcr0Q9GQNjLJOonMCdgLLwUIT4Mg==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -1864,7 +1864,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "77n64/cxaXw+6g8cae1DVoLi0/doTax/Z+uZ8vfnjg7R6nNk56+J5ivzWIvytBHNz1R3Nzed4SG/WmBy30HIvw==",
+      "sha512": "vP8/CNoIWrLSKJ+UTO8P5L4GF7SdcsDH1mOawP6fG3VTd9aJwmrSf84g5GHS8oeklg0GMN/LS8heF/XyXsH28g==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -1878,7 +1878,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "rdPjpUMHvissU6eJ/qDtSqjHV2l/o7u1Q8LL7Yb6JJb0GxgQODp9od85MiudQE87a2SU3460SlWqH5V0Sstj1g==",
+      "sha512": "+O2ZQxUP96Ohl4Uw0hej8b6shfIBrCLXFN2CfmVtHy4YOnwuWtXGECfiTsyMWBnEzdyb4THhd6YgBK0mxwLdNQ==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -3135,7 +3135,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "OUgTo0Mtqi9iFwxukF1zONjv/xC9wjYUCABQfMsqJQmt0X+2uq1TW+aSHr1r8rABRiYm8luWJNYvhHdpmmltdQ==",
+      "sha512": "pQVHJB/q0qLU3xFy9JBsqcFVSNFD3vr3U9iTx/Z0nT3u8EFj/IAAqN7o0ck1v7P1GtKJ68VYnH/sc+gets8qOA==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

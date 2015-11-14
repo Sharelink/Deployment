@@ -3223,13 +3223,12 @@
     },
     "TorontoWebsite/1.0.0": {
       "type": "package",
-      "sha512": "wQtFdnUJksloK7LOHL+3E9xTE5gbWc+/WhlZLUlNrQmOUdQ7rnSkdRToFrtgY0JRUfYQVVCUA93dZenv7+rd0A==",
+      "sha512": "4tHOOnRKWfVcHzAdmy2hRqYBanyAkG/J2nYvnsrY1BLmdS2b+DyNn8f1GQ+FhZSATi6WvTzGzbra0v9x/uPSbg==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoWebsite.dll",
         "lib/dnx451/TorontoWebsite.xml",
         "root/config.json",
-        "root/config_debug.json",
         "root/project.json",
         "root/project.lock.json",
         "root/Project_Readme.html",
