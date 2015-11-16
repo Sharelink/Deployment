@@ -55,7 +55,8 @@
           "Microsoft.Framework.Configuration": "1.0.0-beta8",
           "Microsoft.Framework.Configuration.EnvironmentVariables": "1.0.0-beta8",
           "Microsoft.Framework.Configuration.Json": "1.0.0-beta8",
-          "ServerControlService": "1.0.0"
+          "ServerControlService": "1.0.0",
+          "System.Net.Http": "4.0.1-beta-23409"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -837,6 +838,18 @@
           "lib/net45/_._": {}
         }
       },
+      "System.Net.Http/4.0.1-beta-23409": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
       "System.Numerics.Vectors/4.1.1-beta-23409": {
         "type": "package",
         "dependencies": {
@@ -893,7 +906,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "6pAq55l17aDhTbpYW+WTdkMUhXOvQsQBoOUr3HhEWdc/77whFbChaxi+9zMn8w7cIiX+FrN4lJWNlSu+Frh1eg==",
+      "sha512": "BO7whmYgeZW+Q8JaGhIfrwbnqa64Zxcvh/lxTGBfNRlwVT5IKPPh4EO9nIBWNRiSibkc1bT36Z7z0hItwj8vLw==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -907,7 +920,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "kLkLf6aT/E+daTxPX2MVCGwBKMQgxpljP8b+h5yQHy8zASHCP/vADA3thPy8wl3nwOV53gxgMHG+mq9Y1FnUeA==",
+      "sha512": "+KcNXsCSP5PdOUBftfeEeWDA9ZwogWeDj/S4UDEHGYYCgc6Ha78sf9TrmYMvh/dd26bZD1n558td2I2QrTGIPw==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -921,7 +934,7 @@
     },
     "Chicago/1.0.0": {
       "type": "package",
-      "sha512": "1S8DYM6dmvKY8atza11yRmk/Nj63xlIkp6s4JmhhIaMY4K0DP7V0FoD53nB92AmgU6N+kBKhewjw8ypa3ntyQg==",
+      "sha512": "w3p1KX+z7iKxvYNc8VrnSN1ie4OoQJYdy+waNTwRRgTpnFVYsaw/aMFMQ0+KCFWLFzv+lX5SmA4qOeDl+70oDw==",
       "files": [
         "app/Chicago",
         "app/Chicago.cmd",
@@ -943,7 +956,7 @@
     },
     "CSharpServerFramework/1.0.0": {
       "type": "package",
-      "sha512": "2Eo4lVuUX3YKG8l2kXaKIJ/1UGJhBrT5ya8bfoEcYeI5zIBKKRuIi0GmyVE9uQDmkVWTdTewaAZkXuW9N8Weag==",
+      "sha512": "rFgaKghUgNlO3dG7ti1eaga+mrFNK2OloLeReJJCoc1tj8x+PfUekQDqJsXbFZKhtD6ljavSLydkBYJbS0+6dA==",
       "files": [
         "CSharpServerFramework.1.0.0.nupkg",
         "CSharpServerFramework.1.0.0.nupkg.sha512",
@@ -960,7 +973,7 @@
     },
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "NmMJol8j8XdMB83VNJThQ28JsFIArEhBNalTl3OREcgj/aYWI/ceRdZawrJ0n2JupSVKPQg7hJ6hOTqXWml65Q==",
+      "sha512": "Pddl4vme55RillZqPiSEcpFzwk7FlYEYXRfX22IDfAOdeCkuwSkXp904Rqdw6I5x5+GdG3Z0cU+an1a/WdIRcw==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
@@ -976,7 +989,7 @@
     },
     "CSServerJsonProtocol/1.0.0": {
       "type": "package",
-      "sha512": "qzxIEm4Dq55RA3XRi6Uueu/bptwJmEbyd1dpXKuiL/N5JqHuIeulzlqpi5SlwLzowUq7LRG22Bzk5V230Nn5Uw==",
+      "sha512": "nucDaJdyEVz0VBrTU1EmLTWoaFOR+uFZPnJyN/0lQlrEq7pIrFv7uE5XeyqRVep7k4qkcuKIRHnYlURg5zBMig==",
       "files": [
         "CSServerJsonProtocol.1.0.0.nupkg",
         "CSServerJsonProtocol.1.0.0.nupkg.sha512",
@@ -992,7 +1005,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "Nkq5RNoHtFbYIHxOvnhC2hKUV7RFN0ydnz/eTvlRzp0e4x3/jxXk+yBL1GOZD/B4ELvuUNHTPL6sOUHCdQMEJA==",
+      "sha512": "1xTYJU7WgWwqZvME9KcwXWqBlmQyBmJISbgguwQaJcvUD2eA8sU69+fR/ibsFX5sIglDCfA1GmL4zgmguK07kA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1584,7 +1597,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "VdNFlCSTktcp3LO9x/Lbx2rWkSAIPbG8Y/c1k4FCqmQMHD8QZkn06Jjsb+me0N+8Jon6Zggp2MuB3ejF0RkLQQ==",
+      "sha512": "IlxxJftrbJsTzrpxglRk1HCBjSXAgqwGCSU9LUi8fMNoE/F0lmplBfKve9n6rvo+YmKCFiTHCp+3JbBe5/TcIQ==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
@@ -1732,6 +1745,25 @@
         "System.Globalization.4.0.0.nupkg",
         "System.Globalization.4.0.0.nupkg.sha512",
         "System.Globalization.nuspec"
+      ]
+    },
+    "System.Net.Http/4.0.1-beta-23409": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "h9CPYbGzH/9faYD24qLNBY+/dH8F67AktW3UvrEJR7Xan3bzXKJd5Po/3+qRswNsRUH2P/HBSK5fZE3CKVmhxg==",
+      "files": [
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "lib/wpa81/_._",
+        "ref/dotnet/System.Net.Http.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Net.Http.dll",
+        "ref/win8/_._",
+        "ref/wpa81/_._",
+        "runtime.json",
+        "System.Net.Http.4.0.1-beta-23409.nupkg",
+        "System.Net.Http.4.0.1-beta-23409.nupkg.sha512",
+        "System.Net.Http.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.1.1-beta-23409": {
