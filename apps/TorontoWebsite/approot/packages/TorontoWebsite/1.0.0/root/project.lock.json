@@ -3223,7 +3223,7 @@
     },
     "TorontoWebsite/1.0.0": {
       "type": "package",
-      "sha512": "4tHOOnRKWfVcHzAdmy2hRqYBanyAkG/J2nYvnsrY1BLmdS2b+DyNn8f1GQ+FhZSATi6WvTzGzbra0v9x/uPSbg==",
+      "sha512": "7XnH959jRah/SBOLVjr3y1cg7kNuDybAw+c1hzerRN0OU2OBwq+c+g/52Ayz6zt+XT/5DTprlZFCzeBceawYyw==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoWebsite.dll",
