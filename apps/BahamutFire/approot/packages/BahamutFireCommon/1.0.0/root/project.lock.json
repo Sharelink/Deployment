@@ -28,8 +28,7 @@
         "type": "package",
         "dependencies": {
           "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0",
-          "MongoDB.Driver.GridFS": "2.1.1"
+          "DataLevelDefines": "1.0.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -124,20 +123,6 @@
         },
         "runtime": {
           "lib/net45/MongoDB.Driver.Core.dll": {}
-        }
-      },
-      "MongoDB.Driver.GridFS/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "MongoDB.Bson": "2.1.1",
-          "MongoDB.Driver": "2.1.1",
-          "MongoDB.Driver.Core": "2.1.1"
-        },
-        "compile": {
-          "lib/net45/MongoDB.Driver.GridFS.dll": {}
-        },
-        "runtime": {
-          "lib/net45/MongoDB.Driver.GridFS.dll": {}
         }
       },
       "MySql.Data/6.9.7": {
@@ -282,8 +267,7 @@
         "type": "package",
         "dependencies": {
           "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0",
-          "MongoDB.Driver.GridFS": "2.1.1"
+          "DataLevelDefines": "1.0.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -378,20 +362,6 @@
         },
         "runtime": {
           "lib/net45/MongoDB.Driver.Core.dll": {}
-        }
-      },
-      "MongoDB.Driver.GridFS/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "MongoDB.Bson": "2.1.1",
-          "MongoDB.Driver": "2.1.1",
-          "MongoDB.Driver.Core": "2.1.1"
-        },
-        "compile": {
-          "lib/net45/MongoDB.Driver.GridFS.dll": {}
-        },
-        "runtime": {
-          "lib/net45/MongoDB.Driver.GridFS.dll": {}
         }
       },
       "MySql.Data/6.9.7": {
@@ -536,8 +506,7 @@
         "type": "package",
         "dependencies": {
           "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0",
-          "MongoDB.Driver.GridFS": "2.1.1"
+          "DataLevelDefines": "1.0.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -632,20 +601,6 @@
         },
         "runtime": {
           "lib/net45/MongoDB.Driver.Core.dll": {}
-        }
-      },
-      "MongoDB.Driver.GridFS/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "MongoDB.Bson": "2.1.1",
-          "MongoDB.Driver": "2.1.1",
-          "MongoDB.Driver.Core": "2.1.1"
-        },
-        "compile": {
-          "lib/net45/MongoDB.Driver.GridFS.dll": {}
-        },
-        "runtime": {
-          "lib/net45/MongoDB.Driver.GridFS.dll": {}
         }
       },
       "MySql.Data/6.9.7": {
@@ -768,7 +723,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "kVGM+VcEdiT6fvZukSQvL63pHPrJB5dcZdyG40nILMobyOePnVHsQjAVXUvfzB8wNo3oPmAap1MopnjSUnB27g==",
+      "sha512": "0oTlE2If4cdPjozQ4X05BOuWX80DbJALfoZrY/1ngIY1XiceyhaVb82bdMDOs0g0TAbqAnwoJgZxVnMBerWpmQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -782,7 +737,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "HZx9EPZ6Y27pJEsI2iHtHngisYHthJZB8J9RyxpxgWOv4TjdrYoQf9ho86WFOep68eV3CU3Hs9kA79N0f9uwLQ==",
+      "sha512": "nA6OSJU/KxeSo9TJvvYJaa6ax1MlM+0Edv8tOSZwHk8aMWAJE6sKSWCe+mn89iG2m8g1KDjBKeAQ09JPGUwnMQ==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -796,7 +751,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "1ZsxGQJ7J/qBrd6yUricoJL5nmKHjiFqLH6CltEuazDrjIRzBNUD3a6dKb8QZ1HVB1jU7FmFPiR5TYx/SYyfDg==",
+      "sha512": "SQccwWoRTjaqMK43HFybH/4ncTnky+gXaPCXJesnhJ8igTz+vJWG68mKTIYEvbbtvdZTLBTUSmg/T8VdGUxZww==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -884,18 +839,6 @@
         "MongoDB.Driver.Core.2.1.1.nupkg",
         "MongoDB.Driver.Core.2.1.1.nupkg.sha512",
         "MongoDB.Driver.Core.nuspec"
-      ]
-    },
-    "MongoDB.Driver.GridFS/2.1.1": {
-      "type": "package",
-      "sha512": "KIeDqhXkVHpcYdUCIei4dYrEMhljS1Pk2aUUitQfWjlyHBKUfRyjhC9x77Pwpn/Htc9BPdZDrn9nzqs1fe0kjQ==",
-      "files": [
-        "lib/net45/MongoDB.Driver.GridFS.dll",
-        "lib/net45/MongoDB.Driver.GridFS.XML",
-        "License.rtf",
-        "MongoDB.Driver.GridFS.2.1.1.nupkg",
-        "MongoDB.Driver.GridFS.2.1.1.nupkg.sha512",
-        "MongoDB.Driver.GridFS.nuspec"
       ]
     },
     "MySql.Data/6.9.7": {

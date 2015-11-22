@@ -11,7 +11,6 @@
       <group targetFramework="DNX4.5.1">
         <dependency id="BahamutCommon" version="1.0.0" />
         <dependency id="DataLevelDefines" version="1.0.0" />
-        <dependency id="MongoDB.Driver.GridFS" version="2.1.1" />
       </group>
     </dependencies>
     <frameworkAssemblies>
