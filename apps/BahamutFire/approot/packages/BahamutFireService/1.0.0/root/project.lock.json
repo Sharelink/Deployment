@@ -825,7 +825,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "jOUqrc5Zzt2U5ksAeW5OTfxNMqIzq3Tzu9+QIvzNbB2/fROFGsY3vvOI/3LgYsK0y+e1/erhh9ar/mGOmojW6g==",
+      "sha512": "ntBrgdaZqfUJFs5D++6qzYf3jZwWvi2wPdZ/cGaPvOl6NINJjebX//IL7Y48X6F0hech5fu3IibqiM+1OUmSYQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -839,7 +839,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "JsgpvJ3z1brFdlb2nBHHWqa5MOGOFQiRwIhZHhEKaBnCwJd0Bd1PCGYWweznlKQFP/YEDEQb6yPQ9NtkGDqqPQ==",
+      "sha512": "MH+610FV490W9K/WB5g8jEwr1zKDFuSJJdMQHgbTR6uZT5dMsQ4FKjOCJ9yKkwmL4S6S+/kD0AVdm/0D9Fb9Sg==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -853,7 +853,7 @@
     },
     "BahamutFireService/1.0.0": {
       "type": "package",
-      "sha512": "zLKkmvuWfNHo2fWLDUa55KeS+tzhK4baDj2c4cG0orAHrlwcC9bbcepthOWe9iv6oQKN3lhEv7JNJcXzgQkPGw==",
+      "sha512": "aCRFzk/7fSBQ0+ZeAeV/FJ5jB56LtzkCrzQML2RVyteKyi6E4pYkM+RpimanI0ZouT5Fo1IvCLt2R8fofY0WOQ==",
       "files": [
         "BahamutFireService.1.0.0.nupkg",
         "BahamutFireService.1.0.0.nupkg.sha512",
@@ -867,7 +867,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "9N/bT5a0PYgdaAux6nrjSFkSk7oTDJFBYbw94nV8wK8VuzwkBZygX6mp86u6B0g/6EHdESjQeFvUx0yrpEjZTw==",
+      "sha512": "ZIPbiZBu1xoRYLL9FlOmQihPWxk88qmR8dJn98IfVf0Cs3UiAVMddO6RtDxlMbIOWz2Czg20verTii15HsubOg==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
