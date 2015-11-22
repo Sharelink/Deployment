@@ -9,10 +9,10 @@
     <description>TorontoAPIServer</description>
     <dependencies>
       <group targetFramework="DNX4.5.1">
-        <dependency id="Microsoft.AspNet.Mvc" version="6.0.0-beta8" />
-        <dependency id="Microsoft.AspNet.Server.Kestrel" version="1.0.0-beta8" />
-        <dependency id="Microsoft.AspNet.StaticFiles" version="1.0.0-beta8" />
-        <dependency id="Microsoft.Framework.Configuration.Json" version="1.0.0-beta8" />
+        <dependency id="Microsoft.AspNet.Mvc" version="6.0.0-rc1-final" />
+        <dependency id="Microsoft.AspNet.Server.Kestrel" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.AspNet.StaticFiles" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="1.0.0-rc1-final" />
         <dependency id="ServerControlService" version="1.0.0" />
         <dependency id="TorontoService" version="1.0.0" />
       </group>
