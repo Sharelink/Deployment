@@ -723,7 +723,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "ntBrgdaZqfUJFs5D++6qzYf3jZwWvi2wPdZ/cGaPvOl6NINJjebX//IL7Y48X6F0hech5fu3IibqiM+1OUmSYQ==",
+      "sha512": "sqHKpoPcYXtuozTJfV9eGPiI/ZxVlxc77GxCkxK9l1+tFA3gjsE9YxBWcPNVqtHDSeUb92PDRPYaNQ1edKcdVA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -737,7 +737,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "v2fT+dxK46Au7udiowjvq0kmjhRc9rbSMeEQDu7erxPj36P7B1rNNVCEMWJreBbwHe1N7K6TYx+73PqkLS3AIQ==",
+      "sha512": "2Pdf2821NImA6PK/9qdG2D7rJTzDW8eTPt/M+Se//FK1YL8nCEWpSd3Qj9XJxcs+WjyklBCXBAEfLhgsNb6G1Q==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -751,7 +751,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "ZIPbiZBu1xoRYLL9FlOmQihPWxk88qmR8dJn98IfVf0Cs3UiAVMddO6RtDxlMbIOWz2Czg20verTii15HsubOg==",
+      "sha512": "kdyag/3vyQlQWfxtQCosjkbuGIVVDSSHEnvw3GebnAriddIxpX/uUh4esesGDg/+k2yn7nCtLAbdQ7kKyFQFTA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
