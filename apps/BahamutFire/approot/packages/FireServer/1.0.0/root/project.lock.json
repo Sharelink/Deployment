@@ -5235,7 +5235,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "qQIOQMaxXRDp41rl0AkqrramRolIbNy7nq5nAUjboarGHL7KF2mPZJpp24ywULozomlp8gVQD+NkLR2wNMJx7g==",
+      "sha512": "JEB0nmUQcxAl0amtVse0rue1ZnWNd5Pdd598cOMaKp6fSyAM3D1e+fBEtKK7N1MRg3JGvE0vmabDzlTvzEYIRw==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5249,7 +5249,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "UBsSO9AQkZVO0fx04ilz5SSAeZKVOpsLH7aQVd95udo5juS0OswKDGZkX6VwwQZt4EHt1Zim/m0OsdZe745QQg==",
+      "sha512": "VMwe429425mhaDxzhsZzakBQSDTaax5QwrTwPoibROC8/WCFORqeV2UBZ/OA5HARuNogxhkBbZPZVW4h3GDegw==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -5263,7 +5263,7 @@
     },
     "BahamutFireService/1.0.0": {
       "type": "package",
-      "sha512": "NTps4Dbsmgh3LDaAgHzQVUN4PhwztQAL4MYy87T/kwR86QelzEBI+6/6FBj3vS3Dx3m+htoS2foKcCrGKuGbTA==",
+      "sha512": "y9lXFg3e0IaGw3tj0oGGWjzRHKln8EpnzU0ZuMp46N3T/hnjG1+Zq7HrmA8iMSTmUmh0ybInW9XCZBP5DJq4rg==",
       "files": [
         "BahamutFireService.1.0.0.nupkg",
         "BahamutFireService.1.0.0.nupkg.sha512",
@@ -5277,7 +5277,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "lhSZzUivUqrmon/7c4Niu4VVeZ2TX2eV0v7gaZ5fLuP6UIeAv6gKNTSpRkZyBpZQ7y7NFqJsYsPtWZlzJjXHFA==",
+      "sha512": "aymu2OcA1LG7KK3oSX7WQGvkEXMJR9BeRLyCx9E9GHfIy3cA/lXZDWywA4PJzFvE/+T/YUI387TDpuRnBhinlg==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -5334,7 +5334,7 @@
     },
     "FireServer/1.0.0": {
       "type": "package",
-      "sha512": "mtuZ+rGECJ9WI0Vazi3Ny8qgC44y6P79k1lCKns2yor7eUj1v0BWC3ISzriHJlikX1eOWyUoGkIoPGPwIIMhGA==",
+      "sha512": "8Fk0O2jsfKYh65ggVLbUzb1bYiTSW6pfzKZbhP8/zMYa0dtUsEV1CIA9uSKqGHq1YuOGrBw+EdOupdJSnSKZQQ==",
       "files": [
         "app/project.json",
         "FireServer.1.0.0.nupkg",
