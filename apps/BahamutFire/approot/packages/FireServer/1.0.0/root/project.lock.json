@@ -5433,7 +5433,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "2cP467Ox8PDpT8uPy5rRYAYGCacx8xSQHmYEaEg2VNTfrTsD7A3lnJy4LEHcWZwjqbovxCOrO+vUyHUl6vFKrQ==",
+      "sha512": "jOUqrc5Zzt2U5ksAeW5OTfxNMqIzq3Tzu9+QIvzNbB2/fROFGsY3vvOI/3LgYsK0y+e1/erhh9ar/mGOmojW6g==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5447,7 +5447,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "HuUKHhtbg9x5z499cfCT65QQSwo/SZRxfHzAZDQ2ro37hY8grk3m+z/vECraCbkyBAkBfKj3gaQY0p7weKvIbA==",
+      "sha512": "JsgpvJ3z1brFdlb2nBHHWqa5MOGOFQiRwIhZHhEKaBnCwJd0Bd1PCGYWweznlKQFP/YEDEQb6yPQ9NtkGDqqPQ==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -5461,7 +5461,7 @@
     },
     "BahamutFireService/1.0.0": {
       "type": "package",
-      "sha512": "ELnejx0lvy/Bl00vhDkuOvY+uA2Qf3vPmNuzic9RGmJVSoaVGMmSZ0YRJwxZVWubVZuKsHHkLSjsT9W1ptNpnQ==",
+      "sha512": "zLKkmvuWfNHo2fWLDUa55KeS+tzhK4baDj2c4cG0orAHrlwcC9bbcepthOWe9iv6oQKN3lhEv7JNJcXzgQkPGw==",
       "files": [
         "BahamutFireService.1.0.0.nupkg",
         "BahamutFireService.1.0.0.nupkg.sha512",
@@ -5475,7 +5475,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "0sHUnpTTbKyuJ3IOLgHIxLRYSg40tgZbdSiLFX8Ls+MIhSnnT6d77jlJw5yl4+whZSSuVYNJev2wyWOldCUvkg==",
+      "sha512": "aGq3jF1oXpUYhyQ4/eVMgLVo6l1DBEjXQxhHTRjARpC3tAX4QbIBEt8RhSUA6Tnf5V6cnDUkX5FUcblUwLrByw==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5489,7 +5489,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "Hnoo4aVdv9fwtYnFVB0UF7+58i4LPcqywhwtYLKY0hC9bWxWw3ksJYoPj+/08AexXGURMhzmJuGALUmpNy5Zrw==",
+      "sha512": "9N/bT5a0PYgdaAux6nrjSFkSk7oTDJFBYbw94nV8wK8VuzwkBZygX6mp86u6B0g/6EHdESjQeFvUx0yrpEjZTw==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -5546,7 +5546,7 @@
     },
     "FireServer/1.0.0": {
       "type": "package",
-      "sha512": "iwF8yDOCjQvp8qclMfcbZjh3Hw3oCdXMaGQxSyD5/b7ovuDBnOLX8VBHuQ59eRqKB7eown2PYowm8FAAZA8KnQ==",
+      "sha512": "jGgJNYp7IT2kRlAi14DSd5/0D+s/LqGGxlGcMlamiU8gRaaex+r34kbPHLjHSyuR/RanH+7xB1zwO7jgkWdiXA==",
       "files": [
         "app/project.json",
         "FireServer.1.0.0.nupkg",
@@ -6683,7 +6683,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "kwMuHT1eHrUCs9QG0Tp5dfk/GgKY5wLYiYSGDE1ZW9yekcgjThIzs2lTZucYAhYEj6LrkG4UwKuho/EW9ObdYQ==",
+      "sha512": "Un5mA2F8mfX+sPz8Z9DlLjMSqUn4zNBnIh778asPXVHAKza5ieql5t8MT04hl7HPrAzOA9BE7X/114auY0CCNQ==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
