@@ -60,12 +60,71 @@
           "lib/net40/PasswordHash.dll": {}
         }
       }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "BahamutCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DBTek.Crypto": "2.1.0",
+          "Newtonsoft.Json": "7.0.1",
+          "NLog": "4.2.0",
+          "PasswordHash": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        }
+      },
+      "DBTek.Crypto/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "PasswordHash/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/PasswordHash.dll": {}
+        },
+        "runtime": {
+          "lib/net40/PasswordHash.dll": {}
+        }
+      }
     }
   },
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "bARwdJraeCZAaZzFd4x/rXHJLghhg/aRJ8e+VItToKlDq9bf9r0lIp+HMdIFkbtPU0MAQeovKrWwYwfV1p0gFQ==",
+      "sha512": "lSMuJEeAJiDGPq0j9ujY3a3DTmdr/vsp6RvYLZGVmhtroFrmWyJZbDpMub0zVqsUxpV0V8f/hSK2Ut5jePRZcA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",

@@ -4,20 +4,18 @@
     <id>Chicago</id>
     <version>1.0.0</version>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <authors>Chicago</authors>
-    <owners>Chicago</owners>
-    <description>Chicago</description>
+    <authors>广杰</authors>
+    <owners>广杰</owners>
+    <description>Chicago Console Application</description>
     <dependencies>
       <group targetFramework="DNX4.5.1">
-        <dependency id="Microsoft.Dnx.Runtime.Abstractions" version="1.0.0-beta8" />
-        <dependency id="Microsoft.Framework.Configuration" version="1.0.0-beta8" />
-        <dependency id="Microsoft.Framework.Configuration.EnvironmentVariables" version="1.0.0-beta8" />
-        <dependency id="Microsoft.Framework.Configuration.Json" version="1.0.0-beta8" />
-        <dependency id="ServerControlService" version="1.0.0" />
         <dependency id="BahamutService" version="1.0.0" />
         <dependency id="CSharpServerFramework" version="1.0.0" />
         <dependency id="CSServerJsonProtocol" version="1.0.0" />
-        <dependency id="System.Net.Http" version="4.0.1-beta-23409" />
+        <dependency id="Microsoft.Extensions.Configuration" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="1.0.0-rc1-final" />
+        <dependency id="System.Net.Http" version="4.0.1-beta-23516" />
       </group>
     </dependencies>
     <frameworkAssemblies>

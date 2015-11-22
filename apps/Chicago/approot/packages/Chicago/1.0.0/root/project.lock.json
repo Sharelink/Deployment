@@ -49,12 +49,10 @@
           "BahamutService": "1.0.0",
           "CSharpServerFramework": "1.0.0",
           "CSServerJsonProtocol": "1.0.0",
-          "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-beta8",
-          "Microsoft.Framework.Configuration": "1.0.0-beta8",
-          "Microsoft.Framework.Configuration.EnvironmentVariables": "1.0.0-beta8",
-          "Microsoft.Framework.Configuration.Json": "1.0.0-beta8",
-          "ServerControlService": "1.0.0",
-          "System.Net.Http": "4.0.1-beta-23409"
+          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+          "System.Net.Http": "4.0.1-beta-23516"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -125,7 +123,7 @@
         "type": "package",
         "dependencies": {
           "EntityFramework": "6.1.3",
-          "MongoDB.Driver": "2.1.0",
+          "MongoDB.Driver": "2.1.1",
           "MySql.Data": "6.9.7",
           "MySql.Data.Entity": "6.9.7",
           "ServiceStack": "3.9.71",
@@ -169,25 +167,10 @@
           "lib/net45/EntityFramework.SqlServer.dll": {}
         }
       },
-      "Microsoft.Dnx.Runtime.Abstractions/1.0.0-beta8": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.Dnx.Runtime.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.Dnx.Runtime.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Framework.Configuration/1.0.0-beta8": {
+      "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration.Abstractions": "1.0.0-beta8"
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -196,31 +179,16 @@
           "System.Core"
         ],
         "compile": {
-          "lib/dnx451/Microsoft.Framework.Configuration.dll": {}
+          "lib/net451/Microsoft.Extensions.Configuration.dll": {}
         },
         "runtime": {
-          "lib/dnx451/Microsoft.Framework.Configuration.dll": {}
+          "lib/net451/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8": {
+      "Microsoft.Extensions.Configuration.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8"
+          "Microsoft.Extensions.Primitives": "1.0.0-rc1-final"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -229,16 +197,16 @@
           "System.Core"
         ],
         "compile": {
-          "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.dll": {}
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8": {
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8"
+          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -247,17 +215,35 @@
           "System.Core"
         ],
         "compile": {
-          "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.dll": {}
+          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         },
         "runtime": {
-          "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.dll": {}
+          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Framework.Configuration.Json/1.0.0-beta8": {
+      "Microsoft.Extensions.Configuration.FileExtensions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Framework.Configuration": "1.0.0-beta8",
-          "Microsoft.Framework.Configuration.FileExtensions": "1.0.0-beta8",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "6.0.6"
         },
         "frameworkAssemblies": [
@@ -267,13 +253,28 @@
           "System.Core"
         ],
         "compile": {
-          "lib/dnx451/Microsoft.Framework.Configuration.Json.dll": {}
+          "lib/net451/Microsoft.Extensions.Configuration.Json.dll": {}
         },
         "runtime": {
-          "lib/dnx451/Microsoft.Framework.Configuration.Json.dll": {}
+          "lib/net451/Microsoft.Extensions.Configuration.Json.dll": {}
         }
       },
-      "MongoDB.Bson/2.1.0": {
+      "Microsoft.Extensions.Primitives/1.0.0-rc1-final": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.1.1": {
         "type": "package",
         "compile": {
           "lib/net45/MongoDB.Bson.dll": {}
@@ -282,11 +283,11 @@
           "lib/net45/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.1.0": {
+      "MongoDB.Driver/2.1.1": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.0",
-          "MongoDB.Driver.Core": "2.1.0"
+          "MongoDB.Bson": "2.1.1",
+          "MongoDB.Driver.Core": "2.1.1"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.dll": {}
@@ -295,10 +296,10 @@
           "lib/net45/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.1.0": {
+      "MongoDB.Driver.Core/2.1.1": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.0"
+          "MongoDB.Bson": "2.1.1"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.Core.dll": {}
@@ -354,25 +355,6 @@
         },
         "runtime": {
           "lib/net40/PasswordHash.dll": {}
-        }
-      },
-      "ServerControlService/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/ServerControlService.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/ServerControlService.dll": {}
         }
       },
       "ServiceStack/3.9.71": {
@@ -441,7 +423,441 @@
           "lib/net35/ServiceStack.Text.dll": {}
         }
       },
-      "System.Net.Http/4.0.1-beta-23409": {
+      "System.Net.Http/4.0.1-beta-23516": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "BahamutCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DBTek.Crypto": "2.1.0",
+          "Newtonsoft.Json": "7.0.1",
+          "NLog": "4.2.0",
+          "PasswordHash": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        }
+      },
+      "BahamutService/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BahamutCommon": "1.0.0",
+          "DataLevelDefines": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutService.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutService.dll": {}
+        }
+      },
+      "Chicago/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BahamutService": "1.0.0",
+          "CSharpServerFramework": "1.0.0",
+          "CSServerJsonProtocol": "1.0.0",
+          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+          "System.Net.Http": "4.0.1-beta-23516"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/Chicago.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Chicago.dll": {}
+        }
+      },
+      "CSharpServerFramework/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CSharpServerFrameworkAbstract": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSharpServerFramework.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSharpServerFramework.dll": {}
+        }
+      },
+      "CSharpServerFrameworkAbstract/1.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSharpServerFrameworkAbstract.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSharpServerFrameworkAbstract.dll": {}
+        }
+      },
+      "CSServerJsonProtocol/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CSharpServerFrameworkAbstract": "1.0.0",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSServerJsonProtocol.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSServerJsonProtocol.dll": {}
+        }
+      },
+      "DataLevelDefines/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.1.3",
+          "MongoDB.Driver": "2.1.1",
+          "MySql.Data": "6.9.7",
+          "MySql.Data.Entity": "6.9.7",
+          "ServiceStack": "3.9.71",
+          "ServiceStack.Common": "3.9.71",
+          "ServiceStack.Redis": "3.9.71",
+          "ServiceStack.Text": "3.9.71"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/DataLevelDefines.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/DataLevelDefines.dll": {}
+        }
+      },
+      "DBTek.Crypto/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        }
+      },
+      "EntityFramework/6.1.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.dll": {},
+          "lib/net45/EntityFramework.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {},
+          "lib/net45/EntityFramework.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final",
+          "Newtonsoft.Json": "6.0.6"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.Json.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/1.0.0-rc1-final": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.1.1",
+          "MongoDB.Driver.Core": "2.1.1"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.1.1"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "MySql.Data/6.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.dll": {}
+        }
+      },
+      "MySql.Data.Entity/6.9.7": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.0.0",
+          "MySql.Data": "6.9.7"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.EF6.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.EF6.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "PasswordHash/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/PasswordHash.dll": {}
+        },
+        "runtime": {
+          "lib/net40/PasswordHash.dll": {}
+        }
+      },
+      "ServiceStack/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "[3.0.0, 4.0.0)",
+          "ServiceStack.OrmLite.SqlServer": "[3.0.0, 4.0.0)",
+          "ServiceStack.Redis": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.dll": {},
+          "lib/net35/ServiceStack.ServiceInterface.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.dll": {},
+          "lib/net35/ServiceStack.ServiceInterface.dll": {}
+        }
+      },
+      "ServiceStack.Common/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Text": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.Common.dll": {},
+          "lib/net35/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Common.dll": {},
+          "lib/net35/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.OrmLite.SqlServer/3.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.OrmLite.dll": {},
+          "lib/ServiceStack.OrmLite.SqlServer.dll": {},
+          "lib/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.OrmLite.dll": {},
+          "lib/ServiceStack.OrmLite.SqlServer.dll": {},
+          "lib/ServiceStack.Text.dll": {}
+        }
+      },
+      "ServiceStack.Redis/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Text/3.9.71": {
+        "type": "package",
+        "compile": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        }
+      },
+      "System.Net.Http/4.0.1-beta-23516": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Net.Http"
@@ -458,7 +874,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "bARwdJraeCZAaZzFd4x/rXHJLghhg/aRJ8e+VItToKlDq9bf9r0lIp+HMdIFkbtPU0MAQeovKrWwYwfV1p0gFQ==",
+      "sha512": "lSMuJEeAJiDGPq0j9ujY3a3DTmdr/vsp6RvYLZGVmhtroFrmWyJZbDpMub0zVqsUxpV0V8f/hSK2Ut5jePRZcA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -472,7 +888,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "k0aePiOZ8WaxWRhDGSzZiRnu0qwaE7tnI7SjxOAnZULbbdzzRs9vP5hqUytmR3uhaWdqcG9BoYOYAIXlpsigqA==",
+      "sha512": "yGHTMPFizd+yVwBWY/i90+EnhpR3KZwKfEh1JDjireXCurDZDvONTcBwpmUlJPzQFFcoTutt9+4l780HRas59w==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -486,7 +902,7 @@
     },
     "Chicago/1.0.0": {
       "type": "package",
-      "sha512": "S+Oqz4LzFYhWSRdkybd7Jr0ls7SN1KwCf7zMksdinzP7Lo8KbbbGUccaynHgDLGq0AhAN+5JFoY03zlBjc4Tkg==",
+      "sha512": "dUVCK1GqkcqxxsLLwK/LfsCoXQ1g0vO/FCt9seLy1m1gGA5ZuFeCAuxdocdCWoF/U3dYuA87lguuCOf9GxElew==",
       "files": [
         "app/Chicago",
         "app/Chicago.cmd",
@@ -501,7 +917,6 @@
         "root/config_debug.json",
         "root/project.json",
         "root/project.lock.json",
-        "root/Properties/launchSettings.json",
         "root/Properties/PublishProfiles/chicago.pubxml",
         "root/Properties/PublishProfiles/chicago.pubxml.user",
         "root/Properties/PublishProfiles/chicago-publish.ps1"
@@ -509,7 +924,7 @@
     },
     "CSharpServerFramework/1.0.0": {
       "type": "package",
-      "sha512": "Hoxo5vGvxa3yAW6jxbwV/m2CbVsVOp/eP6IIIca/vlImtG7ew/b+J+7jO400aa3qq9AuakQuAQ2uGer0eAQwSg==",
+      "sha512": "r+rgwWq4AIVvZrrE76aJTqxnk4K2VzMgOoyVXBaE809GcFVln8kemfispdHBNH2FPc2gk+70z310zqTMuJOwog==",
       "files": [
         "CSharpServerFramework.1.0.0.nupkg",
         "CSharpServerFramework.1.0.0.nupkg.sha512",
@@ -526,7 +941,7 @@
     },
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "AYFaznUWzDTxC0ffS9U8vHQ7Pc5PyObI75Muvp+hRKF/KYBKRcdyCjokJreK5nVrC5yUa94vO5pC4imrkLej3A==",
+      "sha512": "KohqpTTiEpXc8PLud6YBtnmuqAQwxdBzOrfRe+ZC17HhYJ1yjial+28e4LNf8tSkGJcHa96SjkC38bp0BSQ4Pg==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
@@ -542,7 +957,7 @@
     },
     "CSServerJsonProtocol/1.0.0": {
       "type": "package",
-      "sha512": "KvQx6zB13oeC20ZGChK8GwHOOHPAzRmhY0R4dYxaYAeYovPQp+LKGWM073lPO84NQT4JagcGiuZ5rHQVYRYyIg==",
+      "sha512": "2MSbtvNmsDoCOys75fRxT9LUS0njUAXN2hal0t9tzNmQI73t0hvocXV6q8ra68TD/hPfIT2CMP4L5FRwK9BRTA==",
       "files": [
         "CSServerJsonProtocol.1.0.0.nupkg",
         "CSServerJsonProtocol.1.0.0.nupkg.sha512",
@@ -558,7 +973,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "NHXtRGlbPFFB6/JfdvJdqN1TB7yydp25Sir8TrLGvBosESLReC8eiUYszRMzXKYmVCXOvVpNyCeBCm8O2fUYTw==",
+      "sha512": "Vt7oHqshEmzNiFpt1bbuGjqSlTTP1pUP62dmjKRkiVKwo7tsqo0FYrSFzwf9tjz/1bYfhKCkICXknFy4KyAYxA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -613,138 +1028,134 @@
         "tools/migrate.exe"
       ]
     },
-    "Microsoft.Dnx.Runtime.Abstractions/1.0.0-beta8": {
+    "Microsoft.Extensions.Configuration/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "t1vLklb3nzZHDbrnXw49rOwq+/ATQby/em1L3seL4wODoHS0W4L7WHG8rxbMZCnrFo/G+UhB/atxULIMuwZL5w==",
+      "sha512": "2ayWzqMVGWjr8o8bOSnIsyQbi9sLz9Ya8+YM+9tM/ivSnLHuN7TNHNfJv4jTyRZvoOafdh5Ivlc/OdmsZPXlQQ==",
       "files": [
-        "lib/dnx451/Microsoft.Dnx.Runtime.Abstractions.dll",
-        "lib/dnx451/Microsoft.Dnx.Runtime.Abstractions.xml",
-        "lib/dnxcore50/Microsoft.Dnx.Runtime.Abstractions.dll",
-        "lib/dnxcore50/Microsoft.Dnx.Runtime.Abstractions.xml",
-        "Microsoft.Dnx.Runtime.Abstractions.1.0.0-beta8.nupkg",
-        "Microsoft.Dnx.Runtime.Abstractions.1.0.0-beta8.nupkg.sha512",
-        "Microsoft.Dnx.Runtime.Abstractions.nuspec"
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.xml",
+        "lib/net451/Microsoft.Extensions.Configuration.dll",
+        "lib/net451/Microsoft.Extensions.Configuration.xml",
+        "lib/netcore50/Microsoft.Extensions.Configuration.dll",
+        "lib/netcore50/Microsoft.Extensions.Configuration.xml",
+        "Microsoft.Extensions.Configuration.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Configuration.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Configuration.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration/1.0.0-beta8": {
+    "Microsoft.Extensions.Configuration.Abstractions/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "M2Fg4gBigELMjFow/w44eGZe7VICY6naOe8R6jKbtsXpDTKFsfCuXxpZcUfIgI791hs7Ney88IjxZ3XudsgJeg==",
+      "sha512": "xA7ObOlIswcx2qakv69kz0pnBizFJrmwxRxJyjPOHWfevF4W+OdolZsbKOc12kY7y5upqhAvNGWTblffMvADHA==",
       "files": [
-        "lib/dnx451/Microsoft.Framework.Configuration.dll",
-        "lib/dnx451/Microsoft.Framework.Configuration.xml",
-        "lib/dnxcore50/Microsoft.Framework.Configuration.dll",
-        "lib/dnxcore50/Microsoft.Framework.Configuration.xml",
-        "lib/dotnet/Microsoft.Framework.Configuration.dll",
-        "lib/dotnet/Microsoft.Framework.Configuration.xml",
-        "lib/net45/Microsoft.Framework.Configuration.dll",
-        "lib/net45/Microsoft.Framework.Configuration.xml",
-        "Microsoft.Framework.Configuration.1.0.0-beta8.nupkg",
-        "Microsoft.Framework.Configuration.1.0.0-beta8.nupkg.sha512",
-        "Microsoft.Framework.Configuration.nuspec"
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net451/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netcore50/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netcore50/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "Microsoft.Extensions.Configuration.Abstractions.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Configuration.Abstractions.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Configuration.Abstractions.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.Abstractions/1.0.0-beta8": {
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "WH5zC6AkShx6VZzZT37tl0QPROkR6zdffACEIPiDyPyqyf+DtWN5Z6v1q9OD5q6CfAij18EwqWaF1eWtYBigNw==",
+      "sha512": "CaNirkiOycy0L6ptGxmpDkHZ2lzqcHKDbQJBfEhobnEt43pqKGKgAPC5dW3DfnsMpuK+inypm5iht9t6tq4vjg==",
       "files": [
-        "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.dll",
-        "lib/dnx451/Microsoft.Framework.Configuration.Abstractions.xml",
-        "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.dll",
-        "lib/dnxcore50/Microsoft.Framework.Configuration.Abstractions.xml",
-        "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.dll",
-        "lib/dotnet/Microsoft.Framework.Configuration.Abstractions.xml",
-        "lib/net45/Microsoft.Framework.Configuration.Abstractions.dll",
-        "lib/net45/Microsoft.Framework.Configuration.Abstractions.xml",
-        "Microsoft.Framework.Configuration.Abstractions.1.0.0-beta8.nupkg",
-        "Microsoft.Framework.Configuration.Abstractions.1.0.0-beta8.nupkg.sha512",
-        "Microsoft.Framework.Configuration.Abstractions.nuspec"
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/net451/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "lib/netcore50/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "lib/netcore50/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
+        "Microsoft.Extensions.Configuration.EnvironmentVariables.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Configuration.EnvironmentVariables.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Configuration.EnvironmentVariables.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.EnvironmentVariables/1.0.0-beta8": {
+    "Microsoft.Extensions.Configuration.FileExtensions/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "9RulZy2X7XFSb2qQf49i/GcuJdmmG3C11gBUtdU4pDXdrZY2FxjNfav+4Pu2sjD98BWrP6SeRUMAikG4RZLlUQ==",
+      "sha512": "w2x8nqrp2YUgNBJuZ3SUmexBtjaoZFzCQtObRTjrE4GWceFEmaLZtXFvs4n9IgRQkOqqCza7Fv7NXnD9m2emjQ==",
       "files": [
-        "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.dll",
-        "lib/dnx451/Microsoft.Framework.Configuration.EnvironmentVariables.xml",
-        "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.dll",
-        "lib/dotnet/Microsoft.Framework.Configuration.EnvironmentVariables.xml",
-        "lib/net45/Microsoft.Framework.Configuration.EnvironmentVariables.dll",
-        "lib/net45/Microsoft.Framework.Configuration.EnvironmentVariables.xml",
-        "Microsoft.Framework.Configuration.EnvironmentVariables.1.0.0-beta8.nupkg",
-        "Microsoft.Framework.Configuration.EnvironmentVariables.1.0.0-beta8.nupkg.sha512",
-        "Microsoft.Framework.Configuration.EnvironmentVariables.nuspec"
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/netcore50/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netcore50/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "Microsoft.Extensions.Configuration.FileExtensions.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Configuration.FileExtensions.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Configuration.FileExtensions.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.FileExtensions/1.0.0-beta8": {
+    "Microsoft.Extensions.Configuration.Json/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "+hsytl/Puj6Gc6U934Y7n3hfdkJG7lfvasIwY0RnAmsTSxJ6pF54A/mR3d/EwSHyUyMlgSnSHeoTXZ4u8RfJsA==",
+      "sha512": "9v+RpswnXEpAP5mx8J1w1yZZT2pPtMBTnOAauNh2c9ju5Dhq3ljxvbm0S9j6o5F/EFSLlbfN/brxTJN3qa/upw==",
       "files": [
-        "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.dll",
-        "lib/dnx451/Microsoft.Framework.Configuration.FileExtensions.xml",
-        "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.dll",
-        "lib/dotnet/Microsoft.Framework.Configuration.FileExtensions.xml",
-        "lib/net45/Microsoft.Framework.Configuration.FileExtensions.dll",
-        "lib/net45/Microsoft.Framework.Configuration.FileExtensions.xml",
-        "Microsoft.Framework.Configuration.FileExtensions.1.0.0-beta8.nupkg",
-        "Microsoft.Framework.Configuration.FileExtensions.1.0.0-beta8.nupkg.sha512",
-        "Microsoft.Framework.Configuration.FileExtensions.nuspec"
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net451/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net451/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netcore50/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netcore50/Microsoft.Extensions.Configuration.Json.xml",
+        "Microsoft.Extensions.Configuration.Json.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Configuration.Json.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Configuration.Json.nuspec"
       ]
     },
-    "Microsoft.Framework.Configuration.Json/1.0.0-beta8": {
+    "Microsoft.Extensions.Primitives/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
-      "sha512": "dfA9iuKWri9gVaAY7XEQMXP5C+PMalC+0vDhv9AUuawwuTeQm11JhOwXzdPu/FM4Bbwm33kHlVkLrHRW403XIA==",
+      "sha512": "oHWqBARJveyM7LctuqQqvsTC58hxoq0gGnHr6Qsxie71LIkZpfE21IklhSLOsqmv4QIpes/G6k1vZbAQ+cC/nw==",
       "files": [
-        "lib/dnx451/Microsoft.Framework.Configuration.Json.dll",
-        "lib/dnx451/Microsoft.Framework.Configuration.Json.xml",
-        "lib/dnxcore50/Microsoft.Framework.Configuration.Json.dll",
-        "lib/dnxcore50/Microsoft.Framework.Configuration.Json.xml",
-        "lib/dotnet/Microsoft.Framework.Configuration.Json.dll",
-        "lib/dotnet/Microsoft.Framework.Configuration.Json.xml",
-        "lib/net45/Microsoft.Framework.Configuration.Json.dll",
-        "lib/net45/Microsoft.Framework.Configuration.Json.xml",
-        "Microsoft.Framework.Configuration.Json.1.0.0-beta8.nupkg",
-        "Microsoft.Framework.Configuration.Json.1.0.0-beta8.nupkg.sha512",
-        "Microsoft.Framework.Configuration.Json.nuspec"
+        "lib/dotnet5.4/Microsoft.Extensions.Primitives.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Primitives.xml",
+        "lib/net451/Microsoft.Extensions.Primitives.dll",
+        "lib/net451/Microsoft.Extensions.Primitives.xml",
+        "lib/netcore50/Microsoft.Extensions.Primitives.dll",
+        "lib/netcore50/Microsoft.Extensions.Primitives.xml",
+        "Microsoft.Extensions.Primitives.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Primitives.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Primitives.nuspec"
       ]
     },
-    "MongoDB.Bson/2.1.0": {
+    "MongoDB.Bson/2.1.1": {
       "type": "package",
-      "sha512": "SU3ADn6QNRy4xOqMDRrhQWpNHhZxBOSDaKtvUknTji2HuSuqYmq4HQUjU/9asFXjRqIVSs/s0fLwOpNhfs61fA==",
+      "sha512": "exC90gaZtCi+x2kNlMNfUfTi2e20EPUIwM0ym+fTxeBBPY/5W5izlC0uXOkXxHjNyC4dn2xOX5pLbrLeji/OWA==",
       "files": [
         "lib/net45/MongoDB.Bson.dll",
         "lib/net45/MongoDB.Bson.XML",
         "License.rtf",
-        "MongoDB.Bson.2.1.0.nupkg",
-        "MongoDB.Bson.2.1.0.nupkg.sha512",
+        "MongoDB.Bson.2.1.1.nupkg",
+        "MongoDB.Bson.2.1.1.nupkg.sha512",
         "MongoDB.Bson.nuspec"
       ]
     },
-    "MongoDB.Driver/2.1.0": {
+    "MongoDB.Driver/2.1.1": {
       "type": "package",
-      "sha512": "tcJBzkHJvrnAqjFfMNdDdQmR1sn/tQx22eH0a59tBfdDS9Bu0hcPTfU7zI1Xglq+8BJtiGwBbzZvZcLBgkOT+A==",
+      "sha512": "ROXtw0yskUzrtqCN2kMR6YbPD9W2SS3ppTlICe5P6SI1MyRg2jQc/1wPllyKGtsdSHkBsiCp2MwyrQhVzR5bLQ==",
       "files": [
         "lib/net45/MongoDB.Driver.dll",
         "lib/net45/MongoDB.Driver.XML",
         "License.rtf",
-        "MongoDB.Driver.2.1.0.nupkg",
-        "MongoDB.Driver.2.1.0.nupkg.sha512",
+        "MongoDB.Driver.2.1.1.nupkg",
+        "MongoDB.Driver.2.1.1.nupkg.sha512",
         "MongoDB.Driver.nuspec"
       ]
     },
-    "MongoDB.Driver.Core/2.1.0": {
+    "MongoDB.Driver.Core/2.1.1": {
       "type": "package",
-      "sha512": "0Qu3jWifZ6r/7qWYtnxRaSN1MgFSXNTJNK7jfMn2QpG85ez8K3DNu847TZn3Qu1ZKdv2YFZBNGFMnPuYQomgjg==",
+      "sha512": "nFJzE9k3VkigMfXoojV004LCVTD0UZaIeGVMyLPdOXerLFs81Kauqq+35mzi46f5/JBdy++q2taTuNZEKbezMQ==",
       "files": [
         "lib/net45/MongoDB.Driver.Core.dll",
         "License.rtf",
-        "MongoDB.Driver.Core.2.1.0.nupkg",
-        "MongoDB.Driver.Core.2.1.0.nupkg.sha512",
+        "MongoDB.Driver.Core.2.1.1.nupkg",
+        "MongoDB.Driver.Core.2.1.1.nupkg.sha512",
         "MongoDB.Driver.Core.nuspec"
       ]
     },
@@ -831,20 +1242,6 @@
         "PasswordHash.nuspec"
       ]
     },
-    "ServerControlService/1.0.0": {
-      "type": "package",
-      "sha512": "5TAxN1bU5GtSxyiwowGaFwu7ApFWaCLSiFoad3VgcrMJLjMpFCKNMQrlNaYkf2GQOzvqPCF1690Ekn0SPHlnOw==",
-      "files": [
-        "lib/dnx451/ServerControlService.dll",
-        "lib/dnx451/ServerControlService.xml",
-        "root/project.json",
-        "root/project.lock.json",
-        "root/ServerControlService.xproj.user",
-        "ServerControlService.1.0.0.nupkg",
-        "ServerControlService.1.0.0.nupkg.sha512",
-        "ServerControlService.nuspec"
-      ]
-    },
     "ServiceStack/3.9.71": {
       "type": "package",
       "sha512": "G6shF+9Wc8yO32vpiLCXP9zl0F2d4pDxaNmtFl4QpQMUSPdD589DRWQm9xfg/k4g2K9ANjOAAecZcAFi9SsDNQ==",
@@ -921,22 +1318,42 @@
         "ServiceStack.Text.nuspec"
       ]
     },
-    "System.Net.Http/4.0.1-beta-23409": {
+    "System.Net.Http/4.0.1-beta-23516": {
       "type": "package",
       "serviceable": true,
-      "sha512": "h9CPYbGzH/9faYD24qLNBY+/dH8F67AktW3UvrEJR7Xan3bzXKJd5Po/3+qRswNsRUH2P/HBSK5fZE3CKVmhxg==",
+      "sha512": "WbmX0jo84S72GVhRbKtBBUkx2dQ1hzb4TRSLfaiktRh7QKnSP9ctzTxBvXghWQ6GnswBzTHnuc69msImZH5b6A==",
       "files": [
         "lib/net45/_._",
         "lib/win8/_._",
         "lib/wpa81/_._",
-        "ref/dotnet/System.Net.Http.dll",
+        "ref/dotnet5.2/de/System.Net.Http.xml",
+        "ref/dotnet5.2/es/System.Net.Http.xml",
+        "ref/dotnet5.2/fr/System.Net.Http.xml",
+        "ref/dotnet5.2/it/System.Net.Http.xml",
+        "ref/dotnet5.2/ja/System.Net.Http.xml",
+        "ref/dotnet5.2/ko/System.Net.Http.xml",
+        "ref/dotnet5.2/ru/System.Net.Http.xml",
+        "ref/dotnet5.2/System.Net.Http.dll",
+        "ref/dotnet5.2/System.Net.Http.xml",
+        "ref/dotnet5.2/zh-hans/System.Net.Http.xml",
+        "ref/dotnet5.2/zh-hant/System.Net.Http.xml",
         "ref/net45/_._",
+        "ref/netcore50/de/System.Net.Http.xml",
+        "ref/netcore50/es/System.Net.Http.xml",
+        "ref/netcore50/fr/System.Net.Http.xml",
+        "ref/netcore50/it/System.Net.Http.xml",
+        "ref/netcore50/ja/System.Net.Http.xml",
+        "ref/netcore50/ko/System.Net.Http.xml",
+        "ref/netcore50/ru/System.Net.Http.xml",
         "ref/netcore50/System.Net.Http.dll",
+        "ref/netcore50/System.Net.Http.xml",
+        "ref/netcore50/zh-hans/System.Net.Http.xml",
+        "ref/netcore50/zh-hant/System.Net.Http.xml",
         "ref/win8/_._",
         "ref/wpa81/_._",
         "runtime.json",
-        "System.Net.Http.4.0.1-beta-23409.nupkg",
-        "System.Net.Http.4.0.1-beta-23409.nupkg.sha512",
+        "System.Net.Http.4.0.1-beta-23516.nupkg",
+        "System.Net.Http.4.0.1-beta-23516.nupkg.sha512",
         "System.Net.Http.nuspec"
       ]
     }

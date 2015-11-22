@@ -1,16 +1,25 @@
 {
-  "licenseUrl": "",
-  "projectUrl": "",
-  "tags": "",
   "version": "1.0.0-*",
-  "frameworks": {
-    "dnx451": {}
+  "description": "Chicago Console Application",
+  "authors": [
+    "广杰"
+  ],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "compilationOptions": {
+    "emitEntryPoint": true
   },
   "dependencies": {
     "Chicago": "1.0.0"
   },
   "commands": {
     "Chicago": "Chicago"
+  },
+  "frameworks": {
+    "dnx451": {}
   },
   "entryPoint": "Chicago",
   "loadable": false

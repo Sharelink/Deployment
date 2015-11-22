@@ -28,7 +28,7 @@
         "type": "package",
         "dependencies": {
           "EntityFramework": "6.1.3",
-          "MongoDB.Driver": "2.1.0",
+          "MongoDB.Driver": "2.1.1",
           "MySql.Data": "6.9.7",
           "MySql.Data.Entity": "6.9.7",
           "ServiceStack": "3.9.71",
@@ -72,7 +72,7 @@
           "lib/net45/EntityFramework.SqlServer.dll": {}
         }
       },
-      "MongoDB.Bson/2.1.0": {
+      "MongoDB.Bson/2.1.1": {
         "type": "package",
         "compile": {
           "lib/net45/MongoDB.Bson.dll": {}
@@ -81,11 +81,11 @@
           "lib/net45/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.1.0": {
+      "MongoDB.Driver/2.1.1": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.0",
-          "MongoDB.Driver.Core": "2.1.0"
+          "MongoDB.Bson": "2.1.1",
+          "MongoDB.Driver.Core": "2.1.1"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.dll": {}
@@ -94,10 +94,488 @@
           "lib/net45/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.1.0": {
+      "MongoDB.Driver.Core/2.1.1": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.0"
+          "MongoDB.Bson": "2.1.1"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "MySql.Data/6.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.dll": {}
+        }
+      },
+      "MySql.Data.Entity/6.9.7": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.0.0",
+          "MySql.Data": "6.9.7"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.EF6.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.EF6.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "PasswordHash/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/PasswordHash.dll": {}
+        },
+        "runtime": {
+          "lib/net40/PasswordHash.dll": {}
+        }
+      },
+      "ServerControlService/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BahamutCommon": "1.0.0",
+          "DataLevelDefines": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/ServerControlService.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/ServerControlService.dll": {}
+        }
+      },
+      "ServiceStack/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "[3.0.0, 4.0.0)",
+          "ServiceStack.OrmLite.SqlServer": "[3.0.0, 4.0.0)",
+          "ServiceStack.Redis": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.dll": {},
+          "lib/net35/ServiceStack.ServiceInterface.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.dll": {},
+          "lib/net35/ServiceStack.ServiceInterface.dll": {}
+        }
+      },
+      "ServiceStack.Common/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Text": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.Common.dll": {},
+          "lib/net35/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Common.dll": {},
+          "lib/net35/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.OrmLite.SqlServer/3.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.OrmLite.dll": {},
+          "lib/ServiceStack.OrmLite.SqlServer.dll": {},
+          "lib/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.OrmLite.dll": {},
+          "lib/ServiceStack.OrmLite.SqlServer.dll": {},
+          "lib/ServiceStack.Text.dll": {}
+        }
+      },
+      "ServiceStack.Redis/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Text/3.9.71": {
+        "type": "package",
+        "compile": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "BahamutCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DBTek.Crypto": "2.1.0",
+          "Newtonsoft.Json": "7.0.1",
+          "NLog": "4.2.0",
+          "PasswordHash": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        }
+      },
+      "DataLevelDefines/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.1.3",
+          "MongoDB.Driver": "2.1.1",
+          "MySql.Data": "6.9.7",
+          "MySql.Data.Entity": "6.9.7",
+          "ServiceStack": "3.9.71",
+          "ServiceStack.Common": "3.9.71",
+          "ServiceStack.Redis": "3.9.71",
+          "ServiceStack.Text": "3.9.71"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/DataLevelDefines.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/DataLevelDefines.dll": {}
+        }
+      },
+      "DBTek.Crypto/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        }
+      },
+      "EntityFramework/6.1.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.dll": {},
+          "lib/net45/EntityFramework.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {},
+          "lib/net45/EntityFramework.SqlServer.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.1.1",
+          "MongoDB.Driver.Core": "2.1.1"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.1.1"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.Core.dll": {}
+        }
+      },
+      "MySql.Data/6.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.dll": {}
+        }
+      },
+      "MySql.Data.Entity/6.9.7": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.0.0",
+          "MySql.Data": "6.9.7"
+        },
+        "compile": {
+          "lib/net45/MySql.Data.Entity.EF6.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySql.Data.Entity.EF6.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "PasswordHash/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/PasswordHash.dll": {}
+        },
+        "runtime": {
+          "lib/net40/PasswordHash.dll": {}
+        }
+      },
+      "ServerControlService/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BahamutCommon": "1.0.0",
+          "DataLevelDefines": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/ServerControlService.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/ServerControlService.dll": {}
+        }
+      },
+      "ServiceStack/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "[3.0.0, 4.0.0)",
+          "ServiceStack.OrmLite.SqlServer": "[3.0.0, 4.0.0)",
+          "ServiceStack.Redis": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.dll": {},
+          "lib/net35/ServiceStack.ServiceInterface.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.dll": {},
+          "lib/net35/ServiceStack.ServiceInterface.dll": {}
+        }
+      },
+      "ServiceStack.Common/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Text": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.Common.dll": {},
+          "lib/net35/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Common.dll": {},
+          "lib/net35/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.OrmLite.SqlServer/3.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.OrmLite.dll": {},
+          "lib/ServiceStack.OrmLite.SqlServer.dll": {},
+          "lib/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.OrmLite.dll": {},
+          "lib/ServiceStack.OrmLite.SqlServer.dll": {},
+          "lib/ServiceStack.Text.dll": {}
+        }
+      },
+      "ServiceStack.Redis/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Text/3.9.71": {
+        "type": "package",
+        "compile": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "BahamutCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DBTek.Crypto": "2.1.0",
+          "Newtonsoft.Json": "7.0.1",
+          "NLog": "4.2.0",
+          "PasswordHash": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutCommon.dll": {}
+        }
+      },
+      "DataLevelDefines/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.1.3",
+          "MongoDB.Driver": "2.1.1",
+          "MySql.Data": "6.9.7",
+          "MySql.Data.Entity": "6.9.7",
+          "ServiceStack": "3.9.71",
+          "ServiceStack.Common": "3.9.71",
+          "ServiceStack.Redis": "3.9.71",
+          "ServiceStack.Text": "3.9.71"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/DataLevelDefines.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/DataLevelDefines.dll": {}
+        }
+      },
+      "DBTek.Crypto/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DBTek.Crypto.dll": {}
+        }
+      },
+      "EntityFramework/6.1.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.dll": {},
+          "lib/net45/EntityFramework.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {},
+          "lib/net45/EntityFramework.SqlServer.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Bson.dll": {}
+        }
+      },
+      "MongoDB.Driver/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.1.1",
+          "MongoDB.Driver.Core": "2.1.1"
+        },
+        "compile": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MongoDB.Driver.dll": {}
+        }
+      },
+      "MongoDB.Driver.Core/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MongoDB.Bson": "2.1.1"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.Core.dll": {}
@@ -245,7 +723,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "QyP+BNp9KGs1wfvBFigglWgdSr6bC92gNHYegvrf5XgCM9H96hNDu/4p6K1qCiq6cfxmhUtaXR76lukTpLdixA==",
+      "sha512": "cEiHrC+RDplA8RTRBYZNrue3v+RlEMuXtkKgvkX9dCYdy7tfACwq6zLjcFoJY3X2EM899DIl/C0SviMp/M8Yew==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -259,7 +737,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "zUFkdxAM5lDcsZNjRIpCe4CL/ZpYZINdroSknGFCFNKQaJlQPDc6n6jdBF1teJ7YtuOKCWMjLmqP5mb+fyCDIw==",
+      "sha512": "uZbupX/Hu4u8ldWLnq1EAK3sX/QwamsL9Dzt9bSBMNUJrFJotWBSTA8/y2kDYv/EoDzlN5wb1ETd9LglMX9P4g==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -314,38 +792,38 @@
         "tools/migrate.exe"
       ]
     },
-    "MongoDB.Bson/2.1.0": {
+    "MongoDB.Bson/2.1.1": {
       "type": "package",
-      "sha512": "SU3ADn6QNRy4xOqMDRrhQWpNHhZxBOSDaKtvUknTji2HuSuqYmq4HQUjU/9asFXjRqIVSs/s0fLwOpNhfs61fA==",
+      "sha512": "exC90gaZtCi+x2kNlMNfUfTi2e20EPUIwM0ym+fTxeBBPY/5W5izlC0uXOkXxHjNyC4dn2xOX5pLbrLeji/OWA==",
       "files": [
         "lib/net45/MongoDB.Bson.dll",
         "lib/net45/MongoDB.Bson.XML",
         "License.rtf",
-        "MongoDB.Bson.2.1.0.nupkg",
-        "MongoDB.Bson.2.1.0.nupkg.sha512",
+        "MongoDB.Bson.2.1.1.nupkg",
+        "MongoDB.Bson.2.1.1.nupkg.sha512",
         "MongoDB.Bson.nuspec"
       ]
     },
-    "MongoDB.Driver/2.1.0": {
+    "MongoDB.Driver/2.1.1": {
       "type": "package",
-      "sha512": "tcJBzkHJvrnAqjFfMNdDdQmR1sn/tQx22eH0a59tBfdDS9Bu0hcPTfU7zI1Xglq+8BJtiGwBbzZvZcLBgkOT+A==",
+      "sha512": "ROXtw0yskUzrtqCN2kMR6YbPD9W2SS3ppTlICe5P6SI1MyRg2jQc/1wPllyKGtsdSHkBsiCp2MwyrQhVzR5bLQ==",
       "files": [
         "lib/net45/MongoDB.Driver.dll",
         "lib/net45/MongoDB.Driver.XML",
         "License.rtf",
-        "MongoDB.Driver.2.1.0.nupkg",
-        "MongoDB.Driver.2.1.0.nupkg.sha512",
+        "MongoDB.Driver.2.1.1.nupkg",
+        "MongoDB.Driver.2.1.1.nupkg.sha512",
         "MongoDB.Driver.nuspec"
       ]
     },
-    "MongoDB.Driver.Core/2.1.0": {
+    "MongoDB.Driver.Core/2.1.1": {
       "type": "package",
-      "sha512": "0Qu3jWifZ6r/7qWYtnxRaSN1MgFSXNTJNK7jfMn2QpG85ez8K3DNu847TZn3Qu1ZKdv2YFZBNGFMnPuYQomgjg==",
+      "sha512": "nFJzE9k3VkigMfXoojV004LCVTD0UZaIeGVMyLPdOXerLFs81Kauqq+35mzi46f5/JBdy++q2taTuNZEKbezMQ==",
       "files": [
         "lib/net45/MongoDB.Driver.Core.dll",
         "License.rtf",
-        "MongoDB.Driver.Core.2.1.0.nupkg",
-        "MongoDB.Driver.Core.2.1.0.nupkg.sha512",
+        "MongoDB.Driver.Core.2.1.1.nupkg",
+        "MongoDB.Driver.Core.2.1.1.nupkg.sha512",
         "MongoDB.Driver.Core.nuspec"
       ]
     },
@@ -434,7 +912,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "RECTSE1o+Itfbv/nNrJkkAs2/pUcUPRikAc1LyFWAHl9RPQzUOiN6NxWs7hcLUOAs90PsxiwUSiPCdF0PuALsQ==",
+      "sha512": "e0X9Eq2ikdgM26BrZmqHBfoVORGP2Tu/UHwS4XlkY6ImnH3RcSEYp05BtgiA+/URwP+CUUztxVuD42Gdnlqrag==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

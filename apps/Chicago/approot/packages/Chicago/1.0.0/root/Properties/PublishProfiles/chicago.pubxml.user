@@ -8,9 +8,4 @@
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>D:\Source\Git\bahamut\Deployment\apps\Chicago</_PublishTargetUrl>
   </PropertyGroup>
-  <ItemGroup>
-    <File Include="config.json">
-      <publishTime>11/06/2015 15:48:02</publishTime>
-    </File>
-  </ItemGroup>
 </Project>
