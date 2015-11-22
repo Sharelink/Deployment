@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Chicago</id>
+    <version>1.0.0</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>广杰</authors>
+    <owners>广杰</owners>
+    <description>Chicago Console Application</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="BahamutService" version="1.0.0" />
+        <dependency id="CSharpServerFramework" version="1.0.0" />
+        <dependency id="CSServerJsonProtocol" version="1.0.0" />
+        <dependency id="Microsoft.Extensions.Configuration" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="1.0.0-rc1-final" />
+        <dependency id="System.Net.Http" version="4.0.1-beta-23516" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "description": "BahamutDBModel Class Library",
+  "authors": [
+    "广杰"
+  ],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "BahamutService": "1.0.0"
+  },
+  "frameworks": {
+    "dnx451": {}
+  },
+  "entryPoint": "BahamutService",
+  "loadable": false
+}
