@@ -1,6 +1,8 @@
 {
-  "webroot": "wwwroot",
   "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
   "dependencies": {
     "FireServer": "1.0.0"
   },
@@ -12,13 +14,9 @@
   },
   "exclude": [
     "wwwroot",
-    "node_modules",
-    "bower_components"
+    "node_modules"
   ],
   "publishExclude": [
-    "node_modules",
-    "bower_components",
-    "**.xproj",
     "**.user",
     "**.vspscc"
   ],

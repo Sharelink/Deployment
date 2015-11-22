@@ -63,25 +63,6 @@
           "lib/dnx451/BahamutFireService.dll": {}
         }
       },
-      "BahamutService/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/BahamutService.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/BahamutService.dll": {}
-        }
-      },
       "DataLevelDefines/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -134,12 +115,8 @@
         "type": "package",
         "dependencies": {
           "BahamutFireService": "1.0.0",
-          "BahamutService": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
-          "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "ServerControlService": "1.0.0"
+          "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -148,11 +125,9 @@
           "System.Core"
         ],
         "compile": {
-          "lib/dnx451/APIServer.dll": {},
           "lib/dnx451/FireServer.dll": {}
         },
         "runtime": {
-          "lib/dnx451/APIServer.dll": {},
           "lib/dnx451/FireServer.dll": {}
         }
       },
@@ -884,28 +859,6 @@
           "lib/dnx451/Microsoft.AspNet.Server.Kestrel.dll": {}
         }
       },
-      "Microsoft.AspNet.StaticFiles/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.WebEncoders": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        }
-      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1512,25 +1465,6 @@
           "lib/net40/PasswordHash.dll": {}
         }
       },
-      "ServerControlService/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/ServerControlService.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/ServerControlService.dll": {}
-        }
-      },
       "ServiceStack/3.9.71": {
         "type": "package",
         "dependencies": {
@@ -1870,25 +1804,6 @@
           "lib/dnx451/BahamutFireService.dll": {}
         }
       },
-      "BahamutService/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/BahamutService.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/BahamutService.dll": {}
-        }
-      },
       "DataLevelDefines/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -1941,12 +1856,8 @@
         "type": "package",
         "dependencies": {
           "BahamutFireService": "1.0.0",
-          "BahamutService": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
-          "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "ServerControlService": "1.0.0"
+          "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1955,11 +1866,9 @@
           "System.Core"
         ],
         "compile": {
-          "lib/dnx451/APIServer.dll": {},
           "lib/dnx451/FireServer.dll": {}
         },
         "runtime": {
-          "lib/dnx451/APIServer.dll": {},
           "lib/dnx451/FireServer.dll": {}
         }
       },
@@ -2694,28 +2603,6 @@
           "runtimes/win7-x86/native/libuv.dll": {}
         }
       },
-      "Microsoft.AspNet.StaticFiles/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.WebEncoders": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        }
-      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -3322,25 +3209,6 @@
           "lib/net40/PasswordHash.dll": {}
         }
       },
-      "ServerControlService/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/ServerControlService.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/ServerControlService.dll": {}
-        }
-      },
       "ServiceStack/3.9.71": {
         "type": "package",
         "dependencies": {
@@ -3680,25 +3548,6 @@
           "lib/dnx451/BahamutFireService.dll": {}
         }
       },
-      "BahamutService/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/BahamutService.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/BahamutService.dll": {}
-        }
-      },
       "DataLevelDefines/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -3751,12 +3600,8 @@
         "type": "package",
         "dependencies": {
           "BahamutFireService": "1.0.0",
-          "BahamutService": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
-          "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "ServerControlService": "1.0.0"
+          "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3765,11 +3610,9 @@
           "System.Core"
         ],
         "compile": {
-          "lib/dnx451/APIServer.dll": {},
           "lib/dnx451/FireServer.dll": {}
         },
         "runtime": {
-          "lib/dnx451/APIServer.dll": {},
           "lib/dnx451/FireServer.dll": {}
         }
       },
@@ -4504,28 +4347,6 @@
           "runtimes/win7-x64/native/libuv.dll": {}
         }
       },
-      "Microsoft.AspNet.StaticFiles/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Hosting.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.WebEncoders": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        }
-      },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -5132,25 +4953,6 @@
           "lib/net40/PasswordHash.dll": {}
         }
       },
-      "ServerControlService/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "BahamutCommon": "1.0.0",
-          "DataLevelDefines": "1.0.0"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/ServerControlService.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/ServerControlService.dll": {}
-        }
-      },
       "ServiceStack/3.9.71": {
         "type": "package",
         "dependencies": {
@@ -5433,7 +5235,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "ByslJ4J2+eZJPHybRuEgk9KsSoY9BH5PtYuRqWj7jFwO7qw8JoEKvAZGI1gbxjfg33vBHUCBu+5R760PGYQOJQ==",
+      "sha512": "qQIOQMaxXRDp41rl0AkqrramRolIbNy7nq5nAUjboarGHL7KF2mPZJpp24ywULozomlp8gVQD+NkLR2wNMJx7g==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5447,7 +5249,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "IGIKEufVcthfEKR9YRHztjyBxEyJZcv2UkERtn/l5B4vCQ4mfrBS7Q8ziiN0l+GAKXJlp8IDq4rjHPl2dvh32A==",
+      "sha512": "UBsSO9AQkZVO0fx04ilz5SSAeZKVOpsLH7aQVd95udo5juS0OswKDGZkX6VwwQZt4EHt1Zim/m0OsdZe745QQg==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -5461,7 +5263,7 @@
     },
     "BahamutFireService/1.0.0": {
       "type": "package",
-      "sha512": "D42MQscw7LBkuemhTbc79wqAsT7HTRFQYx+tcgvrslizRmzWCjQLFGvh/4SQzyMcDYP+SFyM2N9a0ouWI8taDw==",
+      "sha512": "NTps4Dbsmgh3LDaAgHzQVUN4PhwztQAL4MYy87T/kwR86QelzEBI+6/6FBj3vS3Dx3m+htoS2foKcCrGKuGbTA==",
       "files": [
         "BahamutFireService.1.0.0.nupkg",
         "BahamutFireService.1.0.0.nupkg.sha512",
@@ -5473,23 +5275,9 @@
         "root/project.lock.json"
       ]
     },
-    "BahamutService/1.0.0": {
-      "type": "package",
-      "sha512": "Fpc6wsNCEZljFELwenUHocFkzAKEH6mGaAP6o2u67QF3q9gJjqjtka+IdxHTBHM2PifNWg+BXKp94PV1T64PzQ==",
-      "files": [
-        "BahamutService.1.0.0.nupkg",
-        "BahamutService.1.0.0.nupkg.sha512",
-        "BahamutService.nuspec",
-        "lib/dnx451/BahamutService.dll",
-        "lib/dnx451/BahamutService.xml",
-        "root/BahamutService.xproj.user",
-        "root/project.json",
-        "root/project.lock.json"
-      ]
-    },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "O2fOPIfKBXFgbGX4oPxed3JnGNkGRmoScvVoGgQArlzYktrhVWg6E2Hq/iHlXsN8wMCiTPRpb1wsE1kxUikPZQ==",
+      "sha512": "lhSZzUivUqrmon/7c4Niu4VVeZ2TX2eV0v7gaZ5fLuP6UIeAv6gKNTSpRkZyBpZQ7y7NFqJsYsPtWZlzJjXHFA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -5546,19 +5334,14 @@
     },
     "FireServer/1.0.0": {
       "type": "package",
-      "sha512": "nq3Ockzg2XwJPKN8ZYW77SNqdIRSMXo/HbZVyao2mR2YUjPNF/ixUUHTu0sV1qWHyJlfuxkX6jHhs1wUWBBj/g==",
+      "sha512": "mtuZ+rGECJ9WI0Vazi3Ny8qgC44y6P79k1lCKns2yor7eUj1v0BWC3ISzriHJlikX1eOWyUoGkIoPGPwIIMhGA==",
       "files": [
         "app/project.json",
         "FireServer.1.0.0.nupkg",
         "FireServer.1.0.0.nupkg.sha512",
         "FireServer.nuspec",
-        "lib/dnx451/APIServer.dll",
-        "lib/dnx451/APIServer.xml",
         "lib/dnx451/FireServer.dll",
         "lib/dnx451/FireServer.xml",
-        "root/config.json",
-        "root/config_debug.json",
-        "root/hosting.ini",
         "root/hosting.json",
         "root/project.json",
         "root/project.lock.json",
@@ -6083,20 +5866,6 @@
         "runtimes/win7-x64/native/libuv.dll",
         "runtimes/win7-x86/native/libuv.dll",
         "thirdpartynotices.txt"
-      ]
-    },
-    "Microsoft.AspNet.StaticFiles/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "JKFrKL6iwGzG+DO9vwP8fEbz3gHA9K6SoCE/Th/oIwxDEENNF2TAYjjAag5c0iJcaK3+X8+s2RkA/zZ+vWHOTg==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.StaticFiles.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.StaticFiles.xml",
-        "lib/net451/Microsoft.AspNet.StaticFiles.dll",
-        "lib/net451/Microsoft.AspNet.StaticFiles.xml",
-        "Microsoft.AspNet.StaticFiles.1.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.StaticFiles.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.StaticFiles.nuspec"
       ]
     },
     "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -6679,20 +6448,6 @@
         "PasswordHash.1.1.0.nupkg",
         "PasswordHash.1.1.0.nupkg.sha512",
         "PasswordHash.nuspec"
-      ]
-    },
-    "ServerControlService/1.0.0": {
-      "type": "package",
-      "sha512": "VX0JjyCIhaVd8oAaUbk1iFSMilupyjxs209qdCVXdseRR/oxL/hPo9djSUMYsRESG3aUDfDyao3/jAJVfPed0w==",
-      "files": [
-        "lib/dnx451/ServerControlService.dll",
-        "lib/dnx451/ServerControlService.xml",
-        "root/project.json",
-        "root/project.lock.json",
-        "root/ServerControlService.xproj.user",
-        "ServerControlService.1.0.0.nupkg",
-        "ServerControlService.1.0.0.nupkg.sha512",
-        "ServerControlService.nuspec"
       ]
     },
     "ServiceStack/3.9.71": {
