@@ -16,7 +16,6 @@ namespace FireServer.Controllers
         [HttpPost]
         public async Task<IActionResult> Index()
         {
-            NLog.LogManager.GetCurrentClassLogger().Info("File UploadFileController");
             try
             {
                 string accessKey = Request.Headers["accessKey"];
