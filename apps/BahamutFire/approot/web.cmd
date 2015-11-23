@@ -24,4 +24,4 @@ IF "%DNX_PATH%" == "" (
   SET "DNX_PATH=dnx.exe"
 )
 
-@"%DNX_PATH%" --project "%~dp0packages\FireServer\1.0.0\root" --configuration Release web %*
+@"%DNX_PATH%" --project "%~dp0src\FireServer" --configuration Release web %*
