@@ -15,7 +15,7 @@ namespace FireServer
 {
     public class Startup
     {
-        private readonly IConfiguration Configuration;
+        public static IConfiguration Configuration { private set; get; }
         public static TokenService TokenService { private set; get; }
         public static ServerControlManagementService ServerControlMgrService { get; set; }
         public static string BahamutFireDbUrl { get; private set; }
@@ -32,7 +32,7 @@ namespace FireServer
             }
             else
             {
-                builder.AddJsonFile("config.json");
+                builder.AddJsonFile("config_production.json");
             }
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();

@@ -7,14 +7,10 @@
         "type": "package",
         "dependencies": {
           "BahamutService": "1.0.0",
-          "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final",
           "ServerControlService": "1.0.0"
         },
         "frameworkAssemblies": [
@@ -239,33 +235,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.DataProtection.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Diagnostics/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Diagnostics.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.WebUtilities": "1.0.0-rc1-final",
-          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
-          "Microsoft.Extensions.WebEncoders.Core": "1.0.0-rc1-final",
-          "System.Diagnostics.DiagnosticSource": "4.0.0-beta-23516"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Diagnostics.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Diagnostics.dll": {}
         }
       },
       "Microsoft.AspNet.Diagnostics.Abstractions/1.0.0-rc1-final": {
@@ -739,26 +708,6 @@
           "lib/net451/Microsoft.AspNet.Mvc.Razor.Host.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc.TagHelpers/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.FileSystemGlobbing": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.TagHelpers.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.TagHelpers.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.ViewFeatures/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -913,25 +862,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Tooling.Razor/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Razor.Runtime": "4.0.0-rc1-final",
-          "Newtonsoft.Json": "6.0.6"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Tooling.Razor.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Tooling.Razor.dll": {}
         }
       },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -1242,21 +1172,6 @@
           "lib/net451/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/1.0.0-rc1-final": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        }
-      },
       "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1456,27 +1371,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.Net.Http.Headers.dll": {}
-        }
-      },
-      "Microsoft.VisualStudio.Web.BrowserLink.Loader/14.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.PageExecutionInstrumentation.Interfaces": "1.0.0-rc1-final",
-          "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
         }
       },
       "MongoDB.Bson/2.1.1": {
@@ -1864,14 +1758,10 @@
         "type": "package",
         "dependencies": {
           "BahamutService": "1.0.0",
-          "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final",
           "ServerControlService": "1.0.0"
         },
         "frameworkAssemblies": [
@@ -2096,33 +1986,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.DataProtection.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Diagnostics/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Diagnostics.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.WebUtilities": "1.0.0-rc1-final",
-          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
-          "Microsoft.Extensions.WebEncoders.Core": "1.0.0-rc1-final",
-          "System.Diagnostics.DiagnosticSource": "4.0.0-beta-23516"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Diagnostics.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Diagnostics.dll": {}
         }
       },
       "Microsoft.AspNet.Diagnostics.Abstractions/1.0.0-rc1-final": {
@@ -2596,26 +2459,6 @@
           "lib/net451/Microsoft.AspNet.Mvc.Razor.Host.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc.TagHelpers/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.FileSystemGlobbing": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.TagHelpers.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.TagHelpers.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.ViewFeatures/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2773,25 +2616,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Tooling.Razor/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Razor.Runtime": "4.0.0-rc1-final",
-          "Newtonsoft.Json": "6.0.6"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Tooling.Razor.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Tooling.Razor.dll": {}
         }
       },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -3102,21 +2926,6 @@
           "lib/net451/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/1.0.0-rc1-final": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        }
-      },
       "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -3316,27 +3125,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.Net.Http.Headers.dll": {}
-        }
-      },
-      "Microsoft.VisualStudio.Web.BrowserLink.Loader/14.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.PageExecutionInstrumentation.Interfaces": "1.0.0-rc1-final",
-          "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
         }
       },
       "MongoDB.Bson/2.1.1": {
@@ -3724,14 +3512,10 @@
         "type": "package",
         "dependencies": {
           "BahamutService": "1.0.0",
-          "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final",
           "ServerControlService": "1.0.0"
         },
         "frameworkAssemblies": [
@@ -3956,33 +3740,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.DataProtection.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Diagnostics/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Diagnostics.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.WebUtilities": "1.0.0-rc1-final",
-          "Microsoft.Dnx.Compilation.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
-          "Microsoft.Extensions.WebEncoders.Core": "1.0.0-rc1-final",
-          "System.Diagnostics.DiagnosticSource": "4.0.0-beta-23516"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "System.Runtime"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Diagnostics.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Diagnostics.dll": {}
         }
       },
       "Microsoft.AspNet.Diagnostics.Abstractions/1.0.0-rc1-final": {
@@ -4456,26 +4213,6 @@
           "lib/net451/Microsoft.AspNet.Mvc.Razor.Host.dll": {}
         }
       },
-      "Microsoft.AspNet.Mvc.TagHelpers/6.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
-          "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
-          "Microsoft.Extensions.FileSystemGlobbing": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Mvc.TagHelpers.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Mvc.TagHelpers.dll": {}
-        }
-      },
       "Microsoft.AspNet.Mvc.ViewFeatures/6.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -4633,25 +4370,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.StaticFiles.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Tooling.Razor/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Razor.Runtime": "4.0.0-rc1-final",
-          "Newtonsoft.Json": "6.0.6"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.Tooling.Razor.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.Tooling.Razor.dll": {}
         }
       },
       "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -4962,21 +4680,6 @@
           "lib/net451/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/1.0.0-rc1-final": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        }
-      },
       "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -5176,27 +4879,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.Net.Http.Headers.dll": {}
-        }
-      },
-      "Microsoft.VisualStudio.Web.BrowserLink.Loader/14.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
-          "Microsoft.AspNet.PageExecutionInstrumentation.Interfaces": "1.0.0-rc1-final",
-          "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
         }
       },
       "MongoDB.Bson/2.1.1": {
@@ -5583,7 +5265,7 @@
   "libraries": {
     "AuthenticationServer/1.0.0": {
       "type": "package",
-      "sha512": "jIs/M/cB2EWylVHJpjlQIEPSdGdBpDtq6/DNGHASL2a0d+aL9kA1eOfsr98etS3YQKiqvNYBKQvZUv+07RJ8og==",
+      "sha512": "qyjHksOucjUTpeGJ62OraRpYUt6du8Pe2RJHEck+mh/zMI3F9xVJDG1ABoMh2IHAV1BbE99Rt6RRFmbNZZ97aw==",
       "files": [
         "app/project.json",
         "AuthenticationServer.1.0.0.nupkg",
@@ -5612,7 +5294,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "5CNQhfyeObWziI/8YvXZ4wOcWu30mFyhF5tAPV2mz+8ZsaeE+vK/WhmiVqu9Kun5byQSuY9LF8jpaIesUPX+8Q==",
+      "sha512": "oiaIPTz+AkXdLlrS5wdWhWDj7Z9LpIEoFVC4urW2eLEpRR/063DNhoXbNBW3cj8UL5rJqPUu6mhyAgDswR57kQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5626,7 +5308,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "eYU4er5wYmZZSNNuakEpA9FCK1A0v9H6tpnakGKV7LFwZgRDwy80Bd6O0zyciqp9M70v21rw2WuK5iwHfJVI6g==",
+      "sha512": "bTriwsmFaxsdrNYdVap6IFJnFFn9EBQNhat+o92x/hoVU3MUgTf/e/9P2u1wvf5CQCmCJKhCnrs8jp0+92liFg==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5640,7 +5322,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "muB40Wo+N5UWSFsIsWbvtbfc31KepPk3ssA2YLa77PTv6Ply6WqePCX3tCVEGCnkrJaCsEg4DWPCV8T+LjGMXA==",
+      "sha512": "wiZFMZuJEqN3Mntjg87HIpP+99mBhqAm+V926DNHZ0Drh71ufRLpowjNhdZDRWV8y551j3b+ImLXpnNc59fQ4Q==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -5777,20 +5459,6 @@
         "Microsoft.AspNet.DataProtection.Abstractions.1.0.0-rc1-final.nupkg",
         "Microsoft.AspNet.DataProtection.Abstractions.1.0.0-rc1-final.nupkg.sha512",
         "Microsoft.AspNet.DataProtection.Abstractions.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.Diagnostics/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "PlLhXpe74DUMEanyFNvo+A96zD465usPOxu2iAqREnfcpagNJY4dn6uQxDE04BY6XcqPaYAYcrZYyKRfn/pTIg==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Diagnostics.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Diagnostics.xml",
-        "lib/net451/Microsoft.AspNet.Diagnostics.dll",
-        "lib/net451/Microsoft.AspNet.Diagnostics.xml",
-        "Microsoft.AspNet.Diagnostics.1.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Diagnostics.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Diagnostics.nuspec"
       ]
     },
     "Microsoft.AspNet.Diagnostics.Abstractions/1.0.0-rc1-final": {
@@ -6119,20 +5787,6 @@
         "Microsoft.AspNet.Mvc.Razor.Host.nuspec"
       ]
     },
-    "Microsoft.AspNet.Mvc.TagHelpers/6.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "zcoDzmKSMdOVUQHQZJQStArNqc5ERTxosB3GiK/MbC0HFhJ4vmh/vwI0rxnXO6X25+gYnr/2PAiY9fHvGkN58A==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.TagHelpers.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Mvc.TagHelpers.xml",
-        "lib/net451/Microsoft.AspNet.Mvc.TagHelpers.dll",
-        "lib/net451/Microsoft.AspNet.Mvc.TagHelpers.xml",
-        "Microsoft.AspNet.Mvc.TagHelpers.6.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Mvc.TagHelpers.6.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Mvc.TagHelpers.nuspec"
-      ]
-    },
     "Microsoft.AspNet.Mvc.ViewFeatures/6.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -6252,23 +5906,6 @@
         "Microsoft.AspNet.StaticFiles.1.0.0-rc1-final.nupkg",
         "Microsoft.AspNet.StaticFiles.1.0.0-rc1-final.nupkg.sha512",
         "Microsoft.AspNet.StaticFiles.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.Tooling.Razor/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "ZWDxJ4sqrZyrtmlRKeBYrxguRNBnTGV2LNgyZrSyVQ8DcQjPkSqFwu18BeER+j6Od2mgV5aOCdCLDN0QnjYI7Q==",
-      "files": [
-        "app/project.json",
-        "app/razor-tooling",
-        "app/razor-tooling.cmd",
-        "lib/dotnet5.4/Microsoft.AspNet.Tooling.Razor.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.Tooling.Razor.xml",
-        "lib/net451/Microsoft.AspNet.Tooling.Razor.dll",
-        "lib/net451/Microsoft.AspNet.Tooling.Razor.xml",
-        "Microsoft.AspNet.Tooling.Razor.1.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.Tooling.Razor.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.Tooling.Razor.nuspec"
       ]
     },
     "Microsoft.AspNet.WebUtilities/1.0.0-rc1-final": {
@@ -6547,20 +6184,6 @@
         "Microsoft.Extensions.DependencyInjection.Abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileSystemGlobbing/1.0.0-rc1-final": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "7N9IPDU0T1uQBj6hobeGNqiEd+Cuu6RHJ0RcwkUvzTsLq8Vf2Sc72+HEAICTw1CTRXHgW49Zr47PvO0QPxI/5g==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "lib/dotnet5.4/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "lib/net451/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "Microsoft.Extensions.FileSystemGlobbing.1.0.0-rc1-final.nupkg",
-        "Microsoft.Extensions.FileSystemGlobbing.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.Extensions.FileSystemGlobbing.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Globalization.CultureInfoCache/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -6737,19 +6360,6 @@
         "Microsoft.Net.Http.Headers.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Web.BrowserLink.Loader/14.0.0-rc1-final": {
-      "type": "package",
-      "sha512": "L8QBjp1tfPA3j+r9eKtMlebX/k+7pIGxeHZ/ZjkNgt8RLVEOyw9HPMs2Wetav0P3gCIM7YIfIzXV22c19yI83Q==",
-      "files": [
-        "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll",
-        "lib/dnx451/Microsoft.VisualStudio.Web.BrowserLink.Loader.xml",
-        "lib/dnxcore50/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll",
-        "lib/dnxcore50/Microsoft.VisualStudio.Web.BrowserLink.Loader.xml",
-        "Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0.0-rc1-final.nupkg",
-        "Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.VisualStudio.Web.BrowserLink.Loader.nuspec"
-      ]
-    },
     "MongoDB.Bson/2.1.1": {
       "type": "package",
       "sha512": "exC90gaZtCi+x2kNlMNfUfTi2e20EPUIwM0ym+fTxeBBPY/5W5izlC0uXOkXxHjNyC4dn2xOX5pLbrLeji/OWA==",
@@ -6870,7 +6480,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "cKhairaIjVFz9JizyQ2TBfs1uzXylCzeeMzQOshLzzTe8ue5YNfxU35Xxn2TDCWdegdWTnpOjpjuDd60WwLnSQ==",
+      "sha512": "FSfi3bnQSyRq6ttFuoR4qzHeEWRhHPetYvXvm6v0tdqNJIKtXveLvkwcL/UxyhJ0voNLsbTbliXv0GcN9M4Eaw==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

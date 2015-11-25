@@ -14,11 +14,16 @@
     },
 
     "ControlServiceServer": {
-      "url": "redis://app.sharelink.online:6379"
+      "url": "redis://app.sharelink.online:6733"
     },
 
     "Log": {
       "logFile": "/home/deployment/logs/BahamutFireAPIServer/8089.log"
+    },
+
+    "AliOSS": {
+      "url": "http://oss-cn-shenzhen.aliyuncs.com",
+      "bucket": "fire-sz-0"
     }
   }
 }
