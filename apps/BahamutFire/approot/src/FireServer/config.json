@@ -7,7 +7,7 @@
       "url": "http://file.sharelink.online:8089"
     },
     "BahamutFireDBServer": {
-      "url": "mongodb://$usr:$psw@filedb.sharelink.online:27017"
+      "url": "mongodb://$user:$psw@filedb.sharelink.online:27017"
     },
     "TokenServer": {
       "url": "redis://$psw@token.sharelink.online:6379"
