@@ -32,7 +32,7 @@ namespace FireServer
             }
             else
             {
-                builder.AddJsonFile("config_production.json");
+                builder.AddJsonFile("/etc/bahamut/fire.json");
             }
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();
