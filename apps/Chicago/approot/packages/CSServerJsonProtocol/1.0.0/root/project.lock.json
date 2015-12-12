@@ -1,0 +1,199 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "CSharpServerFrameworkAbstract/1.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSharpServerFrameworkAbstract.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSharpServerFrameworkAbstract.dll": {}
+        }
+      },
+      "CSServerJsonProtocol/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CSharpServerFrameworkAbstract": "1.0.0",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSServerJsonProtocol.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSServerJsonProtocol.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "CSharpServerFrameworkAbstract/1.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSharpServerFrameworkAbstract.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSharpServerFrameworkAbstract.dll": {}
+        }
+      },
+      "CSServerJsonProtocol/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CSharpServerFrameworkAbstract": "1.0.0",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSServerJsonProtocol.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSServerJsonProtocol.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "CSharpServerFrameworkAbstract/1.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSharpServerFrameworkAbstract.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSharpServerFrameworkAbstract.dll": {}
+        }
+      },
+      "CSServerJsonProtocol/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CSharpServerFrameworkAbstract": "1.0.0",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/CSServerJsonProtocol.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/CSServerJsonProtocol.dll": {}
+        }
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpServerFrameworkAbstract/1.0.0": {
+      "type": "package",
+      "sha512": "ELPpJoYuQXmUD33mLD8P7lT1HoUMkQH14D2VKP8D/vxscmHmTIiU3WdxIOoM7V98w2WHOPPSq5VLTr8kQTE7DQ==",
+      "files": [
+        "CSharpServerFrameworkAbstract.1.0.0.nupkg",
+        "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
+        "CSharpServerFrameworkAbstract.nuspec",
+        "lib/dnx451/CSharpServerFrameworkAbstract.dll",
+        "lib/dnx451/CSharpServerFrameworkAbstract.xml",
+        "root/CSharpServerFrameworkAbstract.xproj.user",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "CSServerJsonProtocol/1.0.0": {
+      "type": "package",
+      "sha512": "iotpgWEEX9Iu0t0LYjmrezwoZvzB/R7HRA67QAgf7a7w9e/9PkJZkzks5FeFW4L8lg2c9lazGlAwLVXPNMaLJw==",
+      "files": [
+        "CSServerJsonProtocol.1.0.0.nupkg",
+        "CSServerJsonProtocol.1.0.0.nupkg.sha512",
+        "CSServerJsonProtocol.nuspec",
+        "lib/dnx451/CSServerJsonProtocol.dll",
+        "lib/dnx451/CSServerJsonProtocol.xml",
+        "root/CSServerJsonProtocol.xproj.user",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "Newtonsoft.Json/7.0.1": {
+      "type": "package",
+      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.7.0.1.nupkg",
+        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "CSServerJsonProtocol >= 1.0.0"
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}
