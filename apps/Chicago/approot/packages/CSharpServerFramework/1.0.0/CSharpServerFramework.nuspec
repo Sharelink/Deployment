@@ -4,8 +4,8 @@
     <id>CSharpServerFramework</id>
     <version>1.0.0</version>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <authors>cplover</authors>
-    <owners>cplover</owners>
+    <authors>CPlover</authors>
+    <owners>CPlover</owners>
     <description>CSharpServerFramework Class Library</description>
     <dependencies>
       <group targetFramework="DNX4.5.1">

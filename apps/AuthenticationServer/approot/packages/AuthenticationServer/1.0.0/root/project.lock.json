@@ -6,7 +6,7 @@
       "AuthenticationServer/1.0.0": {
         "type": "package",
         "dependencies": {
-          "BahamutService": "1.0.0",
+          "BahamutAspNetCommon": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
@@ -26,10 +26,31 @@
           "lib/dnx451/AuthenticationServer.dll": {}
         }
       },
+      "BahamutAspNetCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BahamutService": "1.0.0",
+          "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutAspNetCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutAspNetCommon.dll": {}
+        }
+      },
       "BahamutCommon/1.0.0": {
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -1757,7 +1778,7 @@
       "AuthenticationServer/1.0.0": {
         "type": "package",
         "dependencies": {
-          "BahamutService": "1.0.0",
+          "BahamutAspNetCommon": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
@@ -1777,10 +1798,31 @@
           "lib/dnx451/AuthenticationServer.dll": {}
         }
       },
+      "BahamutAspNetCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BahamutService": "1.0.0",
+          "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutAspNetCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutAspNetCommon.dll": {}
+        }
+      },
       "BahamutCommon/1.0.0": {
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -3511,7 +3553,7 @@
       "AuthenticationServer/1.0.0": {
         "type": "package",
         "dependencies": {
-          "BahamutService": "1.0.0",
+          "BahamutAspNetCommon": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
@@ -3531,10 +3573,31 @@
           "lib/dnx451/AuthenticationServer.dll": {}
         }
       },
+      "BahamutAspNetCommon/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BahamutService": "1.0.0",
+          "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/BahamutAspNetCommon.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/BahamutAspNetCommon.dll": {}
+        }
+      },
       "BahamutCommon/1.0.0": {
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -5265,7 +5328,7 @@
   "libraries": {
     "AuthenticationServer/1.0.0": {
       "type": "package",
-      "sha512": "Kx0c5AtitX68lGxqtc+gDQfPNj98AbYaaO5FENNM7gRtBGRZyGrnx6T9EEm//smbai3FWSzeSCwlS1X2zeyxXQ==",
+      "sha512": "bA+RYN80hOYrSGdiTom+Onwv+xsVNI9ZeuYqwTEKcQxsrAKJ813QP8fG/GS6pC3fiUfb0Il+0fH/vGYwTjFdMw==",
       "files": [
         "app/project.json",
         "AuthenticationServer.1.0.0.nupkg",
@@ -5292,9 +5355,23 @@
         "root/Views/Shared/Error.cshtml"
       ]
     },
+    "BahamutAspNetCommon/1.0.0": {
+      "type": "package",
+      "sha512": "+kcF29AD+GgT7MIp6jqimJtOodQNuodi6MRZFvygXyXh/QqAJ9W7IlhBOh4uBeGhYONZR/5G+MOLFmxX0kjBvw==",
+      "files": [
+        "BahamutAspNetCommon.1.0.0.nupkg",
+        "BahamutAspNetCommon.1.0.0.nupkg.sha512",
+        "BahamutAspNetCommon.nuspec",
+        "lib/dnx451/BahamutAspNetCommon.dll",
+        "lib/dnx451/BahamutAspNetCommon.xml",
+        "root/BahamutAspNetCommon.xproj.user",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "FteS4HPFRJ8qLjLdFqmgdgW/hzmmtFP8mQjHsLnZrHNrBKLiV6KpNJPvdvantMh/aTEwr+RJ6VI4Be0YSf2bAA==",
+      "sha512": "qeA8UqwbC5KCqpqT9POgDmzIIJtrJ8PkB0EjsukO9GcytwA5mfhsXfzw5nGBAnwuwiInZTuwvGCoJl7EgoXC5Q==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5308,7 +5385,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "eIt/72lsccQ72YszHbJ/f976qjNeAjeUZos6o4gthKA3GdvBK/1nqg2LmiBIhQp3c3hYdwy8w5cULosI59WL+g==",
+      "sha512": "pvIEz00f/zuCcnR6ghJTQNexqQk+Mu1nhJA7s8BNgD0L6OVKk1bzFtqSqa+IimIVLnPRQsYMXsDit1XC/GByZQ==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5322,7 +5399,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "K03croev5/ujsw60bql7lFMhW5oB41HopaCUA6KWmGaULOriOg03fZ15wLELHKD9V/8yjaxXOoa2d3YeNoPxKw==",
+      "sha512": "LLjXR9syvQ5/OglFHHGmyIw0jma4HCijike4XzIu8xD5FGruEiTSoDZfVeNjcZrNHTRoZJBWpWKPogWpW0NXyA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -6480,7 +6557,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "qlqh4Yp5T1Ev+qAzgXsBMKVw5oymbJhn4FhdgLgp0HL9FaBqqr1yjXJ/HMywTcdxCH76Yy5le0GnEVOpP1bmQQ==",
+      "sha512": "KmsON0NUs4opNFPgwFakXpZSDDy9Zd9Q/2B1PX8qCnpu24m/++2xjulL0t246PtDPaxDWK/WuH+Sn3lcrY5+9A==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

@@ -7,6 +7,7 @@
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -48,11 +49,12 @@
         "dependencies": {
           "BahamutService": "1.0.0",
           "CSharpServerFramework": "1.0.0",
+          "CSharpServerFrameworkAbstract": "1.0.0",
           "CSServerJsonProtocol": "1.0.0",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "System.Net.Http": "4.0.1-beta-23516"
+          "System.Net.Http": "4.0.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -423,7 +425,7 @@
           "lib/net35/ServiceStack.Text.dll": {}
         }
       },
-      "System.Net.Http/4.0.1-beta-23516": {
+      "System.Net.Http/4.0.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Net.Http"
@@ -441,6 +443,7 @@
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -482,11 +485,12 @@
         "dependencies": {
           "BahamutService": "1.0.0",
           "CSharpServerFramework": "1.0.0",
+          "CSharpServerFrameworkAbstract": "1.0.0",
           "CSServerJsonProtocol": "1.0.0",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "System.Net.Http": "4.0.1-beta-23516"
+          "System.Net.Http": "4.0.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -857,7 +861,7 @@
           "lib/net35/ServiceStack.Text.dll": {}
         }
       },
-      "System.Net.Http/4.0.1-beta-23516": {
+      "System.Net.Http/4.0.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Net.Http"
@@ -875,6 +879,7 @@
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -916,11 +921,12 @@
         "dependencies": {
           "BahamutService": "1.0.0",
           "CSharpServerFramework": "1.0.0",
+          "CSharpServerFrameworkAbstract": "1.0.0",
           "CSServerJsonProtocol": "1.0.0",
           "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-          "System.Net.Http": "4.0.1-beta-23516"
+          "System.Net.Http": "4.0.0"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1291,7 +1297,7 @@
           "lib/net35/ServiceStack.Text.dll": {}
         }
       },
-      "System.Net.Http/4.0.1-beta-23516": {
+      "System.Net.Http/4.0.0": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Net.Http"
@@ -1308,7 +1314,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "NgewKJGKYcbjg8mN5z3j/IOl+jH8bWX2EQOPXmF8eTHWvkAIFvcR0W9BkO80iZRnnpPLbcS/9FR4Djk9lYwN+Q==",
+      "sha512": "/BUCcz3b/7rmxQaXy/h3zr5CPqAkmDIoWukH6yvbOw2fTrjzYP8sPRGdb1vRj1vACncS8D/NDLPMLb38xu3kgA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -1322,7 +1328,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "7tYsAvZRJQ9Jz3+dIoue/ag/WwYJ5EML7jSA5t+0Zza20XLvMuqgvCj96picUTU1G8alvgPxiv+Ox9O1KM+4Zw==",
+      "sha512": "z1om5JUOTYE36OcRpKJm7VDuxU2dOhzEyXHCYgPrX0Ob7r1uNcRQYtQEPBpzM4cBfPcAKkgF9oZP+nsHnGo0Vw==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -1336,7 +1342,7 @@
     },
     "Chicago/1.0.0": {
       "type": "package",
-      "sha512": "EK+qu3XmmG2dcIR6ZlCTir/Mk5oTebA50k4Hpa4xTZc2cXetmiVWN5FhwegjYHFUGon1+0laxBOuLk2F4rX80g==",
+      "sha512": "7vrcZ5YQgv7TG3kBWOHZnCMS2GERsIYHDDD0Zfz/dU8a6zR6G+tfsSPgSpGGxcBkMl9dML4s8Etm1KgTrQLKFA==",
       "files": [
         "app/Chicago",
         "app/Chicago.cmd",
@@ -1359,15 +1365,13 @@
     },
     "CSharpServerFramework/1.0.0": {
       "type": "package",
-      "sha512": "C8yPl1ykqOPQR6v9YzrMKnppraljqLaoJ1FsJfckQ9SX1EKumof3YNaHKrbOPxO0BvEMCsdMC/ivnNi5bRnRew==",
+      "sha512": "YEIInGWGY2O2Z4ferd2TwKFUaKpXhL0w75RSDsulk7Z6chrCi38krhCiirHk5fxCLo0xUqO1UZnQNOiTw5AvFA==",
       "files": [
         "CSharpServerFramework.1.0.0.nupkg",
         "CSharpServerFramework.1.0.0.nupkg.sha512",
         "CSharpServerFramework.nuspec",
         "lib/dnx451/CSharpServerFramework.dll",
         "lib/dnx451/CSharpServerFramework.xml",
-        "root/.gitattributes",
-        "root/.gitignore",
         "root/CSharpServerFramework.xproj.user",
         "root/project.json",
         "root/project.lock.json",
@@ -1376,15 +1380,13 @@
     },
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "1mv7vHsVE8WMjqNYiWkX39iIrX1ouAfI6jVdKfJKET5apt99KEuEESqq9PPaWG1mT1UQX3PkgXVH4/3CVrp//A==",
+      "sha512": "ELPpJoYuQXmUD33mLD8P7lT1HoUMkQH14D2VKP8D/vxscmHmTIiU3WdxIOoM7V98w2WHOPPSq5VLTr8kQTE7DQ==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
         "CSharpServerFrameworkAbstract.nuspec",
         "lib/dnx451/CSharpServerFrameworkAbstract.dll",
         "lib/dnx451/CSharpServerFrameworkAbstract.xml",
-        "root/.gitattributes",
-        "root/.gitignore",
         "root/CSharpServerFrameworkAbstract.xproj.user",
         "root/project.json",
         "root/project.lock.json"
@@ -1392,15 +1394,13 @@
     },
     "CSServerJsonProtocol/1.0.0": {
       "type": "package",
-      "sha512": "1Fcaw7GLEDY1oscrK4J1vxVjA1ib7aVnXFwhOI0l5WrFPFp6pXldgUSSUgFPbjoL1hMQunh+B+eLwFGh+dzv9Q==",
+      "sha512": "iotpgWEEX9Iu0t0LYjmrezwoZvzB/R7HRA67QAgf7a7w9e/9PkJZkzks5FeFW4L8lg2c9lazGlAwLVXPNMaLJw==",
       "files": [
         "CSServerJsonProtocol.1.0.0.nupkg",
         "CSServerJsonProtocol.1.0.0.nupkg.sha512",
         "CSServerJsonProtocol.nuspec",
         "lib/dnx451/CSServerJsonProtocol.dll",
         "lib/dnx451/CSServerJsonProtocol.xml",
-        "root/.gitattributes",
-        "root/.gitignore",
         "root/CSServerJsonProtocol.xproj.user",
         "root/project.json",
         "root/project.lock.json"
@@ -1408,7 +1408,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "TrJOwuUyU5agtje3tDe42ACGZLi1Y2UnqpV/BUKueBIFQpjRwiQs95DZTnRc+ioZiUbhEsfboJEPubf+V5zfvw==",
+      "sha512": "jPGwz3sUje9icQL71lAqmhhpvS3mOm4HHuW1fa4up2CXnkrbWQUiqFrLjRjvqY5j8Ek/MJvuAQkx2z0KnsOUMw==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1753,42 +1753,34 @@
         "ServiceStack.Text.nuspec"
       ]
     },
-    "System.Net.Http/4.0.1-beta-23516": {
+    "System.Net.Http/4.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "WbmX0jo84S72GVhRbKtBBUkx2dQ1hzb4TRSLfaiktRh7QKnSP9ctzTxBvXghWQ6GnswBzTHnuc69msImZH5b6A==",
+      "sha512": "mZuAl7jw/mFY8jUq4ITKECxVBh9a8SJt9BC/+lJbmo7cRKspxE3PsITz+KiaCEsexN5WYPzwBOx0oJH/0HlPyQ==",
       "files": [
+        "lib/DNXCore50/System.Net.Http.dll",
         "lib/net45/_._",
+        "lib/netcore50/System.Net.Http.dll",
         "lib/win8/_._",
         "lib/wpa81/_._",
-        "ref/dotnet5.2/de/System.Net.Http.xml",
-        "ref/dotnet5.2/es/System.Net.Http.xml",
-        "ref/dotnet5.2/fr/System.Net.Http.xml",
-        "ref/dotnet5.2/it/System.Net.Http.xml",
-        "ref/dotnet5.2/ja/System.Net.Http.xml",
-        "ref/dotnet5.2/ko/System.Net.Http.xml",
-        "ref/dotnet5.2/ru/System.Net.Http.xml",
-        "ref/dotnet5.2/System.Net.Http.dll",
-        "ref/dotnet5.2/System.Net.Http.xml",
-        "ref/dotnet5.2/zh-hans/System.Net.Http.xml",
-        "ref/dotnet5.2/zh-hant/System.Net.Http.xml",
+        "ref/dotnet/de/System.Net.Http.xml",
+        "ref/dotnet/es/System.Net.Http.xml",
+        "ref/dotnet/fr/System.Net.Http.xml",
+        "ref/dotnet/it/System.Net.Http.xml",
+        "ref/dotnet/ja/System.Net.Http.xml",
+        "ref/dotnet/ko/System.Net.Http.xml",
+        "ref/dotnet/ru/System.Net.Http.xml",
+        "ref/dotnet/System.Net.Http.dll",
+        "ref/dotnet/System.Net.Http.xml",
+        "ref/dotnet/zh-hans/System.Net.Http.xml",
+        "ref/dotnet/zh-hant/System.Net.Http.xml",
         "ref/net45/_._",
-        "ref/netcore50/de/System.Net.Http.xml",
-        "ref/netcore50/es/System.Net.Http.xml",
-        "ref/netcore50/fr/System.Net.Http.xml",
-        "ref/netcore50/it/System.Net.Http.xml",
-        "ref/netcore50/ja/System.Net.Http.xml",
-        "ref/netcore50/ko/System.Net.Http.xml",
-        "ref/netcore50/ru/System.Net.Http.xml",
         "ref/netcore50/System.Net.Http.dll",
         "ref/netcore50/System.Net.Http.xml",
-        "ref/netcore50/zh-hans/System.Net.Http.xml",
-        "ref/netcore50/zh-hant/System.Net.Http.xml",
         "ref/win8/_._",
         "ref/wpa81/_._",
-        "runtime.json",
-        "System.Net.Http.4.0.1-beta-23516.nupkg",
-        "System.Net.Http.4.0.1-beta-23516.nupkg.sha512",
+        "System.Net.Http.4.0.0.nupkg",
+        "System.Net.Http.4.0.0.nupkg.sha512",
         "System.Net.Http.nuspec"
       ]
     }

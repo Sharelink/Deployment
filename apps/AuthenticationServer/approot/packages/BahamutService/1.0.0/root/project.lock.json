@@ -7,6 +7,7 @@
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -89,6 +90,39 @@
         "runtime": {
           "lib/net45/EntityFramework.dll": {},
           "lib/net45/EntityFramework.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/1.0.0-rc1-final": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
       "MongoDB.Bson/2.1.1": {
@@ -246,6 +280,7 @@
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -328,6 +363,39 @@
         "runtime": {
           "lib/net45/EntityFramework.dll": {},
           "lib/net45/EntityFramework.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/1.0.0-rc1-final": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
       "MongoDB.Bson/2.1.1": {
@@ -485,6 +553,7 @@
         "type": "package",
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
           "Newtonsoft.Json": "7.0.1",
           "NLog": "4.2.0",
           "PasswordHash": "1.1.0"
@@ -567,6 +636,39 @@
         "runtime": {
           "lib/net45/EntityFramework.dll": {},
           "lib/net45/EntityFramework.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/1.0.0-rc1-final": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
       "MongoDB.Bson/2.1.1": {
@@ -723,7 +825,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "FteS4HPFRJ8qLjLdFqmgdgW/hzmmtFP8mQjHsLnZrHNrBKLiV6KpNJPvdvantMh/aTEwr+RJ6VI4Be0YSf2bAA==",
+      "sha512": "qeA8UqwbC5KCqpqT9POgDmzIIJtrJ8PkB0EjsukO9GcytwA5mfhsXfzw5nGBAnwuwiInZTuwvGCoJl7EgoXC5Q==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -737,7 +839,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "eIt/72lsccQ72YszHbJ/f976qjNeAjeUZos6o4gthKA3GdvBK/1nqg2LmiBIhQp3c3hYdwy8w5cULosI59WL+g==",
+      "sha512": "pvIEz00f/zuCcnR6ghJTQNexqQk+Mu1nhJA7s8BNgD0L6OVKk1bzFtqSqa+IimIVLnPRQsYMXsDit1XC/GByZQ==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -751,7 +853,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "K03croev5/ujsw60bql7lFMhW5oB41HopaCUA6KWmGaULOriOg03fZ15wLELHKD9V/8yjaxXOoa2d3YeNoPxKw==",
+      "sha512": "LLjXR9syvQ5/OglFHHGmyIw0jma4HCijike4XzIu8xD5FGruEiTSoDZfVeNjcZrNHTRoZJBWpWKPogWpW0NXyA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -804,6 +906,38 @@
         "tools/init.ps1",
         "tools/install.ps1",
         "tools/migrate.exe"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "xA7ObOlIswcx2qakv69kz0pnBizFJrmwxRxJyjPOHWfevF4W+OdolZsbKOc12kY7y5upqhAvNGWTblffMvADHA==",
+      "files": [
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net451/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net451/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netcore50/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netcore50/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "Microsoft.Extensions.Configuration.Abstractions.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Configuration.Abstractions.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Configuration.Abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "oHWqBARJveyM7LctuqQqvsTC58hxoq0gGnHr6Qsxie71LIkZpfE21IklhSLOsqmv4QIpes/G6k1vZbAQ+cC/nw==",
+      "files": [
+        "lib/dotnet5.4/Microsoft.Extensions.Primitives.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Primitives.xml",
+        "lib/net451/Microsoft.Extensions.Primitives.dll",
+        "lib/net451/Microsoft.Extensions.Primitives.xml",
+        "lib/netcore50/Microsoft.Extensions.Primitives.dll",
+        "lib/netcore50/Microsoft.Extensions.Primitives.xml",
+        "Microsoft.Extensions.Primitives.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Primitives.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Primitives.nuspec"
       ]
     },
     "MongoDB.Bson/2.1.1": {

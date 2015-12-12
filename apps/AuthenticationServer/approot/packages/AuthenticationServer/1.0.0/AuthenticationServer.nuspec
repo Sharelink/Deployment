@@ -14,7 +14,7 @@
         <dependency id="Microsoft.AspNet.StaticFiles" version="1.0.0-rc1-final" />
         <dependency id="Microsoft.Extensions.Configuration.Json" version="1.0.0-rc1-final" />
         <dependency id="ServerControlService" version="1.0.0" />
-        <dependency id="BahamutService" version="1.0.0" />
+        <dependency id="BahamutAspNetCommon" version="1.0.0" />
       </group>
     </dependencies>
     <frameworkAssemblies>

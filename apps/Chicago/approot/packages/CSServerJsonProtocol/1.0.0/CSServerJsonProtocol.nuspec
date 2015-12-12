@@ -4,8 +4,8 @@
     <id>CSServerJsonProtocol</id>
     <version>1.0.0</version>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <authors>cplov</authors>
-    <owners>cplov</owners>
+    <authors>CPlover</authors>
+    <owners>CPlover</owners>
     <description>CSServerJsonProtocol Class Library</description>
     <dependencies>
       <group targetFramework="DNX4.5.1">
