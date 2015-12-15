@@ -4,3 +4,6 @@ db.Sharelinker.insert({ "AccountId" : "10001", "Avatar" : null, "CreateTime" : I
 
 db.SharelinkerLink.insert({ "_id" : ObjectId("563c603cf274cd0797ae83e8"), "MasterUserObjectId" : ObjectId("563c603cf274cd0797ae83e7"), "SlaveUserObjectId" : ObjectId("563c603cf274cd0797ae83e7"), "SlaveUserNoteName" : "Sharelink", "StateDocument" : "{ \"LinkState\" : 2 }", "CreateTime" : ISODate("2015-11-06T08:09:32.528Z") });
 db.SharelinkerLink.insert({ "_id" : ObjectId("563c60acf274cd0797ae83ea"), "MasterUserObjectId" : ObjectId("563c60acf274cd0797ae83e9"), "SlaveUserObjectId" : ObjectId("563c60acf274cd0797ae83e9"), "SlaveUserNoteName" : "Sharelink", "StateDocument" : "{ \"LinkState\" : 2 }", "CreateTime" : ISODate("2015-11-06T08:11:24.064Z") });
+
+db.SharelinkTag.insert({"UserId" : ObjectId("563c603cf274cd0797ae83e7"),"TagName":"用户反馈","TagColor":"#438ccb","TagDomain":"system:","TagType":"feedback:","Data":"feedback","IsFocus":true,"ShowToLinkers":true, "CreateTime" : ISODate("2015-11-06T08:11:24.064Z")});
+db.SharelinkTag.insert({"UserId" : ObjectId("563c60acf274cd0797ae83e9"),"TagName":"Feedback","TagColor":"#438ccb","TagDomain":"system:","TagType":"feedback:","Data":"feedback","IsFocus":true,"ShowToLinkers":true, "CreateTime" : ISODate("2015-11-06T08:11:24.064Z")});
