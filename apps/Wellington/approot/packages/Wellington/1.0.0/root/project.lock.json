@@ -6345,7 +6345,7 @@
     },
     "Wellington/1.0.0": {
       "type": "package",
-      "sha512": "Gj+/Uko6neXKRSyYpyuqO5DZvHjRrJDm7vcXoNMSXdB+I1xmdw/aAmcqI3OC4XIbN55cMMlUsGZsmagIbsRJDg==",
+      "sha512": "BGkANW+dgJRzj/WWcYTYmY4mb0aF+GWx+aX221loW4cWvg3qZjC/XWfn/a3RYgI9+oktyBG5VOPFQBTAqLO9QA==",
       "files": [
         "app/project.json",
         "lib/dnx451/Wellington.dll",
