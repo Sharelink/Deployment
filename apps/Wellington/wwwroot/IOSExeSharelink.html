@@ -23,12 +23,18 @@
 
     <script type="text/javascript">
         var appStoreUrl = 'https://itunes.apple.com/app/id1059287119';
+
+        function redirectAppStore() {
+            location.href = appStoreUrl;
+        }
         var slUrl = 'sharelink://' + getUrlParam('cmd');
         if (is_weixn() == false) {
             location.href = slUrl;
             setTimeout(function () {
                 location = appStoreUrl;
             }, 700);
+        } else {
+            alert("weixin");
         }
     </script>
 </body>
