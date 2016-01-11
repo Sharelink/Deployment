@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/user-agent.js"></script>
     <script src="js/supersized.3.2.7.min.js"></script>
     <script src="js/supersized-init.js"></script>
 </head>
@@ -23,11 +24,12 @@
     <script type="text/javascript">
         var appStoreUrl = 'https://itunes.apple.com/app/id1059287119';
         var slUrl = 'sharelink://' + getUrlParam('cmd');
-        location.href = slUrl;
-        setTimeout(function () {
-           location = appStoreUrl;
-        }, 700);
-
+        if (is_weixn() == false) {
+            location.href = slUrl;
+            setTimeout(function () {
+                location = appStoreUrl;
+            }, 700);
+        }
     </script>
 </body>
 </html>
