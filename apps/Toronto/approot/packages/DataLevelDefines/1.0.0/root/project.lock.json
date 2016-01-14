@@ -495,7 +495,7 @@
   "libraries": {
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "JurHfOFzJK7xD5VVoABMiNkCKHrxTr55cwtGUsj0Al0e+5tDEv0wu/Wh4atidFcfyhxEc+9YUW3MMhiVGgQ/FA==",
+      "sha512": "599rD0qVxyb/MuNPZwyaIjI6K3bNx4qRPPPIt+KkWhrsQaRzIvUR85bbGr2uuVnHGdFO0jE6kA8tO1JnmXKOXg==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
