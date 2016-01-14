@@ -879,7 +879,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "MofIzDYItk85nou5fjLdSTb9RImCQ34h6hFehAcqr788s20DPNOa8zu13FzM+IRYOCGk/ALi17/PNsgPXxoXWg==",
+      "sha512": "lAhwshT8q5FS73fWq/NY0JSWcMGp3YemvTqHCP6KDx2J6HCPZTOdkfRUul6DOSVbOyTS2YdmI+ZTmBeq0o9IdQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -893,7 +893,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "+Ttxf93E8BntTXirOBYIxvjo9EBEJmtOyeyV9rRTaxSkrQtsFY4qflgGQrDnRHI+DOm6UGGhuzrK7lKYS9cWCQ==",
+      "sha512": "XnKUj2qnYpztEHZSoV6j9vdDtO4T8mnmO/Dq5Tdnv7JHrl8TxXEmipztlo2RNiqmYLn71d9eT+2GyNCthZ3PEw==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -907,7 +907,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "599rD0qVxyb/MuNPZwyaIjI6K3bNx4qRPPPIt+KkWhrsQaRzIvUR85bbGr2uuVnHGdFO0jE6kA8tO1JnmXKOXg==",
+      "sha512": "j+Uilf4YDHa/Lj+h7PKrNe+09WzwWqgrgJwWJ6S90w+p0nMwZ7asOAhO3A3dKKDVrduivdVzX0CZy1hODGY3Vg==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1190,7 +1190,7 @@
     },
     "TorontoService/1.0.0": {
       "type": "package",
-      "sha512": "Us8sUrhVKVYwXGTZhDDKO8sVIQcLy3kNTbS0VGuaKlGtgF+dUEwRIGMOPqfkdPIAcpAq4JmKNPewxfLlIBvSlw==",
+      "sha512": "eNfHqRDMEvpCLrUp7ivNSE2vXImfecF5jV9dzIiTSX1ebGcQazhgwk3ti/RadWM0rPlJLHKLFHHfnhTfWD0J/w==",
       "files": [
         "lib/dnx451/TorontoService.dll",
         "lib/dnx451/TorontoService.xml",
