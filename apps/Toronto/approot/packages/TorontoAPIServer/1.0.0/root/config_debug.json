@@ -3,7 +3,7 @@
     "App": {
       "appname": "TorontoAPIServer",
       "appkey": "5e6c827f2fcb04e8fca80cf72db5ba004508246b",
-      "url": "http://192.168.1.168:8088",
+      "url": "http://192.168.1.67:8088",
       "region": "default"
     },
     "SharelinkDBServer": {
@@ -29,12 +29,12 @@
     },
 
     "ChicagoServer": {
-      "host": "192.168.1.168",
+      "host": "192.168.1.67",
       "port": 9657
     },
 
     "FileServer": {
-      "url": "http://192.168.1.168:8089"
+      "url": "http://192.168.1.67:8089"
     },
 
     "Log": {
@@ -44,35 +44,35 @@
           "layoutFormat": "${date:format=yyyy-MM-dd HH\\:mm\\:ss} ${logger}:${level:uppercase=true}:${message};${exception}",
           "namePattern": "Main",
           "minLevel": "Debug",
-          "fileName": "c:/logs/Toronto/8088/main.log"
+          "fileName": "/home/deployment/logs/Toronto/8088/main.log"
         },
         {
           "name": "Route",
           "layoutFormat": "${date:format=yyyy-MM-dd HH\\:mm\\:ss} ${message}",
           "namePattern": "Route",
           "logLevel": "Info",
-          "fileName": "c:/logs/Toronto/8088/route.log"
+          "fileName": "/home/deployment/logs/Toronto/8088/route.log"
         },
         {
           "name": "Error",
           "layoutFormat": "${date:format=yyyy-MM-dd HH\\:mm\\:ss} ${logger}:${message}->${exception}",
           "namePattern": "*",
-          "logLevel": "Error",
-          "fileName": "c:/logs/Toronto/8088/error.log"
+          "minLevel": "Error",
+          "fileName": "/home/deployment/logs/Toronto/8088/error.log"
         },
         {
           "name": "Info",
           "layoutFormat": "${date:format=yyyy-MM-dd HH\\:mm\\:ss} ${message}",
           "namePattern": "Info",
           "logLevel": "Info",
-          "fileName": "c:/logs/Toronto/8088/info.log"
+          "fileName": "/home/deployment/logs/Toronto/8088/info.log"
         },
         {
           "name": "Warning",
           "layoutFormat": "${date:format=yyyy-MM-dd HH\\:mm\\:ss} ${logger}:${message}",
           "namePattern": "*",
           "logLevel": "Warn",
-          "fileName": "c:/logs/TorontoAPIServer/8088/warning.log"
+          "fileName": "/home/deployment/logs/Toronto/8088/warning.log"
         }
       ]
     }
