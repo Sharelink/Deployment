@@ -1,0 +1,27 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54743/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "ASPNET_ENV": "Development"
+      }
+    },
+    "web": {
+      "commandName": "web",
+      "commandLineArgs": "--server.urls http://api.sharelink.online:8088",
+      "environmentVariables": {
+        "Hosting:Environment": "Development"
+      }
+    }
+  }
+}

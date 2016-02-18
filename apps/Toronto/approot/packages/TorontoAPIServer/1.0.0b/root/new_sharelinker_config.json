@@ -1,0 +1,61 @@
+﻿{
+  "SharelinkCenter": {
+    "centers": [
+      {
+        "region": "cn",
+        "id": "563c603cf274cd0797ae83e7"
+      },
+      {
+        "region": "us",
+        "id": "563c60acf274cd0797ae83e9"
+      }
+    ]
+  },
+
+  "InitShareThing": {
+    "cn": {
+      "shares":[
+        {
+          "message": "欢迎来到Sharelink！邀请你的好友一起建立共同的主题，然后在你们的共同主题分享吧！",
+          "content": "",
+          "contentType": "message:text"
+        },
+        {
+          "message": "好友最新关注的主题是公开的！每一个人都拥有自己的个人主题。关注Ta的个人主题，Ta分享的所有都能看到。",
+          "content": "",
+          "contentType": "message:text"
+        },
+        {
+          "message": "邀请你的好友一起加入Sharelink吧！",
+          "content": "",
+          "contentType": "message:text"
+        },
+        {
+          "message": "现在，开始体验吧！",
+          "content": "{\"film\" : \"SharelinkFilm.mp4\"}",
+          "contentType": "share:film"
+        }
+      ]
+      
+    },
+    "us": {
+      "shares": [
+        {
+          "message": "Welcome to Sharelink! Build your themes and link your friends in Sharelink.",
+          "content": "",
+          "contentType": "message:text"
+        },
+        {
+          "message": "You can share attach with themes to your linkers who focus this themes. Focus humam theme means you can see all its shares.",
+          "content": "",
+          "contentType": "message:text"
+        },
+        {
+          "message": "Go to link she or he immediately and enjoy your Sharelink time!",
+          "content": "{\"film\" : \"SharelinkFilm.mp4\"}",
+          "contentType": "share:film"
+        }
+      ]
+    }
+  }
+}
