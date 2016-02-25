@@ -285,7 +285,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "wNNrgDdlPxbopyCkph+uXO5hHPBR3p/NgWJGKBZF+tAQbwJDbvyT2cNy1XDcaHF9LzvxBK0BzbPFiC4qTjaMtA==",
+      "sha512": "5bfPtJHR5WWaFqx2ZLoPG4TVlYCUJl5yhUOpwb5vA5Lhzc7DGjVS9Qx9XYNjCjCI/3Hvpn/udzsp5oy50ewRWQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -368,7 +368,7 @@
     },
     "NLog/4.2.0": {
       "type": "package",
-      "sha512": "XlbVY/dAJkcyiqdIznqb5Pd7COhP04o3KVGnTBAEhpEqZbRo4EoAkHTiygWgXY0DZjzloREctn5lyHFzFn7L5A==",
+      "sha512": "8K9/OFb7KXdnWr16kwCDM3goFc/HhvyXFLzq8FTjN34is3HRxk9a9NJUhiqOOKD5L3Nv7kJyp24+h1V0zQIAPA==",
       "files": [
         "lib/net35/NLog.dll",
         "lib/net35/NLog.xml",

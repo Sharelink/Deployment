@@ -1,14 +1,14 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata minClientVersion="3.0">
     <id>System.Resources.ResourceManager</id>
     <version>4.0.0</version>
     <title>System.Resources.ResourceManager</title>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <authors>Microsoft</authors>
     <owners>microsoft,dotnetframework</owners>
     <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
     <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Provides classes and attributes that allow developers to create, store, and manage various culture-specific resources used in an application.
 
 Commonly Used Types:

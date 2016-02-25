@@ -924,7 +924,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "hBxZXQ+qTagJvOgygzH1m4AULMUKFKMSRZGkbGl2wYGrPATgQPfyY0VK63DhNeL+FtlH8FWPP/kV7WrE7zIBsQ==",
+      "sha512": "4/ilYbd6O0+LwiJHQEOiPRnDeIg6KTXqt442Cnw8jCaeVL7n1/B723SBBqRxvY3ZCZQXPtWJACt7KzN8LTvVyQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -938,7 +938,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "LLUnBEr+1kYyGFbavoisNppv/4XIQ4nBCWSZXqOLNx5Qx3LKlR6+EkESEHD5Bjl1KsiggP0ZXWBhMg9DRvvWqw==",
+      "sha512": "/C6YDm8cSWGZq6yo9rG6CSrOVighndz2x1muU+ZktQ3y85wK2a+A1ztkcU2enSuhowEjy1fug8gBQH5W5UZotg==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -952,7 +952,7 @@
     },
     "BahamutFireService/1.0.0": {
       "type": "package",
-      "sha512": "wuIS6TqpyJvpi1F7vGuJkdX+ccNg9f+18L/JL6Y2B07IKnm69//ByA6tI5qpl222Be5dZ6i5Gjqck3RWtFmfTQ==",
+      "sha512": "i959QRkShfjgnyvx03B0epmXWGTpcmhehi9CiIwautHOAOe5cxMo1glvaz6RLcLC7eJ3Gd9Vkqpo+eTZBBWTxA==",
       "files": [
         "BahamutFireService.1.0.0.nupkg",
         "BahamutFireService.1.0.0.nupkg.sha512",
@@ -966,7 +966,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "hRCIsGasbw8tPQUi+5lC/ICwkr5/eto+i5x7QncPkG62p0Kd0/q3X9Ia4rTQWTVNriQ1ukfLqzihR6LGTnEBzw==",
+      "sha512": "bS8TdGYAh5K0fGUAA3CdPDsVlKnXz9JbFuu5Ux4nzkkvwiQ1WzCNYiHVDCrHXi/r3HoWJ98ttVfzR2olzaqhGQ==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1156,7 +1156,7 @@
     },
     "NLog/4.2.0": {
       "type": "package",
-      "sha512": "XlbVY/dAJkcyiqdIznqb5Pd7COhP04o3KVGnTBAEhpEqZbRo4EoAkHTiygWgXY0DZjzloREctn5lyHFzFn7L5A==",
+      "sha512": "8K9/OFb7KXdnWr16kwCDM3goFc/HhvyXFLzq8FTjN34is3HRxk9a9NJUhiqOOKD5L3Nv7kJyp24+h1V0zQIAPA==",
       "files": [
         "lib/net35/NLog.dll",
         "lib/net35/NLog.xml",

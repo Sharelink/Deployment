@@ -1,15 +1,15 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ServiceStack.Common</id>
     <version>3.9.71</version>
     <title>Service Clients and Common libs for ServiceStack projects</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <authors>Demis Bellot</authors>
     <owners>Demis Bellot</owners>
     <licenseUrl>https://github.com/ServiceStack/ServiceStack/blob/v3/LICENSE</licenseUrl>
     <projectUrl>https://github.com/ServiceStack/ServiceStack</projectUrl>
     <iconUrl>http://www.servicestack.net/logo-100x100.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common library dependency for other ServiceStack projects.
       Includes JSON, XML, JSV and SOAP Generic Service Clients.
       Contains:
@@ -22,7 +22,7 @@
     <language>en-US</language>
     <tags>ServiceStack Common Framework Clients ServiceClients Gateway</tags>
     <dependencies>
-      <dependency id="ServiceStack.Text" version="[3.0, 4.0)" />
+      <dependency id="ServiceStack.Text" version="[3.0.0, 4.0.0)" />
     </dependencies>
   </metadata>
 </package>
