@@ -5418,7 +5418,7 @@
   "libraries": {
     "BahamutAspNetCommon/1.0.0": {
       "type": "package",
-      "sha512": "ThY28XZ8C4q4czgv6yJWCqu7zpnIw+4RzntTdOxO0O26OGaWsG5W27D7ASt6JlWmXYMfKdqIzd6uhqSyhpRoMA==",
+      "sha512": "vu+cbefpeswrroYd+yhvuyMo5H3v/V7vk5C2JfE+e1pNm01h4gcoJ4EsOQ4qGUMptW4+D2DTdkyJhOqnf8cLIg==",
       "files": [
         "BahamutAspNetCommon.1.0.0.nupkg",
         "BahamutAspNetCommon.1.0.0.nupkg.sha512",
@@ -5432,7 +5432,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "4/ilYbd6O0+LwiJHQEOiPRnDeIg6KTXqt442Cnw8jCaeVL7n1/B723SBBqRxvY3ZCZQXPtWJACt7KzN8LTvVyQ==",
+      "sha512": "mhBX+BoWFjvsu2/RTpN+bYLre70oKLOSNP8tm4R3B+flARiL+de5UXPpJqkMC7Lu6s0xSrZyH9r6nTwoSUy9Sg==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5446,7 +5446,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "/C6YDm8cSWGZq6yo9rG6CSrOVighndz2x1muU+ZktQ3y85wK2a+A1ztkcU2enSuhowEjy1fug8gBQH5W5UZotg==",
+      "sha512": "Hg3O52D6ipQfMWptd039UcAkKMTdp4eV0rOubwe38MZyCzCWqAPQMTeD9T1Dc8gje28KjPZcR3Dsgl97gTmYFA==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -5460,7 +5460,7 @@
     },
     "BahamutFireService/1.0.0": {
       "type": "package",
-      "sha512": "i959QRkShfjgnyvx03B0epmXWGTpcmhehi9CiIwautHOAOe5cxMo1glvaz6RLcLC7eJ3Gd9Vkqpo+eTZBBWTxA==",
+      "sha512": "RxsDYzOMqC4OdMqaH8raSPlgoxxjrJBsfT/IiFLtml9l/iW/FmQb6fm8VI+VLpRUEl37CekGgggQBzEPR97SvQ==",
       "files": [
         "BahamutFireService.1.0.0.nupkg",
         "BahamutFireService.1.0.0.nupkg.sha512",
@@ -5474,7 +5474,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "OEovOe7EtgdkhwH4XDJ2I3fvRuZLexNjPc170MwS9fhDUQ1/eYkFwHwrD5E41Rj52wfP/DE7XZt+x7Lui15dVA==",
+      "sha512": "bXQ2TZIfMAVrpknsDRirhtT9XQ4GbQlhHSn60llGOdDKe2IcOx0HIJZ7QcI1WZXc0aZ5DbJHPfgaFOjry1ggAA==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5488,7 +5488,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "bS8TdGYAh5K0fGUAA3CdPDsVlKnXz9JbFuu5Ux4nzkkvwiQ1WzCNYiHVDCrHXi/r3HoWJ98ttVfzR2olzaqhGQ==",
+      "sha512": "jkByKLKbiL3A/nppVZQV0nUBAKDKI95PUksTUtn9oIHfU7ceu2r1ER8VbU98mJa6mtRK7gM/4At0CdkYBS23cQ==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -5545,7 +5545,7 @@
     },
     "FireServer/1.0.0": {
       "type": "package",
-      "sha512": "H9dB7GAZGJBgO1GILF9xvEsWeYTCs+EFssLPsxYMXzCLFfadM6stSIwQ0/wx8+p6c465JiULxlILBINcJZb1qQ==",
+      "sha512": "J+o0co6+UiXT9g/cMtEqj3xEbWtnlHiRIF7speVTtK7hMqKuLu3QA5xGlUg7xCv1ucGqX2uBOF+Z5LQXOl8e7w==",
       "files": [
         "app/project.json",
         "FireServer.1.0.0.nupkg",
@@ -6665,7 +6665,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "K/3k1LOjgtG9m3SYwM1CWQdDJ6FdpFleTi9ZVZQEtJS+jmb/3tfo/exMLfjCCtjp0qOheU8PKF0BhcWUTQk+Ow==",
+      "sha512": "imkpkhDqjc8zEuQ+Z7wHBvZ9M82W5WJ/bggyIsvzRGXnM8B1QOS62j1UIZdTmhZMMkOSg2aqH0c8iB9+9u0pYQ==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

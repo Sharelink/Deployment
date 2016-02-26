@@ -141,7 +141,7 @@
   "libraries": {
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "1Yw3QxWWQ/oF/c9wExoILqHqsyWeEluMX2fLwawh2N6ZwDeGVUyUEVLB5AHq3eFpTjGRemkpknwQovODvGTuZg==",
+      "sha512": "jELHP8jDwHFWRl7c3/gfFBw4gQEGwxU9jigMSTmQ/mS+GHk6YO1vS8XehqOgXVkuFNToI0gsInCEKXE8Y27z2Q==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
@@ -155,7 +155,7 @@
     },
     "CSServerJsonProtocol/1.0.0": {
       "type": "package",
-      "sha512": "Epuft1a+XxHRwqaixzCbYLFbFSQ6rzUclVznnHsuRmSRUxuK/cens4owR6tPqdZAFE5xztNJcyVBuDl6pzN6SQ==",
+      "sha512": "E51p85aVBfi+8vHohSZy8Shmmt2p99K7P4iZR93xa7v2iKqAB4nwG2FemZONHFDwrRXMnQY+Hzrplr19EC4zkA==",
       "files": [
         "CSServerJsonProtocol.1.0.0.nupkg",
         "CSServerJsonProtocol.1.0.0.nupkg.sha512",
