@@ -22,7 +22,7 @@
         "type": "package",
         "dependencies": {
           "CSharpServerFrameworkAbstract": "1.0.0",
-          "Newtonsoft.Json": "7.0.1"
+          "Newtonsoft.Json": "8.0.2"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -37,7 +37,7 @@
           "lib/dnx451/CSServerJsonProtocol.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -67,7 +67,7 @@
         "type": "package",
         "dependencies": {
           "CSharpServerFrameworkAbstract": "1.0.0",
-          "Newtonsoft.Json": "7.0.1"
+          "Newtonsoft.Json": "8.0.2"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -82,7 +82,7 @@
           "lib/dnx451/CSServerJsonProtocol.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -112,7 +112,7 @@
         "type": "package",
         "dependencies": {
           "CSharpServerFrameworkAbstract": "1.0.0",
-          "Newtonsoft.Json": "7.0.1"
+          "Newtonsoft.Json": "8.0.2"
         },
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -127,7 +127,7 @@
           "lib/dnx451/CSServerJsonProtocol.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -141,7 +141,7 @@
   "libraries": {
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "jELHP8jDwHFWRl7c3/gfFBw4gQEGwxU9jigMSTmQ/mS+GHk6YO1vS8XehqOgXVkuFNToI0gsInCEKXE8Y27z2Q==",
+      "sha512": "mx03Yq/mWn+gpTBIkYEALY65hoNQkGVS8U8F+uO5Iwm0sfZQelNltDLwTmRpGrIHbgpnwk45O/hhjG1jbFmvfQ==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
@@ -155,7 +155,7 @@
     },
     "CSServerJsonProtocol/1.0.0": {
       "type": "package",
-      "sha512": "E51p85aVBfi+8vHohSZy8Shmmt2p99K7P4iZR93xa7v2iKqAB4nwG2FemZONHFDwrRXMnQY+Hzrplr19EC4zkA==",
+      "sha512": "1TqOs/jv2KdpYhdRY9VcRXBoRYULmc17GY8FyWGfHjU826NE/mW/gWr3ZE6fTVVoBKPqICsUVBhhxAAYNX8ITQ==",
       "files": [
         "CSServerJsonProtocol.1.0.0.nupkg",
         "CSServerJsonProtocol.1.0.0.nupkg.sha512",
@@ -167,9 +167,9 @@
         "root/project.lock.json"
       ]
     },
-    "Newtonsoft.Json/7.0.1": {
+    "Newtonsoft.Json/8.0.2": {
       "type": "package",
-      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "sha512": "e5yWmEfu68rmtG431zl9N/7PlNKQDIuiDW5MHlEFAZcecakcxrIGnKqrPAtWNILzK2oNanRB5cD150MYhECK3g==",
       "files": [
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -183,8 +183,8 @@
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
-        "Newtonsoft.Json.7.0.1.nupkg",
-        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.8.0.2.nupkg",
+        "Newtonsoft.Json.8.0.2.nupkg.sha512",
         "Newtonsoft.Json.nuspec",
         "tools/install.ps1"
       ]

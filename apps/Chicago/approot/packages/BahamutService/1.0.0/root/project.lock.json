@@ -8,8 +8,8 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Newtonsoft.Json": "7.0.1",
-          "NLog": "4.2.0",
+          "Newtonsoft.Json": "8.0.2",
+          "NLog": "4.2.3",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -48,9 +48,9 @@
         "type": "package",
         "dependencies": {
           "EntityFramework": "6.1.3",
-          "MongoDB.Driver": "2.1.1",
-          "MySql.Data": "6.9.7",
-          "MySql.Data.Entity": "6.9.7",
+          "MongoDB.Driver": "2.2.3",
+          "MySql.Data": "6.9.8",
+          "MySql.Data.Entity": "6.9.8",
           "ServiceStack": "3.9.71",
           "ServiceStack.Common": "3.9.71",
           "ServiceStack.Redis": "3.9.71",
@@ -125,7 +125,7 @@
           "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "MongoDB.Bson/2.1.1": {
+      "MongoDB.Bson/2.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/MongoDB.Bson.dll": {}
@@ -134,11 +134,11 @@
           "lib/net45/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.1.1": {
+      "MongoDB.Driver/2.2.3": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.1",
-          "MongoDB.Driver.Core": "2.1.1"
+          "MongoDB.Bson": "2.2.3",
+          "MongoDB.Driver.Core": "2.2.3"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.dll": {}
@@ -147,10 +147,10 @@
           "lib/net45/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.1.1": {
+      "MongoDB.Driver.Core/2.2.3": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.1"
+          "MongoDB.Bson": "2.2.3"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.Core.dll": {}
@@ -159,7 +159,7 @@
           "lib/net45/MongoDB.Driver.Core.dll": {}
         }
       },
-      "MySql.Data/6.9.7": {
+      "MySql.Data/6.9.8": {
         "type": "package",
         "compile": {
           "lib/net45/MySql.Data.dll": {}
@@ -168,11 +168,11 @@
           "lib/net45/MySql.Data.dll": {}
         }
       },
-      "MySql.Data.Entity/6.9.7": {
+      "MySql.Data.Entity/6.9.8": {
         "type": "package",
         "dependencies": {
           "EntityFramework": "6.0.0",
-          "MySql.Data": "6.9.7"
+          "MySql.Data": "6.9.8"
         },
         "compile": {
           "lib/net45/MySql.Data.Entity.EF6.dll": {}
@@ -181,7 +181,7 @@
           "lib/net45/MySql.Data.Entity.EF6.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -190,7 +190,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "NLog/4.2.0": {
+      "NLog/4.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/NLog.dll": {}
@@ -281,8 +281,8 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Newtonsoft.Json": "7.0.1",
-          "NLog": "4.2.0",
+          "Newtonsoft.Json": "8.0.2",
+          "NLog": "4.2.3",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -321,9 +321,9 @@
         "type": "package",
         "dependencies": {
           "EntityFramework": "6.1.3",
-          "MongoDB.Driver": "2.1.1",
-          "MySql.Data": "6.9.7",
-          "MySql.Data.Entity": "6.9.7",
+          "MongoDB.Driver": "2.2.3",
+          "MySql.Data": "6.9.8",
+          "MySql.Data.Entity": "6.9.8",
           "ServiceStack": "3.9.71",
           "ServiceStack.Common": "3.9.71",
           "ServiceStack.Redis": "3.9.71",
@@ -398,7 +398,7 @@
           "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "MongoDB.Bson/2.1.1": {
+      "MongoDB.Bson/2.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/MongoDB.Bson.dll": {}
@@ -407,11 +407,11 @@
           "lib/net45/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.1.1": {
+      "MongoDB.Driver/2.2.3": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.1",
-          "MongoDB.Driver.Core": "2.1.1"
+          "MongoDB.Bson": "2.2.3",
+          "MongoDB.Driver.Core": "2.2.3"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.dll": {}
@@ -420,10 +420,10 @@
           "lib/net45/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.1.1": {
+      "MongoDB.Driver.Core/2.2.3": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.1"
+          "MongoDB.Bson": "2.2.3"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.Core.dll": {}
@@ -432,7 +432,7 @@
           "lib/net45/MongoDB.Driver.Core.dll": {}
         }
       },
-      "MySql.Data/6.9.7": {
+      "MySql.Data/6.9.8": {
         "type": "package",
         "compile": {
           "lib/net45/MySql.Data.dll": {}
@@ -441,11 +441,11 @@
           "lib/net45/MySql.Data.dll": {}
         }
       },
-      "MySql.Data.Entity/6.9.7": {
+      "MySql.Data.Entity/6.9.8": {
         "type": "package",
         "dependencies": {
           "EntityFramework": "6.0.0",
-          "MySql.Data": "6.9.7"
+          "MySql.Data": "6.9.8"
         },
         "compile": {
           "lib/net45/MySql.Data.Entity.EF6.dll": {}
@@ -454,7 +454,7 @@
           "lib/net45/MySql.Data.Entity.EF6.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -463,7 +463,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "NLog/4.2.0": {
+      "NLog/4.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/NLog.dll": {}
@@ -554,8 +554,8 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Newtonsoft.Json": "7.0.1",
-          "NLog": "4.2.0",
+          "Newtonsoft.Json": "8.0.2",
+          "NLog": "4.2.3",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -594,9 +594,9 @@
         "type": "package",
         "dependencies": {
           "EntityFramework": "6.1.3",
-          "MongoDB.Driver": "2.1.1",
-          "MySql.Data": "6.9.7",
-          "MySql.Data.Entity": "6.9.7",
+          "MongoDB.Driver": "2.2.3",
+          "MySql.Data": "6.9.8",
+          "MySql.Data.Entity": "6.9.8",
           "ServiceStack": "3.9.71",
           "ServiceStack.Common": "3.9.71",
           "ServiceStack.Redis": "3.9.71",
@@ -671,7 +671,7 @@
           "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "MongoDB.Bson/2.1.1": {
+      "MongoDB.Bson/2.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/MongoDB.Bson.dll": {}
@@ -680,11 +680,11 @@
           "lib/net45/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.1.1": {
+      "MongoDB.Driver/2.2.3": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.1",
-          "MongoDB.Driver.Core": "2.1.1"
+          "MongoDB.Bson": "2.2.3",
+          "MongoDB.Driver.Core": "2.2.3"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.dll": {}
@@ -693,10 +693,10 @@
           "lib/net45/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.1.1": {
+      "MongoDB.Driver.Core/2.2.3": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.1.1"
+          "MongoDB.Bson": "2.2.3"
         },
         "compile": {
           "lib/net45/MongoDB.Driver.Core.dll": {}
@@ -705,7 +705,7 @@
           "lib/net45/MongoDB.Driver.Core.dll": {}
         }
       },
-      "MySql.Data/6.9.7": {
+      "MySql.Data/6.9.8": {
         "type": "package",
         "compile": {
           "lib/net45/MySql.Data.dll": {}
@@ -714,11 +714,11 @@
           "lib/net45/MySql.Data.dll": {}
         }
       },
-      "MySql.Data.Entity/6.9.7": {
+      "MySql.Data.Entity/6.9.8": {
         "type": "package",
         "dependencies": {
           "EntityFramework": "6.0.0",
-          "MySql.Data": "6.9.7"
+          "MySql.Data": "6.9.8"
         },
         "compile": {
           "lib/net45/MySql.Data.Entity.EF6.dll": {}
@@ -727,7 +727,7 @@
           "lib/net45/MySql.Data.Entity.EF6.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -736,7 +736,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "NLog/4.2.0": {
+      "NLog/4.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/NLog.dll": {}
@@ -825,7 +825,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "KbxRTceeovn/TIekAZUEwsJL6FJBzdsJ8rOc7acnzIA08pS99itB8KTT3pwOEpAvSFt6VzdJUmdNYuQ/jYtWeA==",
+      "sha512": "XMmAaCV86EMqAoHJwGP4SZrir9Sl5is6TFyKYlisAUG5yTein9a8S+MuoZjwCyKGX/BMzlz4GV2YBWm39K0AaA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -839,7 +839,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "0GlRYtclKC3ox25XZ4LQ4wM9oYCFUrotwD4IS20gYkyPUgFNBmbURcHL+9hOsvyQr+fkH9aFCe3wNA92QEjwpg==",
+      "sha512": "+IkRg4ge/pEL6b7XaiygDpZDX0fsE0ygo055sRYwmfJv6LHIk/VElVe6K9cCoNU5q3jHHzJQ49b4IIsPxa7iOg==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -853,7 +853,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "Zi5loOGlzDlAhZxPpuhvIPmi9IzgaCadcOqw7GXrrYDtvgXEIDmJKEDx2MvhMu9Gx9SiM01UvbXVD7P90OiMnw==",
+      "sha512": "U6eFnn7vs9JFPqic3xB+HlzTnjhfp/ZdVvcGbiFKVz2bHsZQOW3+EoMJI0OKhj6A/K188lNw5umWHgmLcZKumg==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -940,44 +940,44 @@
         "Microsoft.Extensions.Primitives.nuspec"
       ]
     },
-    "MongoDB.Bson/2.1.1": {
+    "MongoDB.Bson/2.2.3": {
       "type": "package",
-      "sha512": "exC90gaZtCi+x2kNlMNfUfTi2e20EPUIwM0ym+fTxeBBPY/5W5izlC0uXOkXxHjNyC4dn2xOX5pLbrLeji/OWA==",
+      "sha512": "AwxyD8qYgy1GQkxQV2uMzymm19QwaNNAER6gf/w8f2dDjcboEve1kv9GEz7mtn2K8p6hYQjhgnvGc+xeh0KLmg==",
       "files": [
         "lib/net45/MongoDB.Bson.dll",
         "lib/net45/MongoDB.Bson.XML",
         "License.rtf",
-        "MongoDB.Bson.2.1.1.nupkg",
-        "MongoDB.Bson.2.1.1.nupkg.sha512",
+        "MongoDB.Bson.2.2.3.nupkg",
+        "MongoDB.Bson.2.2.3.nupkg.sha512",
         "MongoDB.Bson.nuspec"
       ]
     },
-    "MongoDB.Driver/2.1.1": {
+    "MongoDB.Driver/2.2.3": {
       "type": "package",
-      "sha512": "ROXtw0yskUzrtqCN2kMR6YbPD9W2SS3ppTlICe5P6SI1MyRg2jQc/1wPllyKGtsdSHkBsiCp2MwyrQhVzR5bLQ==",
+      "sha512": "ZgRSAv+vxCCYnL/V4mChGNnx8rBnnpDO2S8Fex+G3IrVWRRgJb3rEFOEoyuyR5C5qtOHGVMlGRSSngQwbgV2Dw==",
       "files": [
         "lib/net45/MongoDB.Driver.dll",
         "lib/net45/MongoDB.Driver.XML",
         "License.rtf",
-        "MongoDB.Driver.2.1.1.nupkg",
-        "MongoDB.Driver.2.1.1.nupkg.sha512",
+        "MongoDB.Driver.2.2.3.nupkg",
+        "MongoDB.Driver.2.2.3.nupkg.sha512",
         "MongoDB.Driver.nuspec"
       ]
     },
-    "MongoDB.Driver.Core/2.1.1": {
+    "MongoDB.Driver.Core/2.2.3": {
       "type": "package",
-      "sha512": "nFJzE9k3VkigMfXoojV004LCVTD0UZaIeGVMyLPdOXerLFs81Kauqq+35mzi46f5/JBdy++q2taTuNZEKbezMQ==",
+      "sha512": "o9/7behJkN5TEG9KvRHM6HUdnsXgLl31pKRQwiCi4xgd7gAleI3sagBcujh7x40gl1NL/u4+uMPRZFpGAaGEQw==",
       "files": [
         "lib/net45/MongoDB.Driver.Core.dll",
         "License.rtf",
-        "MongoDB.Driver.Core.2.1.1.nupkg",
-        "MongoDB.Driver.Core.2.1.1.nupkg.sha512",
+        "MongoDB.Driver.Core.2.2.3.nupkg",
+        "MongoDB.Driver.Core.2.2.3.nupkg.sha512",
         "MongoDB.Driver.Core.nuspec"
       ]
     },
-    "MySql.Data/6.9.7": {
+    "MySql.Data/6.9.8": {
       "type": "package",
-      "sha512": "ugpH3iQUH8HltnG62oUaN/3aeGG56BFeTAh381DjEzz9CSx/99y4rUvWFmt84WhecGi7p0Lh6yWg+QGQ4rgjGQ==",
+      "sha512": "ZSkMKsB1J9Cb/nO3+GlfX/YttibU23y5ZQtn/xzzl3xfPK512wP1jNjiVG4AFvmeJrf02qHNc/GfXJGYYHN8Pg==",
       "files": [
         "CHANGES",
         "content/app.config.transform",
@@ -986,30 +986,30 @@
         "lib/net20-cf/MySql.Data.CF.dll",
         "lib/net40/MySql.Data.dll",
         "lib/net45/MySql.Data.dll",
-        "MySql.Data.6.9.7.nupkg",
-        "MySql.Data.6.9.7.nupkg.sha512",
+        "MySql.Data.6.9.8.nupkg",
+        "MySql.Data.6.9.8.nupkg.sha512",
         "MySql.Data.nuspec",
         "Readme.txt"
       ]
     },
-    "MySql.Data.Entity/6.9.7": {
+    "MySql.Data.Entity/6.9.8": {
       "type": "package",
-      "sha512": "hYx+WoyysYQ7lt0Ty8ybh1A4zWUON0+7Sj6UxQ3vSWsEww4x1F0ruaGqEOTV8b8T/5ui3NyqXD8x+PN4jzvQFw==",
+      "sha512": "jdMn+++xLDtdrTy4QYIWWoIsf2EGC4UACEkPcvWloD9Zty5KmlY8Zee9csJB9BpO3mlGzSNzc15vJmrg/Vv1vQ==",
       "files": [
         "CHANGES",
         "content/app.config.transform",
         "content/web.config.transform",
         "lib/net40/MySql.Data.Entity.EF6.dll",
         "lib/net45/MySql.Data.Entity.EF6.dll",
-        "MySql.Data.Entity.6.9.7.nupkg",
-        "MySql.Data.Entity.6.9.7.nupkg.sha512",
+        "MySql.Data.Entity.6.9.8.nupkg",
+        "MySql.Data.Entity.6.9.8.nupkg.sha512",
         "MySql.Data.Entity.nuspec",
         "Readme.txt"
       ]
     },
-    "Newtonsoft.Json/7.0.1": {
+    "Newtonsoft.Json/8.0.2": {
       "type": "package",
-      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "sha512": "e5yWmEfu68rmtG431zl9N/7PlNKQDIuiDW5MHlEFAZcecakcxrIGnKqrPAtWNILzK2oNanRB5cD150MYhECK3g==",
       "files": [
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -1023,15 +1023,15 @@
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
-        "Newtonsoft.Json.7.0.1.nupkg",
-        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.8.0.2.nupkg",
+        "Newtonsoft.Json.8.0.2.nupkg.sha512",
         "Newtonsoft.Json.nuspec",
         "tools/install.ps1"
       ]
     },
-    "NLog/4.2.0": {
+    "NLog/4.2.3": {
       "type": "package",
-      "sha512": "8K9/OFb7KXdnWr16kwCDM3goFc/HhvyXFLzq8FTjN34is3HRxk9a9NJUhiqOOKD5L3Nv7kJyp24+h1V0zQIAPA==",
+      "sha512": "j6ZuwmXtiRUdlmon8ekYTKYFuQuIVi3ACJm7izHZL9KMmX2x/5Dvi98/EE7wcFNwmSz85QTITKYU4Q04u6VXSg==",
       "files": [
         "lib/net35/NLog.dll",
         "lib/net35/NLog.xml",
@@ -1043,8 +1043,8 @@
         "lib/sl4/NLog.xml",
         "lib/sl5/NLog.dll",
         "lib/sl5/NLog.xml",
-        "NLog.4.2.0.nupkg",
-        "NLog.4.2.0.nupkg.sha512",
+        "NLog.4.2.3.nupkg",
+        "NLog.4.2.3.nupkg.sha512",
         "NLog.nuspec"
       ]
     },

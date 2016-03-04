@@ -8,8 +8,8 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Newtonsoft.Json": "7.0.1",
-          "NLog": "4.2.0",
+          "Newtonsoft.Json": "8.0.2",
+          "NLog": "4.2.3",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -67,7 +67,7 @@
           "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -76,7 +76,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "NLog/4.2.0": {
+      "NLog/4.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/NLog.dll": {}
@@ -101,8 +101,8 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Newtonsoft.Json": "7.0.1",
-          "NLog": "4.2.0",
+          "Newtonsoft.Json": "8.0.2",
+          "NLog": "4.2.3",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -160,7 +160,7 @@
           "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -169,7 +169,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "NLog/4.2.0": {
+      "NLog/4.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/NLog.dll": {}
@@ -194,8 +194,8 @@
         "dependencies": {
           "DBTek.Crypto": "2.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
-          "Newtonsoft.Json": "7.0.1",
-          "NLog": "4.2.0",
+          "Newtonsoft.Json": "8.0.2",
+          "NLog": "4.2.3",
           "PasswordHash": "1.1.0"
         },
         "frameworkAssemblies": [
@@ -253,7 +253,7 @@
           "lib/net451/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "Newtonsoft.Json/8.0.2": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -262,7 +262,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "NLog/4.2.0": {
+      "NLog/4.2.3": {
         "type": "package",
         "compile": {
           "lib/net45/NLog.dll": {}
@@ -285,7 +285,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "zbSJs3j2nGzrvXtvSE+wcfU1K7hBQCM72KpsB3lIQ6ggkjRLEqdkS3K0Y/vd/pXW4LD6VLENfr7+1wFrZesOYQ==",
+      "sha512": "aSxYE0nE7vykJzFcH2xs2YOh5oB3GmCUEfe47lct/GXXE4gJGwhq8yw3mP4izOLAgoc9x9E8vNj9Cz6yoFwrrg==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -344,9 +344,9 @@
         "Microsoft.Extensions.Primitives.nuspec"
       ]
     },
-    "Newtonsoft.Json/7.0.1": {
+    "Newtonsoft.Json/8.0.2": {
       "type": "package",
-      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "sha512": "e5yWmEfu68rmtG431zl9N/7PlNKQDIuiDW5MHlEFAZcecakcxrIGnKqrPAtWNILzK2oNanRB5cD150MYhECK3g==",
       "files": [
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -360,15 +360,15 @@
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
-        "Newtonsoft.Json.7.0.1.nupkg",
-        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.8.0.2.nupkg",
+        "Newtonsoft.Json.8.0.2.nupkg.sha512",
         "Newtonsoft.Json.nuspec",
         "tools/install.ps1"
       ]
     },
-    "NLog/4.2.0": {
+    "NLog/4.2.3": {
       "type": "package",
-      "sha512": "8K9/OFb7KXdnWr16kwCDM3goFc/HhvyXFLzq8FTjN34is3HRxk9a9NJUhiqOOKD5L3Nv7kJyp24+h1V0zQIAPA==",
+      "sha512": "j6ZuwmXtiRUdlmon8ekYTKYFuQuIVi3ACJm7izHZL9KMmX2x/5Dvi98/EE7wcFNwmSz85QTITKYU4Q04u6VXSg==",
       "files": [
         "lib/net35/NLog.dll",
         "lib/net35/NLog.xml",
@@ -380,8 +380,8 @@
         "lib/sl4/NLog.xml",
         "lib/sl5/NLog.dll",
         "lib/sl5/NLog.xml",
-        "NLog.4.2.0.nupkg",
-        "NLog.4.2.0.nupkg.sha512",
+        "NLog.4.2.3.nupkg",
+        "NLog.4.2.3.nupkg.sha512",
         "NLog.nuspec"
       ]
     },
