@@ -5328,7 +5328,7 @@
   "libraries": {
     "AuthenticationServer/1.0.0": {
       "type": "package",
-      "sha512": "gCm/rTo1H1/hCfmZwg1E8kwfrBf+251lZsUMyvsKKG02c8ES2Y0WwvL2kTcIaUzhOJqml4EW1x1d1KJiNR9FLw==",
+      "sha512": "ioerH7LqhnGeMKgUN42fyQb46TYsXPD2y7tP0Bw+wKrSZsau7/K9AknrHVx1SwEH9xMQDHT8J1DkSiPqjXuEYA==",
       "files": [
         "app/project.json",
         "AuthenticationServer.1.0.0.nupkg",
@@ -5357,7 +5357,7 @@
     },
     "BahamutAspNetCommon/1.0.0": {
       "type": "package",
-      "sha512": "9Ix6DkzJpU0a3yhFk0Wg9Ef/ZDnHO23OPwHBzHDCh8nkDsdJ3kyEpYgiGXaHRxERu/8AWwwZYzU3l2LgnIl8Iw==",
+      "sha512": "3BtEZN4YIsrLL2ffOwPkstRFZ4/9qhmxnP8rKtFVqedacemaqm+94YlAn+XSDDEFiLjy1WBzG3ij+SNwHzOdpQ==",
       "files": [
         "BahamutAspNetCommon.1.0.0.nupkg",
         "BahamutAspNetCommon.1.0.0.nupkg.sha512",
@@ -5371,7 +5371,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "sOPVMqSgZ6N1ngG53Q3eXz8CxhgY1jun+T9nBVkzxhBreggbNB/+zFoKMI7ZtImtUiQ1727Ss2oY80mseOuxmA==",
+      "sha512": "3Ucdc2ry3eAq0gB+UJJULxL7aB7W32p26MkrYfCKJl0263rCiWCKxaAubOS6RGfx5LGWL1P8WUo/cghJnCfHyQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5385,7 +5385,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "bRaOjKVNGHTFBMlI56DkUoa1XjeM5lqzH7EJLnY3o3geJp2j3Ff90uUWoumj9EBHUrM3IFrshsoGxHEZE/p8Sg==",
+      "sha512": "9SB14XoElyAE5pKY2DpNndsT/2R87OgBozQYVyx5EGgMSWyBz02Ivf1VKETVlmnUnbE3dmrQK9kMJoiQ6Sisig==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5399,7 +5399,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "H6a6vUs8MoURt2kYmZpdA3buWd8vxyODBXGxKAGJxVj4Os43K1Vmk9IQ+VDLlsunFpW+pSEX9o1sdeo/VbCZWQ==",
+      "sha512": "9KjbY6eDEcCN0KE1ex+6UFfRhy6TGDjLNvInNIQMzeU2wwg1bzcYDwy3V1IcuVv9EthHuginfPll8e8GI66AkQ==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -6557,7 +6557,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "zQuhBvs7ftwVIVuG5qfnznoEjxMHsMTFzCR+U3nuNlKuO+MU17EDiCBBOF2P0NKfTwEQvACVvk9y/lEdI4yXHw==",
+      "sha512": "yP+AqSorznh7MHZMhV8tHew7XQlhUZSS/ZfM47zSuRupi0wfwzI75bST0vbtlzSTpQd1VUGDwPzHjAz0ZN272Q==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

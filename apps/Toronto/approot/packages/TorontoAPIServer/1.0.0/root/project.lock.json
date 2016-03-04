@@ -881,6 +881,21 @@
           "lib/net451/Microsoft.AspNet.WebUtilities.dll": {}
         }
       },
+      "Microsoft.Bcl/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1356,6 +1371,25 @@
           "lib/net451/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
+      "Microsoft.Net.Http/2.2.22": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http",
+          "System.Net.Http.WebRequest"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Extensions.dll": {},
+          "lib/net45/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {},
+          "lib/net45/System.Net.Http.Primitives.dll": {}
+        }
+      },
       "Microsoft.Net.Http.Headers/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1758,6 +1792,7 @@
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+          "Microsoft.Net.Http": "2.2.22",
           "ServerControlService": "1.0.0",
           "TorontoService": "1.0.0"
         },
@@ -2675,6 +2710,21 @@
           "lib/net451/Microsoft.AspNet.WebUtilities.dll": {}
         }
       },
+      "Microsoft.Bcl/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -3150,6 +3200,25 @@
           "lib/net451/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
+      "Microsoft.Net.Http/2.2.22": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http",
+          "System.Net.Http.WebRequest"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Extensions.dll": {},
+          "lib/net45/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {},
+          "lib/net45/System.Net.Http.Primitives.dll": {}
+        }
+      },
       "Microsoft.Net.Http.Headers/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -3552,6 +3621,7 @@
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+          "Microsoft.Net.Http": "2.2.22",
           "ServerControlService": "1.0.0",
           "TorontoService": "1.0.0"
         },
@@ -4469,6 +4539,21 @@
           "lib/net451/Microsoft.AspNet.WebUtilities.dll": {}
         }
       },
+      "Microsoft.Bcl/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {
+        "type": "package"
+      },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -4944,6 +5029,25 @@
           "lib/net451/Microsoft.Extensions.WebEncoders.Core.dll": {}
         }
       },
+      "Microsoft.Net.Http/2.2.22": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http",
+          "System.Net.Http.WebRequest"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Extensions.dll": {},
+          "lib/net45/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {},
+          "lib/net45/System.Net.Http.Primitives.dll": {}
+        }
+      },
       "Microsoft.Net.Http.Headers/1.0.0-rc1-final": {
         "type": "package",
         "frameworkAssemblies": [
@@ -5346,6 +5450,7 @@
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
           "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+          "Microsoft.Net.Http": "2.2.22",
           "ServerControlService": "1.0.0",
           "TorontoService": "1.0.0"
         },
@@ -5385,7 +5490,7 @@
   "libraries": {
     "BahamutAspNetCommon/1.0.0": {
       "type": "package",
-      "sha512": "+ZOm9/rUUsWMfi4ZISIwpCJqn0QX+RUjk/4njFzwsBF1XuIxYRChEbkKwwKUc/S+VwLu3Qcj7xehpfwtfC9Gtg==",
+      "sha512": "svBOewvP7jt+lni7+Aje3XL+/skz1oSPkMolQElL9OtGWHGIw1k4J7lGPPE/UD7v4JCEzwnYbhF22NdwMoSrEg==",
       "files": [
         "BahamutAspNetCommon.1.0.0.nupkg",
         "BahamutAspNetCommon.1.0.0.nupkg.sha512",
@@ -5399,7 +5504,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "IcJMYKXhVczgEa8nUIlsZ922+lVRZpZdqxrTgrs4wfxPh5TWzxnlx8S6xdx19+L01/QKdIdNcNQ4mEkXQT2M0w==",
+      "sha512": "zbSJs3j2nGzrvXtvSE+wcfU1K7hBQCM72KpsB3lIQ6ggkjRLEqdkS3K0Y/vd/pXW4LD6VLENfr7+1wFrZesOYQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5413,7 +5518,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "zHDT4KzHL9Z3IoElE58vqzQymB7MUMD+I3mol8G4GuycdGNlv7J4Bxmd19ZKtnrOn7VLWpx4ZxpzDZbWcfMdRQ==",
+      "sha512": "49V+FmcpEQ3vZXJEPQ+PqGjb9Y2NwIfOHUnyeRwVYRp09TCNmmkBh8voBFRDRuR3mC+wo3NHAr+ZnI1OCe0z6A==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5427,7 +5532,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "xkNi8kbNvh3Qiq1KmG0SoRFgRQ1TcaD1oaTu3Gtf+EmPI8wFOz7pyzHBcsFQvs05Vp5dS9x5a2LUIoQDB96cvQ==",
+      "sha512": "rWbxkAJOsJ5yprccaGcm588Qh1tSIbPW8zvUAzdU2BbUS4St2l2u+0LFh3BQkfy4fnKaX+eFbabAkYI8XcPaLw==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -6027,6 +6132,127 @@
         "Microsoft.AspNet.WebUtilities.nuspec"
       ]
     },
+    "Microsoft.Bcl/1.1.9": {
+      "type": "package",
+      "sha512": "USQ55innJy8K+tAXvVa1O8dUTp2s7pmJ5cJj6Tl02HtGc2xBDj0P2QH5620HbGXIWKWYhydoeQF8Rm/JRDBGhw==",
+      "files": [
+        "content/monoandroid/_._",
+        "content/monotouch/_._",
+        "content/net45/_._",
+        "content/portable-net45+win8+wp8+wpa81/_._",
+        "content/portable-net45+win8+wpa81/_._",
+        "content/portable-net451+win81/_._",
+        "content/portable-net451+win81+wpa81/_._",
+        "content/portable-win81+wp81+wpa81/_._",
+        "content/sl4/_._",
+        "content/sl5/_._",
+        "content/win8/_._",
+        "content/wp8/_._",
+        "content/wpa81/_._",
+        "lib/monoandroid/_._",
+        "lib/monotouch/_._",
+        "lib/net40/ensureRedirect.xml",
+        "lib/net40/System.IO.dll",
+        "lib/net40/System.IO.xml",
+        "lib/net40/System.Runtime.dll",
+        "lib/net40/System.Runtime.xml",
+        "lib/net40/System.Threading.Tasks.dll",
+        "lib/net40/System.Threading.Tasks.xml",
+        "lib/net45/_._",
+        "lib/portable-net40+sl4+win8/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8/System.IO.dll",
+        "lib/portable-net40+sl4+win8/System.IO.xml",
+        "lib/portable-net40+sl4+win8/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.IO.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.IO.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net40+win8/ensureRedirect.xml",
+        "lib/portable-net40+win8/System.IO.dll",
+        "lib/portable-net40+win8/System.IO.xml",
+        "lib/portable-net40+win8/System.Runtime.dll",
+        "lib/portable-net40+win8/System.Runtime.xml",
+        "lib/portable-net40+win8/System.Threading.Tasks.dll",
+        "lib/portable-net40+win8/System.Threading.Tasks.xml",
+        "lib/portable-net40+win8+wp8+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.IO.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.IO.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.Runtime.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.Runtime.xml",
+        "lib/portable-net40+win8+wp8+wpa81/System.Threading.Tasks.dll",
+        "lib/portable-net40+win8+wp8+wpa81/System.Threading.Tasks.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/portable-net45+win8+wpa81/_._",
+        "lib/portable-net451+win81/_._",
+        "lib/portable-net451+win81+wpa81/_._",
+        "lib/portable-win81+wp81+wpa81/_._",
+        "lib/sl4/System.IO.dll",
+        "lib/sl4/System.IO.xml",
+        "lib/sl4/System.Runtime.dll",
+        "lib/sl4/System.Runtime.xml",
+        "lib/sl4/System.Threading.Tasks.dll",
+        "lib/sl4/System.Threading.Tasks.xml",
+        "lib/sl4-windowsphone71/ensureRedirect.xml",
+        "lib/sl4-windowsphone71/System.IO.dll",
+        "lib/sl4-windowsphone71/System.IO.xml",
+        "lib/sl4-windowsphone71/System.Runtime.dll",
+        "lib/sl4-windowsphone71/System.Runtime.xml",
+        "lib/sl4-windowsphone71/System.Threading.Tasks.dll",
+        "lib/sl4-windowsphone71/System.Threading.Tasks.xml",
+        "lib/sl5/System.IO.dll",
+        "lib/sl5/System.IO.xml",
+        "lib/sl5/System.Runtime.dll",
+        "lib/sl5/System.Runtime.xml",
+        "lib/sl5/System.Threading.Tasks.dll",
+        "lib/sl5/System.Threading.Tasks.xml",
+        "lib/win8/_._",
+        "lib/wp8/_._",
+        "lib/wpa81/_._",
+        "License-Stable.rtf",
+        "Microsoft.Bcl.1.1.9.nupkg",
+        "Microsoft.Bcl.1.1.9.nupkg.sha512",
+        "Microsoft.Bcl.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "type": "package",
+      "sha512": "cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
+      "files": [
+        "content/net40/_._",
+        "content/netcore45/_._",
+        "content/portable-net40+win8+sl4+wp71+wpa81/_._",
+        "content/sl4/_._",
+        "content/sl4-windowsphone71/_._",
+        "License-Stable.rtf",
+        "Microsoft.Bcl.Build.1.0.14.nupkg",
+        "Microsoft.Bcl.Build.1.0.14.nupkg.sha512",
+        "Microsoft.Bcl.Build.nuspec",
+        "tools/Install.ps1",
+        "tools/Microsoft.Bcl.Build.targets",
+        "tools/Microsoft.Bcl.Build.Tasks.dll",
+        "tools/Uninstall.ps1"
+      ]
+    },
     "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
       "type": "package",
       "sha512": "2+V/VDgZu59Thrlp+FQH38H/SmPBegMKsG0ie1ZZyHtx7kJNEozIx/p9zs0UrolX0uyYX7Ouoj3Q3Be15lqXxA==",
@@ -6451,6 +6677,70 @@
         "Microsoft.Extensions.WebEncoders.Core.nuspec"
       ]
     },
+    "Microsoft.Net.Http/2.2.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "bqVLJ2UimlAEs2bn3y28lB1pmFRxuysv9pFyB0A86WEMYGYTfDyfjAGjm0fiaSRjlMNU1jVnp8Mxt8qe4OmpXQ==",
+      "files": [
+        "lib/monoandroid/System.Net.Http.Extensions.dll",
+        "lib/monoandroid/System.Net.Http.Extensions.XML",
+        "lib/monoandroid/System.Net.Http.Primitives.dll",
+        "lib/monoandroid/System.Net.Http.Primitives.xml",
+        "lib/monotouch/System.Net.Http.Extensions.dll",
+        "lib/monotouch/System.Net.Http.Extensions.XML",
+        "lib/monotouch/System.Net.Http.Primitives.dll",
+        "lib/monotouch/System.Net.Http.Primitives.xml",
+        "lib/net40/ensureRedirect.xml",
+        "lib/net40/System.Net.Http.dll",
+        "lib/net40/System.Net.Http.Extensions.dll",
+        "lib/net40/System.Net.Http.Extensions.XML",
+        "lib/net40/System.Net.Http.Primitives.dll",
+        "lib/net40/System.Net.Http.Primitives.xml",
+        "lib/net40/System.Net.Http.WebRequest.dll",
+        "lib/net40/System.Net.Http.WebRequest.xml",
+        "lib/net40/System.Net.Http.xml",
+        "lib/net45/ensureRedirect.xml",
+        "lib/net45/System.Net.Http.Extensions.dll",
+        "lib/net45/System.Net.Http.Extensions.XML",
+        "lib/net45/System.Net.Http.Primitives.dll",
+        "lib/net45/System.Net.Http.Primitives.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/ensureRedirect.xml",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.XML",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.dll",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.XML",
+        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.xml",
+        "lib/portable-net45+win8/ensureRedirect.xml",
+        "lib/portable-net45+win8/System.Net.Http.Extensions.dll",
+        "lib/portable-net45+win8/System.Net.Http.Extensions.XML",
+        "lib/portable-net45+win8/System.Net.Http.Primitives.dll",
+        "lib/portable-net45+win8/System.Net.Http.Primitives.xml",
+        "lib/portable-net45+win8+wpa81/ensureRedirect.xml",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Extensions.dll",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Extensions.XML",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Primitives.dll",
+        "lib/portable-net45+win8+wpa81/System.Net.Http.Primitives.xml",
+        "lib/sl4-windowsphone71/System.Net.Http.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.Extensions.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.Extensions.XML",
+        "lib/sl4-windowsphone71/System.Net.Http.Primitives.dll",
+        "lib/sl4-windowsphone71/System.Net.Http.Primitives.XML",
+        "lib/sl4-windowsphone71/System.Net.Http.xml",
+        "lib/win8/System.Net.Http.Extensions.dll",
+        "lib/win8/System.Net.Http.Extensions.XML",
+        "lib/win8/System.Net.Http.Primitives.dll",
+        "lib/win8/System.Net.Http.Primitives.xml",
+        "lib/wpa81/System.Net.Http.Extensions.dll",
+        "lib/wpa81/System.Net.Http.Extensions.XML",
+        "lib/wpa81/System.Net.Http.Primitives.dll",
+        "lib/wpa81/System.Net.Http.Primitives.xml",
+        "License-Stable.rtf",
+        "Microsoft.Net.Http.2.2.22.nupkg",
+        "Microsoft.Net.Http.2.2.22.nupkg.sha512",
+        "Microsoft.Net.Http.nuspec"
+      ]
+    },
     "Microsoft.Net.Http.Headers/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -6585,7 +6875,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "uJIMXtMNoFzzqufQ0O0pzX/XXEipqigzUVR56ZF9yDYJlDTeD8jQY0ZVpFogOhQ72vEIVfBtx+JlbijJqYUd5g==",
+      "sha512": "YwGYDBStQDtaIoLTCid3cjdo+vPyU+PoaXU/bWQl3WVLP1VJlJb0IH8mN4CDAyp0ss2WdxjLURCEhdkAdxIZOg==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
@@ -7449,7 +7739,7 @@
     },
     "TorontoAPIServer/1.0.0": {
       "type": "package",
-      "sha512": "3QuWd1IaFjKVq7CCMojRMANoMebakW1CVmn3P81bkv3Vd95R7dB9eHFAFR0pstizkD5anDTzgyDwaZheeU743Q==",
+      "sha512": "RZQY5ikCU6IxXv5YDJ1aY9H2JbU8S6F1PXp5KFde2egBJF5gYlrQJ1JerEZsV46HDTenribvCQCsOtYtrWhbIQ==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoAPIServer.dll",
@@ -7471,7 +7761,7 @@
     },
     "TorontoService/1.0.0": {
       "type": "package",
-      "sha512": "0Vw+1TJWbGu0Vj8V/GZI3WMv2L8o6MIjTC2Rww6h3y7jcmfetKjunhxIk7h3NLEe9QUSUvuFHdhNHVmEg4HRPw==",
+      "sha512": "R1O2lGrPg/SsSIChOy/RpJZ5mK2VNmCezgD36sNfgi2dcf2LZ6gWWCsxQdFcxLG1usEnB5ifAY3khDAWgs6WAQ==",
       "files": [
         "lib/dnx451/TorontoService.dll",
         "lib/dnx451/TorontoService.xml",
