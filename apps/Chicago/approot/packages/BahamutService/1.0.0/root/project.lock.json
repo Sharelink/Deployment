@@ -242,12 +242,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -515,12 +517,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -788,12 +792,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -825,7 +831,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "XMmAaCV86EMqAoHJwGP4SZrir9Sl5is6TFyKYlisAUG5yTein9a8S+MuoZjwCyKGX/BMzlz4GV2YBWm39K0AaA==",
+      "sha512": "gwof2tcYEJTtiYKxQaTwDtnOX9XmB+szaWOgZDY2f5zNjgfx6mDhtcBC+lzfaxvxjx45y006LUY5qP6DAwCB1w==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -839,7 +845,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "+IkRg4ge/pEL6b7XaiygDpZDX0fsE0ygo055sRYwmfJv6LHIk/VElVe6K9cCoNU5q3jHHzJQ49b4IIsPxa7iOg==",
+      "sha512": "EwjpFkqkNERYkCTXqz8Cf4d04x04UW6q2wzJNSOl4T4aFBdQIdwfePKYXwSekjgg5HU6hu3iXfnci8QoNIRnDw==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -853,7 +859,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "U6eFnn7vs9JFPqic3xB+HlzTnjhfp/ZdVvcGbiFKVz2bHsZQOW3+EoMJI0OKhj6A/K188lNw5umWHgmLcZKumg==",
+      "sha512": "o/OJwiSWjiQprFC12udjwOLjJ3x4xk1wC4/+9TbvbGN3wb1JlKSZ96j7YOFNVk8N0Vf3C0s3NdUSWYxiDmTkBA==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1095,6 +1101,8 @@
       "files": [
         "lib/ServiceStack.Common.dll",
         "lib/ServiceStack.Common.pdb",
+        "lib/ServiceStack.Interfaces.dll",
+        "lib/ServiceStack.Interfaces.pdb",
         "lib/ServiceStack.OrmLite.dll",
         "lib/ServiceStack.OrmLite.pdb",
         "lib/ServiceStack.OrmLite.SqlServer.dll",
