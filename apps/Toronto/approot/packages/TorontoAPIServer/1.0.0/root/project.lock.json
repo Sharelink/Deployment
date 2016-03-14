@@ -1541,12 +1541,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -3370,12 +3372,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -5199,12 +5203,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -5490,7 +5496,7 @@
   "libraries": {
     "BahamutAspNetCommon/1.0.0": {
       "type": "package",
-      "sha512": "yOWSXWrvIJTwV7cI33edD4RURj0WgUuzNItyZRvaUZAnjBVd2Ahty5Xp8WxD07GoeqcB8/ermVjRMRDPh+56PQ==",
+      "sha512": "l9PpZUrwSp06kPd/IpWPfyDbz3MXijeR18kM0EgwlhNwE0W6AQQkVJ6G0PkVJpypA1dMk7i12XDtWFwaCFirhw==",
       "files": [
         "BahamutAspNetCommon.1.0.0.nupkg",
         "BahamutAspNetCommon.1.0.0.nupkg.sha512",
@@ -5504,7 +5510,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "aSxYE0nE7vykJzFcH2xs2YOh5oB3GmCUEfe47lct/GXXE4gJGwhq8yw3mP4izOLAgoc9x9E8vNj9Cz6yoFwrrg==",
+      "sha512": "4NvSZ1uPqCVr+c5hEhdu+naHMGmR6HYuOyHhae1Y93VS9kSjkbVth7egPvLv2bnN6C8fwt8Nkp5vZ3PtBiwJ9g==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5518,7 +5524,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "5HqMvajm9e2GwcH6NSOC7tKC6HA1ZNGwguOnIVJyEmIwNxaPktuN5MBDkop+APSGxuOo7VsMCpt0wO/yJzK7uw==",
+      "sha512": "n/fygFYSe5duTXUUjxixuNoMjlO98UPKWGXvpXOlztP267T53QT72QOagEX1UYtxsuQPXtDiP3goKjDfIaRchg==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5532,7 +5538,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "C1Mct0mon6QdIqFxM43HzDtD+ApNkz6KyAdLY744Hdptzs0IKGSfgwy98+bROLBAFOa3aKAgD68NiXNkUzGYPw==",
+      "sha512": "ozZjFDcA2nkn8AJh79rRjUP+CdbtLnNY2M/cbTL+hjhW5ItbNv6b/GjYuZn5zwzA/w5lk95VCqzmCcAHTNUu7Q==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -6875,7 +6881,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "lAkjd7KVHd/erV9H3msLLdbXeM4GFy2gCM+8WziPQDYLeKuIE8xaFFYvyzoWKINNdr3+WjG8DDcLHkFYYubEsQ==",
+      "sha512": "67feF/I8wyXLkohMIRVbTSrP9NOqDdkRu0cgWp7buqm8cJhccTPgcx72+6iynNz58O+JAZMUJyxipXV/YxkgdA==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
@@ -6924,6 +6930,8 @@
       "files": [
         "lib/ServiceStack.Common.dll",
         "lib/ServiceStack.Common.pdb",
+        "lib/ServiceStack.Interfaces.dll",
+        "lib/ServiceStack.Interfaces.pdb",
         "lib/ServiceStack.OrmLite.dll",
         "lib/ServiceStack.OrmLite.pdb",
         "lib/ServiceStack.OrmLite.SqlServer.dll",
@@ -7739,7 +7747,7 @@
     },
     "TorontoAPIServer/1.0.0": {
       "type": "package",
-      "sha512": "xolESDGwx1PoRzeeifZq/+U19GW/lhCjwny7PGMCvDvBnRbCsCC6cJpa/kvtRYM9z4iGaDmLIQbZAOHZRv9BTQ==",
+      "sha512": "jcQKe3MQJMqeJDJqI5wPV16N7xRkHbQlLpLRY6pbQemhjHnsUp3ssCMBiY5v9hlOkApoYlkfnoJ4pUWqyFw5gg==",
       "files": [
         "app/project.json",
         "lib/dnx451/TorontoAPIServer.dll",
@@ -7761,7 +7769,7 @@
     },
     "TorontoService/1.0.0": {
       "type": "package",
-      "sha512": "SnjGdXrYr1DSFWSmdP+1Zxv0Qrgvo7oF02Di6aCseKaqPy+bi4uZ+/uBwqfGr+hHdghP2KtKDg3FfysD+uXoKQ==",
+      "sha512": "B1XdUYaAw9E91S58zh0WBm2N4PsIvwqGaFg15MJiNdvvz6S3+siKfglp1CAGTdKVJGKTRs8omgIdBFgNNlWfvA==",
       "files": [
         "lib/dnx451/TorontoService.dll",
         "lib/dnx451/TorontoService.xml",
