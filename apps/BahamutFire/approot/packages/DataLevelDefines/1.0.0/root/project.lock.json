@@ -132,12 +132,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -295,12 +297,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -458,12 +462,14 @@
         "type": "package",
         "compile": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
         },
         "runtime": {
           "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {},
           "lib/ServiceStack.OrmLite.dll": {},
           "lib/ServiceStack.OrmLite.SqlServer.dll": {},
           "lib/ServiceStack.Text.dll": {}
@@ -495,7 +501,7 @@
   "libraries": {
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "52vOwR6j+/jh7cm+hVOUySn0bJj39MYpkbIO0x+wshn2ZTJFPXFyxRmQy1Ct7YF+0jCygDuh1rpwTIGI2rkudA==",
+      "sha512": "V1hRHRi3v0bTvV2YDf5ZzgbQlytFkDjdUVWNnNX831qeSHiDOelVZIgDsxTGNA2cp+AbG5WNmg2LCep9QPV/8w==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -639,6 +645,8 @@
       "files": [
         "lib/ServiceStack.Common.dll",
         "lib/ServiceStack.Common.pdb",
+        "lib/ServiceStack.Interfaces.dll",
+        "lib/ServiceStack.Interfaces.pdb",
         "lib/ServiceStack.OrmLite.dll",
         "lib/ServiceStack.OrmLite.pdb",
         "lib/ServiceStack.OrmLite.SqlServer.dll",

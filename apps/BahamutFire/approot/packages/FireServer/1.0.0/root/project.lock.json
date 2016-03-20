@@ -157,6 +157,7 @@
           "BahamutFireService": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
           "ServerControlService": "1.0.0"
         },
@@ -1156,6 +1157,26 @@
           "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.FileProviderExtensions/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileProviderExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileProviderExtensions.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.Json/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1959,6 +1980,7 @@
           "BahamutFireService": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
           "ServerControlService": "1.0.0"
         },
@@ -2961,6 +2983,26 @@
           "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.FileProviderExtensions/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileProviderExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileProviderExtensions.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.Json/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -3764,6 +3806,7 @@
           "BahamutFireService": "1.0.0",
           "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
           "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc1-final",
           "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
           "ServerControlService": "1.0.0"
         },
@@ -4766,6 +4809,26 @@
           "lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.FileProviderExtensions/1.0.0-rc1-final": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.FileProviders.Physical": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileProviderExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.Extensions.Configuration.FileProviderExtensions.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.Json/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -5418,7 +5481,7 @@
   "libraries": {
     "BahamutAspNetCommon/1.0.0": {
       "type": "package",
-      "sha512": "WXQMbBKSq7lOLBn0zwkNQ+ECrau9StR6AY63Bdmfoti07ZPKZpc4ImN30C+muUU7If2jnY/UlhEuim5plmCwSQ==",
+      "sha512": "emYiGN7iMQ1pP0qTk+VKbB52vjXNDTZ4Mhe/PQprsdvKNz9BSVyQwysBDMzgRxQCPdgEhyyz4nVkaZxYnJ7ajw==",
       "files": [
         "BahamutAspNetCommon.1.0.0.nupkg",
         "BahamutAspNetCommon.1.0.0.nupkg.sha512",
@@ -5432,7 +5495,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "DIfDSxTky141iz+yv1oUfkrSCyk6E/Y7GqEcVyReEvc+r5dpVO3iKJ2ouJveqyK+B1nqpvlAjGj3WhaWjZtjLg==",
+      "sha512": "MOxI1/fb2JbxFUEmtZrkEdtm/KvzIt49O/on3FcdY6nZBMVn3FbRKI3gFvrinekfaAhcefOITVSDSNK4uKkbWg==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5446,7 +5509,7 @@
     },
     "BahamutFireCommon/1.0.0": {
       "type": "package",
-      "sha512": "EB+qW1oRfnks5IrzqYv6FS8Tfa2ioM0iTU34KvczKZ0S5i0/kOONwk0ebITrrs8+4bkMpbppSV+YsZVtB5/9mA==",
+      "sha512": "m4WkX9VLmensTuPOph/WUvzLHcE+aVYNyWyJdlcHqEaY9f6Kirslw32tSyhFY3Fz4uc06HJo8lDF94Hf+lfYkg==",
       "files": [
         "BahamutFireCommon.1.0.0.nupkg",
         "BahamutFireCommon.1.0.0.nupkg.sha512",
@@ -5460,7 +5523,7 @@
     },
     "BahamutFireService/1.0.0": {
       "type": "package",
-      "sha512": "oTSSJusQ+T+l+ApkUvK+PQcFPvOF9SzXQsbbREag/wbPaLux4uta9Vl9yHVmgTZadEwDbFV9KlUqHh0PVza3hA==",
+      "sha512": "OlYABYqlRll0kIC+8hLwsexTFBsYXvUNWNSU5SpdXn/ba2weZU5m659rztil2lqe17rPOUAZp8Pvg1Frdo74+w==",
       "files": [
         "BahamutFireService.1.0.0.nupkg",
         "BahamutFireService.1.0.0.nupkg.sha512",
@@ -5474,7 +5537,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "uQK3Pl62e8SulG7nDtuHVSxHz9lew+mzIyQE8Vlu8l0VTvhyLVf0aFoGMvJe42R8pvI1ty3gjRemnQ9xw/cJyA==",
+      "sha512": "64g6HQamraGVuJ9s9Ct/dEEXr3BPlVm9HuWzqRL8KCko/WryFX996rQKGm8KTRq2yunmJqx2BySsOkjv89VzKg==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5488,7 +5551,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "52vOwR6j+/jh7cm+hVOUySn0bJj39MYpkbIO0x+wshn2ZTJFPXFyxRmQy1Ct7YF+0jCygDuh1rpwTIGI2rkudA==",
+      "sha512": "V1hRHRi3v0bTvV2YDf5ZzgbQlytFkDjdUVWNnNX831qeSHiDOelVZIgDsxTGNA2cp+AbG5WNmg2LCep9QPV/8w==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -5545,7 +5608,7 @@
     },
     "FireServer/1.0.0": {
       "type": "package",
-      "sha512": "1Js9rkUo8YIm6Cmxl/uiPccwnhdNoL4yQ7Hm/8U6acJh8OBye0+h75uGdZ3+PeCjEltM7lsy5GYXhS4W/9u1OQ==",
+      "sha512": "jnv9DQh7065AlCYtu3dZncZbWTWt4aLZSjgnRaJ2Zjvhb8jys+wfFPoQC3I8TJ/ikbtIo6sXcCpsggM4G20SaA==",
       "files": [
         "app/project.json",
         "FireServer.1.0.0.nupkg",
@@ -6309,6 +6372,22 @@
         "Microsoft.Extensions.Configuration.FileExtensions.nuspec"
       ]
     },
+    "Microsoft.Extensions.Configuration.FileProviderExtensions/1.0.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "OhIrGyCmuWalr0WEAtoRarpTTxP/hb4CHHvv15KYjzgB91T5In2PMaBX65Y0pBxvhKqPdocvo8iNOh2Sk+abNw==",
+      "files": [
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.FileProviderExtensions.dll",
+        "lib/dotnet5.4/Microsoft.Extensions.Configuration.FileProviderExtensions.xml",
+        "lib/net451/Microsoft.Extensions.Configuration.FileProviderExtensions.dll",
+        "lib/net451/Microsoft.Extensions.Configuration.FileProviderExtensions.xml",
+        "lib/netcore50/Microsoft.Extensions.Configuration.FileProviderExtensions.dll",
+        "lib/netcore50/Microsoft.Extensions.Configuration.FileProviderExtensions.xml",
+        "Microsoft.Extensions.Configuration.FileProviderExtensions.1.0.0-rc1-final.nupkg",
+        "Microsoft.Extensions.Configuration.FileProviderExtensions.1.0.0-rc1-final.nupkg.sha512",
+        "Microsoft.Extensions.Configuration.FileProviderExtensions.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Configuration.Json/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -6665,7 +6744,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "x9I+dsUw+C6e4fBnwi/fq35B7brHVV6dhg8U7oJMi8kei6HJvw2ssKt7zMwJVtKhNZr1HgKL730tLVA/+D5D+g==",
+      "sha512": "9mF1sEzrhhZvJ1u49PMy44qeJH/noHp8KCCWy8zKNXr/6fzJHx2i8QCaCpypGKEP2ABDxaB9J2WgVKHigKjcSw==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",

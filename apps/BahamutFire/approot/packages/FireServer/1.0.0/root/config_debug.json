@@ -18,8 +18,14 @@
     },
 
     "AliOSS": {
-      "url": "http://oss-cn-shenzhen.aliyuncs.com",
-      "bucket": "fire-sz-0"
+      "5e6c827f2fcb04e8fca80cf72db5ba004508246b": {
+        "url": "http://oss-cn-shenzhen.aliyuncs.com",
+        "bucket": "fire-dev"
+      },
+      "7f9e267b33231abe16ea4b6c5fabae11b6103791": {
+        "url": "http://oss-cn-shenzhen.aliyuncs.com",
+        "bucket": "fire-dev"
+      }
     },
 
     "Log": {

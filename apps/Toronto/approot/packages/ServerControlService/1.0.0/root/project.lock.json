@@ -831,7 +831,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "4NvSZ1uPqCVr+c5hEhdu+naHMGmR6HYuOyHhae1Y93VS9kSjkbVth7egPvLv2bnN6C8fwt8Nkp5vZ3PtBiwJ9g==",
+      "sha512": "KUSto3+690/GO7shNFTRVHW4krqJfipJostv9GtZnLjd+ehW7WSggSgkhtkOPvNjo60sg4nqwyG5NSvNSEwXbg==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -845,7 +845,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "ozZjFDcA2nkn8AJh79rRjUP+CdbtLnNY2M/cbTL+hjhW5ItbNv6b/GjYuZn5zwzA/w5lk95VCqzmCcAHTNUu7Q==",
+      "sha512": "o+SC+Q5Nkio051IcymM7sUOzKMo5j6mScrjThkqlijKT6ofHpcBw5OqtqHXSIWyWwPC7ayaQm3fU7gPByyex7A==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -1052,7 +1052,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "67feF/I8wyXLkohMIRVbTSrP9NOqDdkRu0cgWp7buqm8cJhccTPgcx72+6iynNz58O+JAZMUJyxipXV/YxkgdA==",
+      "sha512": "1PGzqCmTDNrEbdDiaFm48M+N+362alVZgR+tyDwZA9GGiGxejB2oyyVJ03EBQK4tlpwOIoSwFLlJKJbhqw1D1w==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
