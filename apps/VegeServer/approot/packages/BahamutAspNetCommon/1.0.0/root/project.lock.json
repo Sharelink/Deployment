@@ -1986,7 +1986,7 @@
   "libraries": {
     "BahamutAspNetCommon/1.0.0": {
       "type": "package",
-      "sha512": "uaxRAcMEf9wd7tBASG/+iKvAnbyaNtTKXhdSKqbKuST8UuvFBM9xej8AdJ1uYRF42WWkVJfnlo5Wg+XbYFHs1w==",
+      "sha512": "3IaO2TH8xQEaBV4Rlmsz6IDdvJX4fMl9xexqk1xBe5TF8+MSRSx8+REV5ESZTZOY0QHrBdymOS9OPKb4ji/GUA==",
       "files": [
         "BahamutAspNetCommon.1.0.0.nupkg",
         "BahamutAspNetCommon.1.0.0.nupkg.sha512",
@@ -2000,7 +2000,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "aXtBGmGNVKYne4K9axf3r2nS+I0LSv7M3ovFEb25pHgm1Co5+TWgHiUjS6j2Np4D3/ATvTQNpwK5xKs2a/tb1A==",
+      "sha512": "hBQ3RSz2tYdjMgI+AL2vFVSyB/rjZqYYpB31mmAlslfRaMgJ3kNKFqX9M49G4g307e+fYqp7no5NuKxwWv44QA==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -2014,7 +2014,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "jYy4PGTLHpamqcCkA7RraAEYfX0+dwlX/cXKLWN8OLCdNT26DZqh/Ycp7BgfnHeQ3h+HBmujF3fLUpclng1/pg==",
+      "sha512": "BYfiQjKmpcgLZ9b64ZfdyznAmoOB8Vy5dMOAGhOP1deGiGK8IuVEIQksOvUxzayqbIFrKBTHtfkgwfjvnriPqA==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -2028,7 +2028,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "MFo2sfWRMs298dvFNDwpm7seaRCRJpwDoMDohESTxe6KNShHUegQ+8ZTihHS1beIMql24ybp/ia8PLC9LuXaTg==",
+      "sha512": "DYmhhKnE3/gZlhhDg8I30rO+9RR7yll70PeBd957zx0zcN88efChfC4SYAUUcRE0+YJN/1lvvlodF86JLVU2pg==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
