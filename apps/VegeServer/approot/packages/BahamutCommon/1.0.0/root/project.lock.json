@@ -285,7 +285,7 @@
   "libraries": {
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "8fMIAaTgwY/dOGsPtFYm96KSqM7icPmlMPSVKxrHmU1iopgskOVU9pkwsweNjHa8M+Ic4LBuqcvwZJlRizR3fg==",
+      "sha512": "FyjkdzM3xhfUGNRfnCsNNXs6/JB0MazSXE7eBef/8gTQwcwCIlirU4hxG6wVQDGErU3C8GEe4c/GH+j7TUhs8A==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
