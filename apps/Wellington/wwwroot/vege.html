@@ -16,30 +16,14 @@
         }
 
         .div_tips {
-            width: 100%;
-            height: 100%;
             background-color: rgba(0,0,0,0.8);
             position: fixed;
             top: 0;
-            left: 0;
-            text-align: center;
+            left:0;
+            height:100%;
+            width:100%;
+            text-align: right;
             display: none;
-        }
-
-        .div_tips_content {
-            width: 15.75rem;
-            margin-top: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: white;
-            border-radius: 0.5rem 0.5rem;
-        }
-
-        .div_tips_content_font_1 {
-            font-size: 0.9rem;
-            height: 0.9rem;
-            text-align: center;
-            color: #333333;
         }
     </style>
     <script type="text/javascript">
@@ -70,20 +54,14 @@
 
         $(document).ready(function () {
             $("#iphone_dl").click(function () {
-                if (!can) {
+                if (can) {
                     $("#div_tips").show();
-                    if (is_weixin) {
-                        $("#tips-img").attr("src", "images/tip.png");
-                    }
-                    else
-                        $("#tips-img").attr("src", "images/tip1.png");
+                    $("#tips-img").attr("src", "images/tip.png");     
                 }
                 else {
                     window.location.href = "https://itunes.apple.com/app/id1090723696";
                 }
             });
-            $("#div_tips").css("width", "100%");
-            $("#div_tips").css("height", "100%");
             $("#div_tips").click(function () {
                 $(this).hide();
             });
