@@ -70,7 +70,7 @@
 
         $(document).ready(function () {
             $("#iphone_dl").click(function () {
-                if (can) {
+                if (!can) {
                     $("#div_tips").show();
                     if (is_weixin) {
                         $("#tips-img").attr("src", "images/tip.png");
