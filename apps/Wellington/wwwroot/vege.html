@@ -54,7 +54,7 @@
 
         $(document).ready(function () {
             $("#iphone_dl").click(function () {
-                if (can) {
+                if (!can) {
                     $("#div_tips").show();
                     $("#tips-img").attr("src", "images/tip.png");     
                 }
