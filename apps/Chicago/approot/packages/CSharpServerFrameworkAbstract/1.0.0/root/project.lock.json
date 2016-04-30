@@ -57,7 +57,7 @@
   "libraries": {
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "B/a97tKx9k17TriEvunhNnbnhd7PNPsHUJIM1622dlOpuwKK/YFUNqqxhHQ+jxjZ4coW099nxBewxyawymUVNA==",
+      "sha512": "tj3B4A3sGp5Zm6O6pGeai6jyVE+ObBprbZBKeG+yTEHhNyld+3+vDi4UgAjQxHmOZtE7nNLl/f1njeJH9wr+vw==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
