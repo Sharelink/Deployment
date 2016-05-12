@@ -41,11 +41,14 @@
             is_qqbrowser = /mqqbrowser/.test(ua);
             is_android = /android/.test(ua);
             is_ios = /iphone|ipad|ipod/.test(ua);
+			is_weibo = /weibo|wb/.test(ua);
             hasIntent = /chrome|samsung/.test(ua);
             if (is_weixin)
                 return false;
             else if (is_android & is_qqbrowser & !is_qq)
                 return false;
+			else if (is_weibo)
+				return false;
             return true;
         }
 
@@ -66,7 +69,7 @@
                 $(this).hide();
             });
             $("#android_dl").click(function () {
-                window.location.href = "http://pan.baidu.com/s/1jIPJ3q2";
+                window.location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=cn.bahamut.vessage";
             });
         });
     </script>
