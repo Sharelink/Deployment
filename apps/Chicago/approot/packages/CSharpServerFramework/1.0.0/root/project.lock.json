@@ -111,7 +111,7 @@
   "libraries": {
     "CSharpServerFramework/1.0.0": {
       "type": "package",
-      "sha512": "eTPEyUXFA9fvvFkfi3dqsrjNqa1obhxWK3BFlw6+CJHb72EIdUrj5avFkqme4+UBeAyla7HHWhdvHALynomgUQ==",
+      "sha512": "WIVGqF/M0i9L0R4eFZu/wCX5KPu5+JeBWAfcEMCjqLbJSIy2GfRyaE9JLZcn4l8LFJB2cI+HHJOOJflBJXv9GA==",
       "files": [
         "CSharpServerFramework.1.0.0.nupkg",
         "CSharpServerFramework.1.0.0.nupkg.sha512",
@@ -126,7 +126,7 @@
     },
     "CSharpServerFrameworkAbstract/1.0.0": {
       "type": "package",
-      "sha512": "fQE1RdnPVXYT0OnzeuXw2vCdw6CJuMg7qyuFovoB5gJ8zB/NfpJWbtYWRRlFDV11mvpFC7IUnzAAZWMAj7c/iQ==",
+      "sha512": "Lerl+nTrAbBBpwvpTKGZSzygM/9VGcz9JvxuoorLTmr4ETKzx5BlRu4pUellXc49DiBzdgYiaq1fPRt1M21HSg==",
       "files": [
         "CSharpServerFrameworkAbstract.1.0.0.nupkg",
         "CSharpServerFrameworkAbstract.1.0.0.nupkg.sha512",
