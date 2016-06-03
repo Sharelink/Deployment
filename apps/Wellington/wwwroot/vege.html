@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -41,14 +42,14 @@
             is_qqbrowser = /mqqbrowser/.test(ua);
             is_android = /android/.test(ua);
             is_ios = /iphone|ipad|ipod/.test(ua);
-			is_weibo = /weibo|wb/.test(ua);
+	    is_weibo = /weibo|wb/.test(ua);
             hasIntent = /chrome|samsung/.test(ua);
             if (is_weixin)
-                return false;
+                return true;
             else if (is_android & is_qqbrowser & !is_qq)
                 return false;
-			else if (is_weibo)
-				return false;
+	    else if (is_weibo)
+		return false;
             return true;
         }
 
@@ -60,6 +61,8 @@
                 if (!can) {
                     $("#div_tips").show();
                     $("#tips-img").attr("src", "images/tip.png");     
+                }else if (is_weixin | is_qq){
+                    window.location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=cn.bahamut.vessage";
                 }
                 else {
                     window.location.href = "https://itunes.apple.com/app/id1090723696";
@@ -84,16 +87,19 @@
             <img src="images/vege.png" style="width:256px;height:256px;">
         </div>
         <div style="width:100%;text-align:center;">
-            <p style="font-size:30px">给你不一样的短视频聊天体验</p>
+            <p style="font-size:30px">短视频消息聊天</p>
         </div>
         <div style="width:100%;height:24px;"></div>
         <div style="width:100%;height:100px;">
+
             <div style="width: 50%;float:left;text-align: right;">
-                <img src="images/ios_dl.png" style="width:340px;height:100px;margin-right:27px;" id="iphone_dl">
+                <img src="images/ios_dl.png" style="width:340px;height:100px;margin-right:10px;" id="iphone_dl">
             </div>
             <div style="width: 50%;float:right;text-align: left;">
-                <img src="images/android_dl.png" style="width:340px;height:100px;margin-left:27px;" id="android_dl">
+                <img src="images/android_dl.png" style="width:340px;height:100px;margin-left:10px;" id="android_dl">
+                <img src="images/vege_qrcode.png" style="width:100px;height:100px;margin-left:30px;" id="qrcode">
             </div>
+
         </div>
         <div style="width:100%;height:68px;"></div>
         <div style="width:100%;margin-bottom:30px;text-align:center;">
