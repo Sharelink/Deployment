@@ -5577,7 +5577,7 @@
   "libraries": {
     "BahamutAspNetCommon/1.0.0": {
       "type": "package",
-      "sha512": "8UEYacOXVyFZp3GMNmL/g7kOpjZ+IvX2aqktb8TrBu1N2iy2zbVbZz4UJapPAMRMvjKykG6PkqZHyVIGB8pW5Q==",
+      "sha512": "Zr19KutL20kOlhhgkCn7KuMXInk7iTIMSfjkK+CtxFK2u0xvIHCmatckqjYPRbIC72JegGNp4m4vo9VFBCxNGw==",
       "files": [
         "BahamutAspNetCommon.1.0.0.nupkg",
         "BahamutAspNetCommon.1.0.0.nupkg.sha512",
@@ -5591,7 +5591,7 @@
     },
     "BahamutCommon/1.0.0": {
       "type": "package",
-      "sha512": "+UVa3T2UU9QrCQoLnvto4ytWYvzNKdEKM/w70HHw1UQrT3FgAftO0FgtmcEwe+TVGG58BebvOjdtPwGSjgen2A==",
+      "sha512": "v2eNJbfZpGw4z/lhuKrO1zOvUH7ri4beNLA4H+QwoHnuMklL4bDBuChiDKP3vtxff3t+YYSIqLS230X8SkU7NQ==",
       "files": [
         "BahamutCommon.1.0.0.nupkg",
         "BahamutCommon.1.0.0.nupkg.sha512",
@@ -5605,7 +5605,7 @@
     },
     "BahamutService/1.0.0": {
       "type": "package",
-      "sha512": "Vkkz49jDEsOfDfpk70wBry7R2OYrQMfkiia3niKL05RPZI06XRAPe3cN4CWQRmlh2eE0yKVKXMn4YK1GsHSjig==",
+      "sha512": "23mpL9B1ts+JSe6sipf1ffM015TYvXe2bcscsfkMlBZl59UhjKINWmeYbWXBjE8LgymXSI4FG1l0J+Q7TWThIg==",
       "files": [
         "BahamutService.1.0.0.nupkg",
         "BahamutService.1.0.0.nupkg.sha512",
@@ -5619,7 +5619,7 @@
     },
     "DataLevelDefines/1.0.0": {
       "type": "package",
-      "sha512": "9C9H4TFseECZFhtYCSqQlhrGKBPH07pjspjWVvcBfoNbI/20sQe8s8X2KU+ALH2ZEmE7sUplDgGQRHtoBE35uw==",
+      "sha512": "1LBMLe39BQw6F8ZAdUTtBOIAjKRM07fD9ndHb3Va/dcO0x81S1g/2Wk08eaeNTOLSSRRx/rNdDsyl2fYiivw3A==",
       "files": [
         "DataLevelDefines.1.0.0.nupkg",
         "DataLevelDefines.1.0.0.nupkg.sha512",
@@ -6837,7 +6837,7 @@
     },
     "ServerControlService/1.0.0": {
       "type": "package",
-      "sha512": "G1XxVjx/t/+1owqjRwtjKkeIdhj+3w530VGKczQMhb67pwSJIH7gvKwa0wGnohYfqr2jKTH8PXURINPrAdoC6A==",
+      "sha512": "gejv/vOVlh2xZ8lqau4nbDxp1REJEq6nirnhHe4cYhNy63k32736C48d4WOEQMXTd9jJSupE7S0MPB3O8R1zgw==",
       "files": [
         "lib/dnx451/ServerControlService.dll",
         "lib/dnx451/ServerControlService.xml",
@@ -7703,7 +7703,7 @@
     },
     "VessageRESTfulServer/1.0.0": {
       "type": "package",
-      "sha512": "mLOhqaN2oD8uR2WzOo2a8GJR2snUYHGUlkofnPNC5BDYYIRiImwPKqMECFy7SL/wELPDRQKSsBAGL3Y9sQSH+A==",
+      "sha512": "xlDWUEnvjXeEEiWRh0N6vf4/rFTS14pETh9x0rD9j4qbp9vUz2ZrOndSiQOqzARI+t0AQhspYW5vT40Vw6wJKg==",
       "files": [
         "app/project.json",
         "lib/dnx451/VessageRESTfulServer.dll",

@@ -4,5 +4,21 @@
         <name>VessageRESTfulServer</name>
     </assembly>
     <members>
+        <member name="M:VessageRESTfulServer.Services.VessageService.SendVessageForMobile(System.String,VessageRESTfulServer.Models.Vessage)">
+            <summary>
+            已过时
+            </summary>
+            <param name="receicerMobile"></param>
+            <param name="vessage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VessageRESTfulServer.Services.VessageService.BindNewUserReveicedVessages(System.String,System.String)">
+            <summary>
+            已过时
+            </summary>
+            <param name="userId"></param>
+            <param name="mobile"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
