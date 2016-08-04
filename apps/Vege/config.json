@@ -1,0 +1,48 @@
+﻿{
+  "Data": {
+    "App": {
+      "appname": "VessageRESTfulServer",
+      "appkey": "7f9e267b33231abe16ea4b6c5fabae11b6103791",
+      "urls": "http://vessageapi.bahamut.cn:8188",
+      "region": "default"
+    },
+
+    "ConfigRoot": "/etc/bahamut/vege",
+
+    "LogConfig": "/etc/bahamut/vege/logsettings.json",
+
+    "MobSMSAppKey": "xxx",
+
+    "VessageDBServer": {
+      "url": "mongodb://$usr:$psw@vsgdb.bahamut.cn:27017"
+    },
+    "TokenServer": {
+      "url": "redis://$psw@vsgtoken.bahamut.cn:6379"
+    },
+
+    "ControlServiceServer": {
+      "url": "redis://$psw@app.sharelink.online:6379"
+    },
+
+    "MessagePubSubServer": {
+      "url": "redis://$psw@pubsub.sharelink.online:6379"
+    },
+
+    "MessageCacheServer": {
+      "url": "redis://$psw@msg.sharelink.online:6379"
+    },
+
+    "AuthServer": {
+      "url": "http://auth.bahamut.cn:8086"
+    },
+
+    "ChicagoServer": {
+      "host": "chicago.sharelink.online",
+      "port": 9657
+    },
+
+    "FileServer": {
+      "url": "http://file.sharelink.online:8089"
+    }
+  }
+}
