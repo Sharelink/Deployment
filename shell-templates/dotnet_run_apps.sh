@@ -1,11 +1,11 @@
-mono /home/deployment/Deployment/apps/Auth/AuthenticationServer.exe --server.urls http://127.0.0.1:8086
+dotnet /home/deployment/Deployment/apps/Auth/AuthenticationServer.dll --config /etc/bahamut/auth/auth.json
 
-mono /home/deployment/Deployment/apps/Chicago/Chicago.exe --config /etc/bahamut/chicago/config.json
+dotnet /home/deployment/Deployment/apps/Chicago/Chicago.dll --config /etc/bahamut/chicago/config.json
 
-mono /home/deployment/Deployment/apps/Fire/FireServer.exe --server.urls http://127.0.0.1:8089
+dotnet /home/deployment/Deployment/apps/Fire/FireServer.dll --config /etc/bahamut/fire/fire.json
 
-mono /home/deployment/Deployment/apps/Toronto/TorontoAPIServer.exe --server.urls http://127.0.0.1:8088
+dotnet /home/deployment/Deployment/apps/Toronto/TorontoAPIServer.dll --server.urls http://127.0.0.1:8088
 
-mono /home/deployment/Deployment/apps/Vege/VessageRESTfulServer.exe --config /etc/bahamut/vege/vessage.json
+dotnet /home/deployment/Deployment/apps/Vege/VessageRESTfulServer.dll --config /etc/bahamut/vege/vessage.json
 
 dotnet /home/deployment/Deployment/apps/Wellington/Wellington.dll --server.urls http://127.0.0.1:8080
